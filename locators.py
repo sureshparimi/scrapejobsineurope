@@ -1,0 +1,27 @@
+class Locators:
+    LOGIN_BUTTON = '//a[contains(@href, "/login")]'
+    EMAIL_FIELD = 'email'
+    PASSWORD_FIELD = 'password'
+    HOME_BUTTON = '//p[@data-title="Home"]'
+    SEE_MORE_BUTTON = '//button[@data-analytics-id="themed-batch-cards-see-more"]/div/p[text()="See more"]'
+    SEE_LESS_BUTTON = '//button[@data-analytics-id="themed-batch-cards-see-less"]/div/p[text()="See less"]'
+    MODAL_REMOVE_BUTTON =  '//*[@data-testid="modal-remove-button"]'
+    ALL_MATCHES = '//a[@data-testid="ALL_MATCHES"]'
+    APPLY_VIA_OTTA = '//a[@data-testid="APPLY_VIA_OTTA"]'
+    NEWLY_ADDED = '//a[@data-testid="NEWLY_ADDED"]'
+    FULLY_REMOTE = '//a[@data-testid="FULLY_REMOTE"]'
+    RECENTLY_FUNDED ='//a[@data-testid="RECENTLY_FUNDED"]'
+    FIN_TECH_COMPANIES = '//a[@data-testid="PREFERRED_SECTOR"]'
+    JOBS_WITH_SALARIES = '//a[@data-testid="HAS_SALARIES"]'
+    FEMALE_FOUNDERS ='//a[@data-testid="FEMALE_FOUNDERS"]'
+    job_title = '//h2[@data-testid="job-title"]'
+    job_location ='//div[@data-testid="job-location-tag"]'
+    apply_button = '//*[@data-testid="apply-button"]//p'
+    apply_content_job_link = '//button[@data-testid="apply-modal-external-button"]//a'
+    apply_via_otta = '//*[@data-testid="apply-content"]//a'
+    dialog_close_button = '//div[@role="dialog"]/button'
+    next_button_xpath = '//button[@data-testid="next-button"]'
+    progress_dot_count = '//*[@data-testid="page-progress-dot"]'
+    
+
+    
