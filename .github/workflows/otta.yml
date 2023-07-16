@@ -38,8 +38,8 @@ jobs:
 
       - name: Set Git user credentials
         run: |
-          git config user.name "Your Name"
-          git config user.email "your-email@example.com"
+          git config user.name "Suresh Parimi"
+          git config user.email "reachparimi@gmail.com
 
       - name: Commit and push if it changed
         run: |
