@@ -210,10 +210,10 @@ driver.quit()
 with open('ottacomdata.json', 'a') as json_file:
     json.dump(job_data_list, json_file, indent=4)
 
-# Append job data to masterdatabase.json file
-with open('masterdatabase.json', 'a') as master_file:
-    json.dump(job_data_list, master_file, indent=4)
+# Read job data from ottacomdata.json
+with open('ottacomdata.json') as ottacom_file:
+    ottacom_data = json.load(ottacom_file)
 
-# # Print the job data
-# for job_data in job_data_list:
-#     print(job_data)
+# Append job data to masterdatabase.json
+with open('masterdatabase.json', 'a') as master_file:
+    json.dump(ottacom_data, master_file, indent=4)
