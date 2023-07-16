@@ -30,13 +30,12 @@ jobs:
         run: pip install requests beautifulsoup4 pandas webdriver-manager selenium
       - name: Run the scraping script
         run: python scratchpad.py || echo "Script failed, continuing workflow"
-      - name: Parse ottacomdata.json into table
+      - name: Parse masterdatabase.json into table
         id: parse-json
         run: |
           echo "| Job Title | Job Location | Job Link | Job Posted |" > README.md
           echo "| --- | --- | --- | --- |" >> README.md
-          jq -r '.[] | "| " + .job_title + " | " + .job_location + " | " + "[Apply](" + .JobLink + ")" + " | " + (now | strftime("%e %B %Y")) + " |"' ottacomdata.json >> README.md || echo "JSON parsing failed"
-
+          jq -r '.[] | "| " + .job_title + " | " + .job_location + " | " + "[Apply](" + .JobLink + ")" + " | " + (now | strftime("%e %B %Y %l:%M %p %Z")) + " |"' masterdatabase.json >> README.md || echo "JSON parsing failed"
       - name: Set Git user credentials
         run: |
           git config --global user.name "Suresh Parimi"
