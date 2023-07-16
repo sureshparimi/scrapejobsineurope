@@ -32,42 +32,14 @@ jobs:
       - name: Parse ottacomdata.json into table
         id: parse-json
         run: |
-          echo "| Job Title | Job Location | Job Link | Job Posted |" > README.md
+          echo "# Latest Jobs" > README.md
+          echo "" >> README.md
+          echo "This page is updated at $(TZ='Europe/Paris' date +'%B %d, %Y %H:%M:%S')" >> README.md
+          echo "" >> README.md
+          echo "| Job Title | Job Location | Job Link | Job Posted |" >> README.md
           echo "| --- | --- | --- | --- |" >> README.md
           while IFS="|" read -r job_title job_location job_link job_posted; do
-            flag=""
-            country=$(curl -s "https://api.country.com/v1/locations?q=$job_location" | jq -r '.[0].country')
-            case "$country" in
-              "Austria") flag="🇦🇹";;
-              "Belgium") flag="🇧🇪";;
-              "Bulgaria") flag="🇧🇬";;
-              "Croatia") flag="🇭🇷";;
-              "Cyprus") flag="🇨🇾";;
-              "Czech Republic") flag="🇨🇿";;
-              "Denmark") flag="🇩🇰";;
-              "Estonia") flag="🇪🇪";;
-              "Finland") flag="🇫🇮";;
-              "France") flag="🇫🇷";;
-              "Germany") flag="🇩🇪";;
-              "Greece") flag="🇬🇷";;
-              "Hungary") flag="🇭🇺";;
-              "Ireland") flag="🇮🇪";;
-              "Italy") flag="🇮🇹";;
-              "Latvia") flag="🇱🇻";;
-              "Lithuania") flag="🇱🇹";;
-              "Luxembourg") flag="🇱🇺";;
-              "Malta") flag="🇲🇹";;
-              "Netherlands") flag="🇳🇱";;
-              "Poland") flag="🇵🇱";;
-              "Portugal") flag="🇵🇹";;
-              "Romania") flag="🇷🇴";;
-              "Slovakia") flag="🇸🇰";;
-              "Slovenia") flag="🇸🇮";;
-              "Spain") flag="🇪🇸";;
-              "Sweden") flag="🇸🇪";;
-              *) flag="";;
-            esac
-            echo "| $job_title | $flag $job_location | [Apply]($job_link) | $job_posted |" >> README.md
+            echo "| $job_title | $job_location | [Apply]($job_link) | $job_posted |" >> README.md
           done < <(jq -r '.[] | "\(.job_title)|\(.job_location)|\(.JobLink)|\(.JobPosted // (now | strftime("%e %B %Y %l:%M %p %Z")))"' ottacomdata.json) || echo "JSON parsing failed"
 
       - name: Set Git user credentials
