@@ -69,6 +69,14 @@ def click_element(driver, locator):
 chrome_options = Options()
 # Uncomment the line below if you want to run Chrome in headless mode
 # chrome_options.add_argument("--headless")
+options = Options()
+options.add_argument("start-maximized")
+options.add_argument("disable-infobars")
+options.add_argument("--disable-extensions")
+options.add_argument("--disable-dev-shm-usage")
+options.add_argument("--no-sandbox")
+options.add_argument('--headless')
+options.binary_location = "/usr/bin/chromium-browser"
 
 # # Set up Chrome driver service
 # service = Service(ChromeDriverManager().install())
