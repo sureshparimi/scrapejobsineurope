@@ -22,6 +22,10 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         pip install -r requirements.txt
+    - name: Remove existing chromedriver
+      run: |
+        sudo rm -f /usr/local/bin/chromedriver
+        sudo rm -f /usr/bin/chromedriver
     - name: Set up Chrome WebDriver
       run: |
         wget https://chromedriver.storage.googleapis.com/94.0.4606.41/chromedriver_linux64.zip
