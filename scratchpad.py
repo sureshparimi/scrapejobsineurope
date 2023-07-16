@@ -70,11 +70,11 @@ chrome_options = Options()
 # Uncomment the line below if you want to run Chrome in headless mode
 # chrome_options.add_argument("--headless")
 
-# Set up Chrome driver service
-service = Service(ChromeDriverManager().install())
+# # Set up Chrome driver service
+# service = Service(ChromeDriverManager().install())
 
 # Set up Chrome driver
-driver = webdriver.Chrome(service=service, options=chrome_options)
+driver = webdriver.Chrome(options=chrome_options)
 
 # Maximize the browser window
 driver.maximize_window()
