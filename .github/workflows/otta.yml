@@ -27,7 +27,7 @@ jobs:
 
       - name: Run the script
         run: |
-          python scratchpad.py || echo "Script failed,continuing workflow"
+          python scratchpad.py || echo "Script failed, continuing workflow"
 
       - name: Parse ottacomdata.json into table
         id: parse-json
@@ -36,15 +36,14 @@ jobs:
           echo "| --- | --- | --- | --- |" >> README.md
           jq -r '.[] | "| " + .job_title + " | " + .job_location + " | " + "[Apply](" + .JobLink + ")" + " | " + "$(date +\"%e %B %Y\")" + " |"' ottacomdata.json >> README.md || echo "JSON parsing failed"
 
+      - name: Set Git user credentials
+        run: |
+          git config user.name "Your Name"
+          git config user.email "your-email@example.com"
+
       - name: Commit and push if it changed
         run: |
-          git config user.name "Suresh Parimi"
-          git config user.email "reachparimi@gmail.com"
           git add README.md
           timestamp=$(date -u)
           git commit -m "Latest jobs: ${timestamp}" || exit 0
           git push
-          GIT_TOKEN="${{ secrets.GH_TOKEN }}"
-          BRANCH="main"
-          REPO="sureshparimi/scrapejobsineurope"
-          git push "https://${GIT_TOKEN}@github.com/${REPO}" "${BRANCH}"
