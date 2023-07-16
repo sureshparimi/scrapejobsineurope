@@ -43,7 +43,8 @@ jobs:
           git add README.md
           timestamp=$(date -u)
           git commit -m "Latest jobs: ${timestamp}" || exit 0
-          git push origin HEAD:main
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
+          git push
+          GIT_TOKEN="${{ secrets.GH_TOKEN }}"
+          BRANCH="main"
+          REPO="sureshparimi/scrapejobsineurope"
+          git push "https://${GIT_TOKEN}@github.com/${REPO}" "${BRANCH}"
