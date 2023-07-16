@@ -66,9 +66,6 @@ def click_element(driver, locator):
         print("Element is not displayed.")
 
 # Set up Chrome options
-chrome_options = Options()
-# Uncomment the line below if you want to run Chrome in headless mode
-# chrome_options.add_argument("--headless")
 options = Options()
 options.add_argument("start-maximized")
 options.add_argument("disable-infobars")
@@ -82,7 +79,7 @@ options.binary_location = "/usr/bin/chromium-browser"
 # service = Service(ChromeDriverManager().install())
 
 # Set up Chrome driver
-driver = webdriver.Chrome(options=chrome_options)
+driver = webdriver.Chrome(options=options)
 
 # Maximize the browser window
 driver.maximize_window()
