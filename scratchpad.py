@@ -207,13 +207,13 @@ for job_data_card in job_data_cards:
 driver.quit()
 
 # Write job data to ottacomdata.json file
-with open('ottacomdata.json', 'w') as json_file:
+with open('ottacomdata.json', 'a') as json_file:
     json.dump(job_data_list, json_file, indent=4)
 
 # Append job data to masterdatabase.json file
 with open('masterdatabase.json', 'a') as master_file:
     json.dump(job_data_list, master_file, indent=4)
 
-# Print the job data
-for job_data in job_data_list:
-    print(job_data)
+# # Print the job data
+# for job_data in job_data_list:
+#     print(job_data)
