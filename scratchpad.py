@@ -144,7 +144,7 @@ for job_data_card in job_data_cards:
                     "job_title": job_title_text,
                     "job_location": job_location_text,
                     "JobLink": JobLink,
-                    "JobPosted": datetime.now().strftime("%e %B %Y")
+                    "job_posted": datetime.now().strftime("%d %B %Y %I:%M %p %Z")
                 }
                 job_data_list.append(job_data)
 
