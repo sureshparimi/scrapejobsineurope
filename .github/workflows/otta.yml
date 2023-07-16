@@ -35,7 +35,7 @@ jobs:
         run: |
           echo "| Job Title | Job Location | Job Link | Job Posted |" > README.md
           echo "| --- | --- | --- | --- |" >> README.md
-          jq -r '.[] | "| " + .job_title + " | " + .job_location + " | " + "[Apply](" + .JobLink + ")" + " | " + .job_posted + " |"' masterdatabase.json >> README.md || echo "JSON parsing failed"
+          jq -r '.[] | "| " + .job_title + " | " + .job_location + " | " + "[Apply](" + .JobLink + ")" + " | " + .JobPosted + " |"' masterdatabase.json >> README.md || echo "JSON parsing failed"
       - name: Set Git user credentials
         run: |
           git config --global user.name "Suresh Parimi"
