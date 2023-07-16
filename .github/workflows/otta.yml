@@ -41,6 +41,9 @@ jobs:
           git config --global user.name "Suresh Parimi"
           git config --global user.email "reachparimi@gmail.com"
 
+      - name: Pull changes from remote repository
+        run: git pull
+
       - name: Commit and push if it changed
         run: |
           git add README.md
