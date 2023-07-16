@@ -5,6 +5,7 @@ on:
   workflow_dispatch:
   schedule:
     - cron: '0 */4 * * *'
+
 jobs:
   scrape:
     runs-on: ubuntu-latest
@@ -20,7 +21,7 @@ jobs:
       - name: Removing previous chrome instances on runner 
         run: sudo apt purge google-chrome-stable  
         
-       # Need to fetch reqs if needed
+      # Need to fetch reqs if needed
       - name: Installing all necessary packages
         run: pip install chromedriver-autoinstaller selenium pyvirtualdisplay
       - name: Install xvfb
@@ -28,13 +29,13 @@ jobs:
       - name: Install all necessary packages
         run: pip install requests beautifulsoup4 pandas webdriver-manager selenium
       - name: Run the scraping script
-        run: python scratchpad.py
+        run: python scratchpad.py || echo "Script failed, continuing workflow"
       - name: Parse ottacomdata.json into table
         id: parse-json
         run: |
           echo "| Job Title | Job Location | Job Link | Job Posted |" > README.md
           echo "| --- | --- | --- | --- |" >> README.md
-          jq -r '.[] | "| " + .job_title + " | " + .job_location + " | " + "[Apply](" + .JobLink + ")" + " | " + "$(date +\"%e %B %Y\")" + " |"' ottacomdata.json >> README.md || echo "JSON parsing failed"
+          jq -r '.[] | "| " + .job_title + " | " + .job_location + " | " + "[Apply](" + .JobLink + ")" + " | " + (now | strftime("%e %B %Y")) + " |"' ottacomdata.json >> README.md || echo "JSON parsing failed"
 
       - name: Set Git user credentials
         run: |
