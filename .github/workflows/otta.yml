@@ -12,30 +12,30 @@ jobs:
     steps:
       - name: Checking out repo
         uses: actions/checkout@v3
+
       - name: Setting up Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.9'
-      - name: Installing package list
-        run: apt list --installed    
-      - name: Removing previous chrome instances on runner 
-        run: sudo apt purge google-chrome-stable  
-        
-      # Need to fetch reqs if needed
-      - name: Installing all necessary packages
-        run: pip install chromedriver-autoinstaller selenium pyvirtualdisplay
-      - name: Install xvfb
-        run: sudo apt-get install xvfb
-      - name: Install all necessary packages
-        run: pip install requests beautifulsoup4 pandas webdriver-manager selenium
+
+      - name: Installing necessary packages
+        run: |
+          apt list --installed
+          sudo apt purge google-chrome-stable
+          pip install chromedriver-autoinstaller selenium pyvirtualdisplay
+          sudo apt-get install xvfb
+          pip install requests beautifulsoup4 pandas webdriver-manager selenium
+
       - name: Run the scraping script
         run: python scratchpad.py || echo "Script failed, continuing workflow"
-      - name: Parse masterdatabase.json into table
+
+      - name: Parse ottacomdata.json into table
         id: parse-json
         run: |
           echo "| Job Title | Job Location | Job Link | Job Posted |" > README.md
           echo "| --- | --- | --- | --- |" >> README.md
-          jq -r '.[] | "| " + .job_title + " | " + .job_location + " | " + "[Apply](" + .JobLink + ")" + " | " + .JobPosted + " |"' ottacomdata.json >> README.md || echo "JSON parsing failed"
+          jq -r '.[] | "| " + .job_title + " | " + .job_location + " | " + "[Apply](" + .JobLink + ")" + " | " + (.JobPosted // (now | strftime("%e %B %Y %l:%M %p %Z"))) + " |"' ottacomdata.json >> README.md || echo "JSON parsing failed"
+
       - name: Set Git user credentials
         run: |
           git config --global user.name "Suresh Parimi"
