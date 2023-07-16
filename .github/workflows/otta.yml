@@ -22,11 +22,14 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         pip install -r requirements.txt
-    - name: Set up Chrome
+    - name: Set up Chrome WebDriver
       run: |
-        sudo apt-get update
-        sudo apt-get install -y libglib2.0-0 libnss3 libgconf-2-4 libfontconfig1
-        sudo apt-get install -y libxss1 libasound2
+        wget https://chromedriver.storage.googleapis.com/94.0.4606.41/chromedriver_linux64.zip
+        unzip chromedriver_linux64.zip
+        sudo mv chromedriver /usr/local/bin/
+        sudo chmod +x /usr/local/bin/chromedriver
+        sudo ln -s /usr/local/bin/chromedriver /usr/bin/chromedriver
+        rm chromedriver_linux64.zip
     - name: Run the script
       run: python scratchpad.py
     - name: Parse UniqueJobsdataMasterFile.json into table
