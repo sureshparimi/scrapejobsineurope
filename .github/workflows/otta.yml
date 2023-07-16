@@ -2,6 +2,8 @@ name: Scrape latest jobs
 
 on:
   push:
+    branches:
+      - main
   workflow_dispatch:
   schedule:
     - cron: '0 */4 * * *'
@@ -12,23 +14,28 @@ jobs:
     steps:
       - name: Check out this repo
         uses: actions/checkout@v2
+
       - name: Set up Python
         uses: actions/setup-python@v2
         with:
           python-version: '3.9'
+
       - name: Install dependencies
         run: |
           pip install -r requirements.txt
           sudo apt install -y chromium-browser
+
       - name: Run the script
         run: |
           python scratchpad.py || echo "Script failed, continuing workflow"
+
       - name: Parse ottacomdata.json into table
         id: parse-json
         run: |
           echo "| Job Title | Job Location | Job Link | Job Posted |" > README.md
           echo "| --- | --- | --- | --- |" >> README.md
-          jq -r '.[] | "| " + .job_title + " | " + .job_location + " | " + "[Apply](" + .JobLink + ")" + " | " + "$(date +\"%e %B %Y\")" + " |"' ottacomdata.json >> README.md
+          jq -r '.[] | "| " + .job_title + " | " + .job_location + " | " + "[Apply](" + .JobLink + ")" + " | " + "$(date +\"%e %B %Y\")" + " |"' ottacomdata.json >> README.md || echo "JSON parsing failed"
+
       - name: Commit and push if it changed
         run: |
           git config user.name "Suresh Parimi"
