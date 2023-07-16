@@ -27,7 +27,7 @@ jobs:
 
       - name: Run the script
         run: |
-          python scratchpad.py || echo "Script failed, continuing workflow"
+          python scratchpad.py || echo "Script failed,continuing workflow"
 
       - name: Parse ottacomdata.json into table
         id: parse-json
