@@ -26,13 +26,6 @@ jobs:
       - name: Run the scraping script
         run: python scratchpad.py || echo "Script failed, continuing workflow"
 
-      - name: Parse ottacomdata.json into table
-        id: parse-json
-        run: |
-          echo "| Job Title | Job Location | Job Link | Job Posted | Visa Sponsorship |" > README.md
-          echo "| --- | --- | --- | --- | --- |" >> README.md
-          jq -r '.[] | "| \(.position) | \(.location) | [Apply](\(.description)) | \(.post_date) | \(.visa) |"' ottacomdata.json >> README.md || echo "JSON parsing failed"
-
       - name: Set Git user credentials
         run: |
           git config --global user.name "Suresh Parimi"
@@ -57,17 +50,10 @@ jobs:
       - name: Run the scraping script
         run: python relocatewithus.py || echo "Script failed, continuing workflow"
 
-      - name: Parse relocatewithusjobs.json into table
-        id: parse-json
-        run: |
-          echo "| Job Title | Job Location | Job Link | Job Posted | Visa Sponsorship |" > README.md
-          echo "| --- | --- | --- | --- | --- |" >> README.md
-          jq -r '.[] | "| \(.position) | \(.location) | [Apply](\(.description)) | \(.post_date) | \(.visa) |"' relocatewithusjobs.json >> README.md || echo "JSON parsing failed"
-
       - name: Set Git user credentials
         run: |
-          git config --global user.name "Your Name"
-          git config --global user.email "your-email@example.com"
+          git config --global user.name "Suresh Parimi"
+          git config --global user.email "reachparimi@gmail.com"
 
   combine-data:
     needs: [ottacom, relocatewithus]
@@ -89,8 +75,9 @@ jobs:
 
       - name: Combine data from ottacomdata.json and relocatewithusjobs.json
         run: |
-          cat ottacomdata.json > alljobs.json
-          jq -s add alljobs.json relocatewithusjobs.json > tmpfile && mv tmpfile alljobs.json
+          cat ottacomdata.json > existingjobs.json
+          cat relocatewithusjobs.json > newjobs.json
+          jq -s add existingjobs.json newjobs.json > alljobs.json
 
       - name: Update README.md from alljobs.json
         id: update-readme
@@ -109,12 +96,13 @@ jobs:
 
       - name: Set Git user credentials
         run: |
-          git config --global user.name "Your Name"
-          git config --global user.email "your-email@example.com"
+          git config --global user.name "Suresh Parimi"
+          git config --global user.email "reachparimi@gmail.com"
 
       - name: Commit and push
         run: |
           git add README.md
+          git add alljobs.json
           timestamp=$(date -u)
           git commit -m "Latest jobs: ${timestamp}" || exit 0
           git push
