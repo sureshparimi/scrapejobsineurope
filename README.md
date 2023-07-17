@@ -1,8 +1,8 @@
 # Latest Jobs
 
-This page is updated at July 17, 2023 23:05:40
+This page is updated at July 17, 2023 23:24:10
 
 ## Job Listings
 
-- [Job 1](jobs/job1.md)
-- [Job 2](jobs/job2.md)
+- [Jobs from ottacomdata.json](jobs/ottacom.md)
+- [Jobs from relocatewithusjobs.json](jobs/relocatewithus.md)
