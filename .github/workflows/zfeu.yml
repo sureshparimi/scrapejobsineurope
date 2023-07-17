@@ -34,6 +34,7 @@ jobs:
           jq -r '.[] | "| \(.position) | \(.location) | [Apply](\(.description)) | \(.post_date) | \(.visa) |"' relocatewithusjobs.json >> README.md || echo "JSON parsing failed"
 
 
+
       - name: Discard local changes
         run: git checkout -- README.md
 
