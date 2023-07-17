@@ -7,7 +7,48 @@ on:
     - cron: '0 */4 * * *'
 
 jobs:
-  scrape:
+  job2:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checking out repo
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.9'
+
+      - name: Install necessary packages
+        run: |
+          pip install requests beautifulsoup4 pandas webdriver-manager selenium
+
+      - name: Run the scraping script
+        run: python scratchpad.py || echo "Script failed, continuing workflow"
+
+      - name: Parse ottacomdata.json into table
+        id: parse-json
+        run: |
+          echo "| Job Title | Job Location | Job Link | Job Posted | Visa Sponsorship |" > README.md
+          echo "| --- | --- | --- | --- | --- |" >> README.md
+          jq -r '.[] | "| \(.position) | \(.location) | [Apply](\(.description)) | \(.post_date) | \(.visa) |"' ottacomdata.json >> README.md || echo "JSON parsing failed"
+
+      - name: Set Git user credentials
+        run: |
+          git config --global user.name "Suresh Parimi"
+          git config --global user.email "reachparimi@gmail.com"
+
+      - name: Pull changes from remote repository
+        run: git pull
+
+      - name: Commit and push if it changed
+        run: |
+          git add README.md
+          timestamp=$(date -u)
+          git commit -m "Latest jobs: ${timestamp}" || exit 0
+          git push
+
+  job1:
     runs-on: ubuntu-latest
 
     steps:
@@ -33,20 +74,61 @@ jobs:
           echo "| --- | --- | --- | --- | --- |" >> README.md
           jq -r '.[] | "| \(.position) | \(.location) | [Apply](\(.description)) | \(.post_date) | \(.visa) |"' relocatewithusjobs.json >> README.md || echo "JSON parsing failed"
 
-
-
-      - name: Discard local changes
-        run: git checkout -- README.md
-
       - name: Set Git user credentials
         run: |
           git config --global user.name "Your Name"
           git config --global user.email "your-email@example.com"
 
       - name: Pull changes from remote repository
-        run: git pull origin main
+        run: git pull
 
       - name: Commit and push if it changed
+        run: |
+          git add README.md
+          timestamp=$(date -u)
+          git commit -m "Latest jobs: ${timestamp}" || exit 0
+          git push
+
+  combine-data:
+    needs: [job2, job1]
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checking out repo
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.9'
+
+      - name: Install dependencies
+        run: |
+          pip install jsonlines
+
+      - name: Combine data from ottacomdata.json and relocatewithusjobs.json
+        run: |
+          cat ottacomdata.json > alljobs.json
+          jq -s add alljobs.json relocatewithusjobs.json > tmpfile && mv tmpfile alljobs.json
+
+      - name: Update README.md from alljobs.json
+        id: update-readme
+        run: |
+          echo "# Latest Jobs" > README.md
+          echo "" >> README.md
+          echo "This page is updated at $(TZ='Europe/Paris' date +'%B %d, %Y %H:%M:%S')" >> README.md
+          echo "" >> README.md
+          echo "| Job Title | Job Location | Job Link | Job Posted | Visa Sponsorship |" >> README.md
+          echo "| --- | --- | --- | --- | --- |" >> README.md
+          jq -r '.[] | "| \(.position) | \(.location) | [Apply](\(.description)) | \(.post_date) | \(.visa) |"' alljobs.json >> README.md || echo "JSON parsing failed"
+
+      - name: Set Git user credentials
+        run: |
+          git config --global user.name "Your Name"
+          git config --global user.email "your-email@example.com"
+
+      - name: Commit and push
         run: |
           git add README.md
           timestamp=$(date -u)
