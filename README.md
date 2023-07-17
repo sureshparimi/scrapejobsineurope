@@ -2,6 +2,8 @@
 
 This page is updated at July 17, 2023 06:09:17
 
+[![Scrape latest jobs](https://github.com/sureshparimi/scrapejobsineurope/actions/workflows/otta.yml/badge.svg?branch=main)](https://github.com/sureshparimi/scrapejobsineurope/actions/workflows/otta.yml)
+
 | Job Title | Job Location | Job Link | Job Posted |
 | --- | --- | --- | --- |
 | Software Engineer, Round | Remote in EU, UK | [Apply](https://round.cash/?utm_source=otta.com) | 17 July 2023 |
