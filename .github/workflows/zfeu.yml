@@ -22,7 +22,6 @@ jobs:
       - name: Install necessary packages
         run: |
           pip install requests beautifulsoup4 pandas webdriver-manager selenium
-
       - name: Run the scraping script
         run: python scratchpad.py || echo "Script failed, continuing workflow"
 
@@ -30,7 +29,6 @@ jobs:
         run: |
           git config --global user.name "Suresh Parimi"
           git config --global user.email "reachparimi@gmail.com"
-
   relocatewithus:
     runs-on: ubuntu-latest
 
@@ -46,7 +44,6 @@ jobs:
       - name: Install dependencies
         run: |
           pip install requests beautifulsoup4 pandas selenium
-
       - name: Run the scraping script
         run: python relocatewithus.py || echo "Script failed, continuing workflow"
 
@@ -54,7 +51,6 @@ jobs:
         run: |
           git config --global user.name "Suresh Parimi"
           git config --global user.email "reachparimi@gmail.com"
-
   combine-data:
     needs: [ottacom, relocatewithus]
 
@@ -72,14 +68,14 @@ jobs:
       - name: Install dependencies
         run: |
           pip install jsonlines
-
       - name: Combine data from ottacomdata.json and relocatewithusjobs.json
         run: |
           cat ottacomdata.json > existingjobs.json
           cat relocatewithusjobs.json > newjobs.json
           jq -s add existingjobs.json newjobs.json > alljobs.json
-
-      - name: Update README.md from alljobs.json
+      - name: Remove records with null values
+        run: jq 'map(select(.position and .location and .description))' alljobs.json > filteredjobs.json
+      - name: Update README.md from filteredjobs.json
         id: update-readme
         run: |
           git pull origin main
@@ -91,18 +87,16 @@ jobs:
           echo "" >> new_README.md
           echo "| Job Title | Job Location | Job Link | Job Posted | Visa Sponsorship |" >> new_README.md
           echo "| --- | --- | --- | --- | --- |" >> new_README.md
-          jq -r '.[] | "| \(.position) | \(.location) | [Apply](\(.description)) | \(.post_date) | \(.visa) |"' alljobs.json >> new_README.md || echo "JSON parsing failed"
+          jq -r '.[] | "| \(.position) | \(.location) | [Apply](\(.description)) | \(.post_date) | \(.visa) |"' filteredjobs.json >> new_README.md || echo "JSON parsing failed"
           mv new_README.md README.md
-
       - name: Set Git user credentials
         run: |
           git config --global user.name "Suresh Parimi"
           git config --global user.email "reachparimi@gmail.com"
-
       - name: Commit and push
         run: |
           git add README.md
-          git add alljobs.json
+          git add filteredjobs.json
           timestamp=$(date -u)
           git commit -m "Latest jobs: ${timestamp}" || exit 0
           git push
