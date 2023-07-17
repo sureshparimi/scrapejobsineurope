@@ -84,11 +84,11 @@ jobs:
       - name: Generate individual README files for each job
         run: |
           mkdir -p jobs
-          jq -c '.[]' filteredjobs.json | while read -r job; do
-            title=$(echo "$job" | jq -r '.position')
-            filename=$(echo "$title" | tr -cd '[:alnum:]\n\r' | tr '[:upper:]' '[:lower:]')
-            echo "| $(echo "$job" | jq -r '.position') | $(echo "$job" | jq -r '.location') | [Apply]($(echo "$job" | jq -r '.description')) | $(echo "$job" | jq -r '.post_date') | $(echo "$job" | jq -r '.visa') |" >> "jobs/$filename.md"
-          done
+          echo "# Jobs from ottacomdata.json" > jobs/ottacom.md
+          jq -r '.[] | "| \(.position) | \(.location) | [Apply](\(.description)) | \(.post_date) | \(.visa) |"' existingjobs.json >> jobs/ottacom.md
+
+          echo "# Jobs from relocatewithusjobs.json" > jobs/relocatewithus.md
+          jq -r '.[] | "| \(.position) | \(.location) | [Apply](\(.description)) | \(.post_date) | \(.visa) |"' newjobs.json >> jobs/relocatewithus.md
 
       - name: Update main README.md with links to job files
         run: |
@@ -98,8 +98,8 @@ jobs:
           echo "" >> README.md
           echo "## Job Listings" >> README.md
           echo "" >> README.md
-          echo "- [Job 1](jobs/job1.md)" >> README.md
-          echo "- [Job 2](jobs/job2.md)" >> README.md
+          echo "- [Jobs from ottacomdata.json](jobs/ottacom.md)" >> README.md
+          echo "- [Jobs from relocatewithusjobs.json](jobs/relocatewithus.md)" >> README.md
 
       - name: Set Git user credentials
         run: |
