@@ -3,3 +3,5 @@
 | Job Title | Job Location | Job Link | Job Posted | Visa Sponsorship |
 | --- | --- | --- | --- | --- |
 | Fullstack Developer | Lisbon, Portugal | [Apply](https://www.vwds.pt/job/mid-level-fullstack-developer-2/) | March 28, 2023 | Visa Sponsorship |
+| Full-Stack Developer | Gzira, Malta | [Apply](https://join.com/companies/platingaming/8206265-full-stack-developer) | June 4, 2023 | Visa Sponsorship |
+| Fullstack Developer | Lisbon, Portugal | [Apply](https://www.vwds.pt/job/mid-level-fullstack-developer-2/) | March 28, 2023 | Visa Sponsorship |
