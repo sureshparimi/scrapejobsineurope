@@ -1,0 +1,53 @@
+name: Scrape latest jobs
+
+on:
+  push:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 */4 * * *'
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checking out repo
+        uses: actions/checkout@v3
+
+      - name: Setting up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      - name: Installing necessary packages
+        run: |
+          apt list --installed
+          sudo apt purge google-chrome-stable
+          pip install chromedriver-autoinstaller selenium pyvirtualdisplay
+          sudo apt-get install xvfb
+          pip install requests beautifulsoup4 pandas webdriver-manager selenium
+
+      - name: Run the scraping script
+        run: python relocatewithus.py || echo "Script failed, continuing workflow"
+
+      - name: Parse relocatewithusjobs.json into table
+        id: parse-json
+        run: |
+          echo "| Job Title | Job Location | Job Link | Job Posted | Visa Sponsorship |" > README.md
+          echo "| --- | --- | --- | --- | --- |" >> README.md
+          jq -r '.[] | "| \(.position) | \(.location) | [\(.description)](\(.description)) | \(.post_date) | \(.visa) |"' relocatewithusjobs.json >> README.md || echo "JSON parsing failed"
+
+      - name: Set Git user credentials
+        run: |
+          git config --global user.name "Your Name"
+          git config --global user.email "your-email@example.com"
+
+      - name: Pull changes from remote repository
+        run: git pull
+
+      - name: Commit and push if it changed
+        run: |
+          git add README.md
+          timestamp=$(date -u)
+          git commit -m "Latest jobs: ${timestamp}" || exit 0
+          git push
