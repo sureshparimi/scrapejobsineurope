@@ -31,7 +31,8 @@ jobs:
         run: |
           echo "| Job Title | Job Location | Job Link | Job Posted | Visa Sponsorship |" > README.md
           echo "| --- | --- | --- | --- | --- |" >> README.md
-          jq -r '.[] | "| \(.position) | \(.location) | [\(.description)](\(.description)) | \(.post_date) | \(.visa) |"' relocatewithusjobs.json >> README.md || echo "JSON parsing failed"
+          jq -r '.[] | "| \(.position) | \(.location) | [Apply](\(.description)) | \(.post_date) | \(.visa) |"' relocatewithusjobs.json >> README.md || echo "JSON parsing failed"
+
 
       - name: Discard local changes
         run: git checkout -- README.md
