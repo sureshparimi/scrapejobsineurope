@@ -1,0 +1,5 @@
+# Job: Business Analyst
+
+| Job Title | Job Location | Job Link | Job Posted | Visa Sponsorship |
+| --- | --- | --- | --- | --- |
+| Business Analyst | Maastricht, Netherlands | [Apply](https://cac.mercedes-benz.com/vacancy-apply/OPE-101062) | April 5, 2023 | Visa Sponsorship |
