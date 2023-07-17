@@ -83,11 +83,11 @@ jobs:
 
       - name: Generate individual README files for each job
         run: |
-          mkdir jobs
+          mkdir -p jobs
           jq -c '.[]' filteredjobs.json | while read -r job; do
             title=$(echo "$job" | jq -r '.position')
             filename=$(echo "$title" | tr -cd '[:alnum:]\n\r' | tr '[:upper:]' '[:lower:]')
-            echo "| $(echo "$job" | jq -r '.position') | $(echo "$job" | jq -r '.location') | [Apply]($(echo "$job" | jq -r '.description')) | $(echo "$job" | jq -r '.post_date') | $(echo "$job" | jq -r '.visa') |" > "jobs/$filename.md"
+            echo "| $(echo "$job" | jq -r '.position') | $(echo "$job" | jq -r '.location') | [Apply]($(echo "$job" | jq -r '.description')) | $(echo "$job" | jq -r '.post_date') | $(echo "$job" | jq -r '.visa') |" >> "jobs/$filename.md"
           done
 
       - name: Update main README.md with links to job files
