@@ -1,8 +1,6 @@
 # Latest Jobs
 
-This page is updated at July 17, 2023 06:09:17
-
-[![Scrape latest jobs](https://github.com/sureshparimi/scrapejobsineurope/actions/workflows/otta.yml/badge.svg?branch=main)](https://github.com/sureshparimi/scrapejobsineurope/actions/workflows/otta.yml)
+This page is updated at July 17, 2023 07:05:51
 
 | Job Title | Job Location | Job Link | Job Posted |
 | --- | --- | --- | --- |
@@ -66,3 +64,33 @@ This page is updated at July 17, 2023 06:09:17
 | Site Reliability Engineer, Intigriti | Amsterdam | [Apply](https://intigriti.jobs.personio.com/job/1079187?utm_source=Otta) | 17 July 2023 |
 | Senior Backend Developer, Temper | Amsterdam | [Apply](https://temper2.recruitee.com/o/senior-backend-developer-php?utm_source=Otta) | 17 July 2023 |
 | Senior Java Software Engineer, Aetion | Barcelona | [Apply](https://boards.greenhouse.io/aetion/jobs/4942680?utm_source=Otta) | 17 July 2023 |
+| Backend Developer, cometh | Remote in France | [Apply](https://cometh.crew.work/jobs/62a36ac77e2227e5a858b3d2?utm_source=Otta) | 17 July 2023  5:05 AM UTC |
+| Backend Developer, cometh | Remote in France | [Apply](https://cometh.crew.work/jobs/62a36ac77e2227e5a858b3d2?utm_source=Otta) | 17 July 2023  5:05 AM UTC |
+| Backend Developer, cometh | Remote in France | [Apply](https://cometh.crew.work/jobs/62a36ac77e2227e5a858b3d2?utm_source=Otta) | 17 July 2023  5:05 AM UTC |
+| Backend Developer, cometh | Remote in France | [Apply](https://cometh.crew.work/jobs/62a36ac77e2227e5a858b3d2?utm_source=Otta) | 17 July 2023  5:05 AM UTC |
+| Backend Developer, cometh | Remote in France | [Apply](https://cometh.crew.work/jobs/62a36ac77e2227e5a858b3d2?utm_source=Otta) | 17 July 2023  5:05 AM UTC |
+| Principal Engineer, Chainlink Labs | Remote in Canada, EU, UK, US | [Apply](https://jobs.lever.co/chainlink/9bafed70-c909-45b2-aa24-4c77df85ade3?lever-source=Otta) | 17 July 2023  5:05 AM UTC |
+| Principal Engineer, Chainlink Labs | Remote in Canada, EU, UK, US | [Apply](https://jobs.lever.co/chainlink/9bafed70-c909-45b2-aa24-4c77df85ade3?lever-source=Otta) | 17 July 2023  5:05 AM UTC |
+| Principal Engineer, Chainlink Labs | Remote in Canada, EU, UK, US | [Apply](https://jobs.lever.co/chainlink/9bafed70-c909-45b2-aa24-4c77df85ade3?lever-source=Otta) | 17 July 2023  5:05 AM UTC |
+| Principal Engineer, Chainlink Labs | Remote in Canada, EU, UK, US | [Apply](https://jobs.lever.co/chainlink/9bafed70-c909-45b2-aa24-4c77df85ade3?lever-source=Otta) | 17 July 2023  5:05 AM UTC |
+| Principal Engineer, Chainlink Labs | Remote in Canada, EU, UK, US | [Apply](https://jobs.lever.co/chainlink/9bafed70-c909-45b2-aa24-4c77df85ade3?lever-source=Otta) | 17 July 2023  5:05 AM UTC |
+| Principal Engineer, Chainlink Labs | Remote in Canada, EU, UK, US | [Apply](https://jobs.lever.co/chainlink/9bafed70-c909-45b2-aa24-4c77df85ade3?lever-source=Otta) | 17 July 2023  5:05 AM UTC |
+| Principal Engineer, Chainlink Labs | Remote in Canada, EU, UK, US | [Apply](https://jobs.lever.co/chainlink/9bafed70-c909-45b2-aa24-4c77df85ade3?lever-source=Otta) | 17 July 2023  5:05 AM UTC |
+| Principal Engineer, Chainlink Labs | Remote in Canada, EU, UK, US | [Apply](https://jobs.lever.co/chainlink/9bafed70-c909-45b2-aa24-4c77df85ade3?lever-source=Otta) | 17 July 2023  5:05 AM UTC |
+| Principal Engineer, Chainlink Labs | Remote in Canada, EU, UK, US | [Apply](https://jobs.lever.co/chainlink/9bafed70-c909-45b2-aa24-4c77df85ade3?lever-source=Otta) | 17 July 2023  5:05 AM UTC |
+| Principal Engineer, Chainlink Labs | Remote in Canada, EU, UK, US | [Apply](https://jobs.lever.co/chainlink/9bafed70-c909-45b2-aa24-4c77df85ade3?lever-source=Otta) | 17 July 2023  5:05 AM UTC |
+| Principal Engineer, Chainlink Labs | Remote in Canada, EU, UK, US | [Apply](https://jobs.lever.co/chainlink/9bafed70-c909-45b2-aa24-4c77df85ade3?lever-source=Otta) | 17 July 2023  5:05 AM UTC |
+| Senior C++ Storage Engineer, Voltron Data | Remote in Canada, EU, UK, US | [Apply](https://boards.greenhouse.io/voltrondata/jobs/4002909006?gh_src=2b3d2dc46us) | 17 July 2023  5:05 AM UTC |
+| Senior C++ Storage Engineer, Voltron Data | Remote in Canada, EU, UK, US | [Apply](https://boards.greenhouse.io/voltrondata/jobs/4002909006?gh_src=2b3d2dc46us) | 17 July 2023  5:05 AM UTC |
+| Senior C++ Storage Engineer, Voltron Data | Remote in Canada, EU, UK, US | [Apply](https://boards.greenhouse.io/voltrondata/jobs/4002909006?gh_src=2b3d2dc46us) | 17 July 2023  5:05 AM UTC |
+| Principal Engineer, Chainlink Labs | Remote in Canada, EU, UK, US | [Apply](https://jobs.lever.co/chainlink/9bafed70-c909-45b2-aa24-4c77df85ade3?lever-source=Otta) | 17 July 2023  5:05 AM UTC |
+| Principal Engineer, Chainlink Labs | Remote in Canada, EU, UK, US | [Apply](https://jobs.lever.co/chainlink/9bafed70-c909-45b2-aa24-4c77df85ade3?lever-source=Otta) | 17 July 2023  5:05 AM UTC |
+| Principal Engineer, Chainlink Labs | Remote in Canada, EU, UK, US | [Apply](https://jobs.lever.co/chainlink/9bafed70-c909-45b2-aa24-4c77df85ade3?lever-source=Otta) | 17 July 2023  5:05 AM UTC |
+| Principal Engineer, Chainlink Labs | Remote in Canada, EU, UK, US | [Apply](https://jobs.lever.co/chainlink/9bafed70-c909-45b2-aa24-4c77df85ade3?lever-source=Otta) | 17 July 2023  5:05 AM UTC |
+| Principal Engineer, Chainlink Labs | Remote in Canada, EU, UK, US | [Apply](https://jobs.lever.co/chainlink/9bafed70-c909-45b2-aa24-4c77df85ade3?lever-source=Otta) | 17 July 2023  5:05 AM UTC |
+| Principal Engineer, Chainlink Labs | Remote in Canada, EU, UK, US | [Apply](https://jobs.lever.co/chainlink/9bafed70-c909-45b2-aa24-4c77df85ade3?lever-source=Otta) | 17 July 2023  5:05 AM UTC |
+| Principal Engineer, Chainlink Labs | Remote in Canada, EU, UK, US | [Apply](https://jobs.lever.co/chainlink/9bafed70-c909-45b2-aa24-4c77df85ade3?lever-source=Otta) | 17 July 2023  5:05 AM UTC |
+| Principal Engineer, Chainlink Labs | Remote in Canada, EU, UK, US | [Apply](https://jobs.lever.co/chainlink/9bafed70-c909-45b2-aa24-4c77df85ade3?lever-source=Otta) | 17 July 2023  5:05 AM UTC |
+| Principal Engineer, Chainlink Labs | Remote in Canada, EU, UK, US | [Apply](https://jobs.lever.co/chainlink/9bafed70-c909-45b2-aa24-4c77df85ade3?lever-source=Otta) | 17 July 2023  5:05 AM UTC |
+| Principal Engineer, Chainlink Labs | Remote in Canada, EU, UK, US | [Apply](https://jobs.lever.co/chainlink/9bafed70-c909-45b2-aa24-4c77df85ade3?lever-source=Otta) | 17 July 2023  5:05 AM UTC |
+| Principal Engineer, Chainlink Labs | Remote in Canada, EU, UK, US | [Apply](https://jobs.lever.co/chainlink/9bafed70-c909-45b2-aa24-4c77df85ade3?lever-source=Otta) | 17 July 2023  5:05 AM UTC |
