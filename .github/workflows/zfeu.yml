@@ -85,10 +85,18 @@ jobs:
         run: |
           mkdir -p jobs
           echo "# Jobs from ottacomdata.json" > jobs/ottacom.md
-          jq -r '.[] | "| \(.position) | \(.location) | [Apply](\(.description)) | \(.post_date) | \(.visa) |"' existingjobs.json >> jobs/ottacom.md
+          echo "| Job Title | Job Location | Job Link | Job Posted |" >> jobs/ottacom.md
+          echo "| --- | --- | --- | --- |" >> jobs/ottacom.md
+          while IFS="|" read -r job_title job_location job_link job_posted; do
+            echo "| $job_title | $job_location | [Apply]($job_link) | $job_posted |" >> jobs/ottacom.md
+          done < <(jq -r '.[] | "\(.position)|\(.location)|\(.description)|\(.post_date // (now | strftime("%e %B %Y %l:%M %p %Z")))"' existingjobs.json)
 
           echo "# Jobs from relocatewithusjobs.json" > jobs/relocatewithus.md
-          jq -r '.[] | "| \(.position) | \(.location) | [Apply](\(.description)) | \(.post_date) | \(.visa) |"' newjobs.json >> jobs/relocatewithus.md
+          echo "| Job Title | Job Location | Job Link | Job Posted |" >> jobs/relocatewithus.md
+          echo "| --- | --- | --- | --- |" >> jobs/relocatewithus.md
+          while IFS="|" read -r job_title job_location job_link job_posted; do
+            echo "| $job_title | $job_location | [Apply]($job_link) | $job_posted |" >> jobs/relocatewithus.md
+          done < <(jq -r '.[] | "\(.position)|\(.location)|\(.description)|\(.post_date // (now | strftime("%e %B %Y %l:%M %p %Z")))"' newjobs.json)
 
       - name: Update main README.md with links to job files
         run: |
@@ -98,8 +106,8 @@ jobs:
           echo "" >> README.md
           echo "## Job Listings" >> README.md
           echo "" >> README.md
-          echo "- [Jobs from ottacomdata.json](jobs/ottacom.md)" >> README.md
-          echo "- [Jobs from relocatewithusjobs.json](jobs/relocatewithus.md)" >> README.md
+          echo "- [Jobs from ottacomdata](jobs/ottacom.md)" >> README.md
+          echo "- [Jobs from relocatewithusjobs](jobs/relocatewithus.md)" >> README.md
 
       - name: Set Git user credentials
         run: |
