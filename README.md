@@ -1,8 +1,11 @@
 # Latest Jobs
 
-This page is updated at July 18, 2023 22:10:42
+This page is updated at July 18, 2023 22:15:57
 
 ## Job Listings
 
 - [Jobs from ottacom](jobs/ottacom.md)
-- [Jobs from relocatewithusjobs](jobs/relocatewithus.md)
+
+## Table of Contents
+
+- [Jobs from ottacom](jobs/ottacom.md)
