@@ -1,2028 +1,1778 @@
 [
     {
-        "job_title": "Senior Full Stack Software Engineer, Ride Capital",
-        "job_location": "Berlin",
-        "JobLink": "https://ride.jobs.personio.de/job/1170042"
-    },
-    {
-        "job_title": "Software Engineer, Eventbrite",
+        "job_title": "Software Engineer, YouGov",
         "job_location": "Remote in Spain",
-        "JobLink": "https://jobs.lever.co/eventbrite/5b2bd7ef-be42-4ec6-8df2-cec6295938ab"
+        "JobLink": "https://jobs.smartrecruiters.com/YouGov1/743999866799746-software-engineer-javascript-angular-remote-?utm_source=Otta",
+        "job_posted": "18 July 2023 10:59 AM "
     },
     {
-        "job_title": "Senior Software Engineer, Xentral",
-        "job_location": "Remote in Germany",
-        "JobLink": "https://jobs.eu.lever.co/xentral/8dc03fb0-8754-4b63-87c4-0b06523f3d4f"
-    },
-    {
-        "job_title": "Senior Full Stack & Frontend Engineer, Ada Health",
-        "job_location": "Remote in EU, UK",
-        "JobLink": "https://ada.com/careers/job/6757911002/?gh_jid=6757911002"
-    },
-    {
-        "job_title": "Senior Full Stack Engineer, WeRoad",
+        "job_title": "Fullstack Engineer, Spotme",
         "job_location": "Remote in EU",
-        "JobLink": "https://weroad.hirehive.com/job/114965/freelance-piva-senior-full-stack-nodejstypescript-vuenuxt-engineer-european-remote"
+        "JobLink": "https://spotme.com/jobs/?gh_jid=5065700003&utm_source=Otta",
+        "job_posted": "18 July 2023 10:59 AM "
     },
     {
-        "job_title": "Backend Engineer, Feeld",
-        "job_location": "Remote in Netherlands",
-        "JobLink": "https://apply.workable.com/feeldco/j/002EDE3738/"
+        "job_title": "Senior Frontend Engineer, Otrium",
+        "job_location": "Remote in France, Germany, Netherlands, UK",
+        "JobLink": "https://boards.greenhouse.io/otrium/jobs/4802894004?gh_src=95c732ee4us",
+        "job_posted": "18 July 2023 10:59 AM "
     },
     {
-        "job_title": "Senior Frontend Engineer, Banxware",
-        "job_location": "Berlin",
-        "JobLink": "https://banxware.jobs.personio.com/job/1131641"
-    },
-    {
-        "job_title": "Frontend Engineer, Deel",
-        "job_location": "Remote in EU, UK",
-        "JobLink": "https://jobs.ashbyhq.com/Deel/19e52e04-b3da-44da-89a0-b13de607aff3"
-    },
-    {
-        "job_title": "Frontend & Backend Developer, Zaubar",
-        "job_location": "Berlin",
-        "JobLink": "https://join.com/companies/zaubar/8498413-frontend-and-backend-developer-for-gen-ai-metaverse-startup-in-berlin-hybrid"
-    },
-    {
-        "job_title": "Backend Software Engineer, Blueground",
-        "job_location": "Berlin",
-        "JobLink": "https://boards.greenhouse.io/blueground/jobs/4233460006"
-    },
-    {
-        "job_title": "Senior DevOps Engineer, AssemblyAI",
-        "job_location": "Remote in Canada, EU, UK, US",
-        "JobLink": "https://boards.greenhouse.io/assemblyai/jobs/4242944005"
-    },
-    {
-        "job_title": "Senior Infrastructure Engineer, Dataiku",
-        "job_location": "Remote in France",
-        "JobLink": "https://boards.greenhouse.io/dataiku/jobs/4811201004"
-    },
-    {
-        "job_title": "Senior DevSecOps Engineer, deepset",
-        "job_location": "Remote in EU",
-        "JobLink": "https://deepset.jobs.personio.de/job/1182225"
-    },
-    {
-        "job_title": "Senior Site Reliability Engineer, GitGuardian",
-        "job_location": "Remote in France",
-        "JobLink": "https://careers.gitguardian.com/jobs/1342892-senior-sre-site-reliability-engineer-devops"
-    },
-    {
-        "job_title": "Senior/Staff DevOps Engineer, Celonis",
+        "job_title": "Senior/Staff Frontend Engineer, Celonis",
         "job_location": "Remote in Germany",
-        "JobLink": "https://boards.greenhouse.io/celonis/jobs/5566124003"
+        "JobLink": "https://boards.greenhouse.io/celonis/jobs/5561045003?utm_source=Otta",
+        "job_posted": "18 July 2023 10:59 AM "
     },
     {
-        "job_title": "Senior Cloud Engineer, Mindera",
+        "job_title": "Fullstack Engineer, SwissBorg",
+        "job_location": "Remote in EU, UK",
+        "JobLink": "https://jobs.lever.co/swissborg/ef9d44fc-715c-4a30-b0ff-97a66f7de8e0?lever-source=Otta",
+        "job_posted": "18 July 2023 11:00 AM "
+    },
+    {
+        "job_title": "Backend Engineer, Everli",
         "job_location": "Remote in Spain",
-        "JobLink": "https://apply.workable.com/minderacraft/j/D4458C96A4/"
+        "JobLink": "https://jobs.lever.co/everli/a686f518-b955-476c-a86e-5b4ab07549ae?lever-source=Otta",
+        "job_posted": "18 July 2023 11:00 AM "
     },
     {
-        "job_title": "Senior Site Reliability Engineer, Workato",
-        "job_location": "Remote in Germany",
-        "JobLink": "https://boards.greenhouse.io/workato/jobs/6814471002"
-    },
-    {
-        "job_title": "Site Reliability Engineer, Giant Swarm",
-        "job_location": "Remote in EU, UK",
-        "JobLink": "https://giant-swarm.jobs.personio.de/job/180887"
-    },
-    {
-        "job_title": "DevOps Engineer, Coalesce Automation",
+        "job_title": "Senior Rust Developer, Status",
         "job_location": "Remote in Canada, EU, UK, US",
-        "JobLink": "https://jobs.lever.co/coalesce.io/497eaa6d-bd10-438d-8ea9-0cf90a2b2d05"
+        "JobLink": "https://jobs.status.im/?gh_jid=4412616&utm_source=Otta",
+        "job_posted": "18 July 2023 11:00 AM "
     },
     {
-        "job_title": "DevOps Engineer, O(1) Labs",
-        "job_location": "Remote in EU",
-        "JobLink": "https://boards.greenhouse.io/o1labs/jobs/4908634004"
-    },
-    {
-        "job_title": "Backend Software Engineer, Pigment",
+        "job_title": "Senior Software Engineer, Cycle",
         "job_location": "Remote in France",
-        "JobLink": "https://jobs.lever.co/pigment/bf7cacad-0f52-4db4-88d4-ad7b22bd852e"
+        "JobLink": "https://cycle.crew.work/jobs/620a7d2974e6cba8383fcee9?utm_source=Otta",
+        "job_posted": "18 July 2023 11:00 AM "
     },
     {
-        "job_title": "Senior DevOps Engineer, Raisin",
-        "job_location": "Berlin",
-        "JobLink": "https://raisin.jobs.personio.de/job/1186737"
-    },
-    {
-        "job_title": "Senior Test Developer, Lightspeed",
-        "job_location": "Berlin",
-        "JobLink": "https://boards.greenhouse.io/lightspeedhq/jobs/5125434?gh_src=8f762c331us"
-    },
-    {
-        "job_title": "QA Engineer, Voodoo",
-        "job_location": "Paris",
-        "JobLink": "https://jobs.lever.co/voodoo/378732e3-304c-418c-af3c-77642de46375"
-    },
-    {
-        "job_title": "DevOps Engineer, Emburse",
-        "job_location": "Barcelona",
-        "JobLink": "https://jobs.lever.co/emburse/913385ae-a577-474a-9352-5e6b2affc5d2"
-    },
-    {
-        "job_title": "QA Automation Engineer, Heritage Designer",
-        "job_location": "Berlin",
-        "JobLink": "https://jobs.kittl.com/o/qa-automation-engineer"
-    },
-    {
-        "job_title": "Backend Software Engineer, 8BY8",
-        "job_location": "Remote in EU, UK",
-        "JobLink": "https://8by8.io/.com"
-    },
-    {
-        "job_title": "Backend Developer, gridX",
-        "job_location": "Remote in EU",
-        "JobLink": "https://join.com/companies/gridx/8569377-backend-developer-m-f-d"
-    },
-    {
-        "job_title": "Senior .NET Developer, Mangopay",
-        "job_location": "Paris",
-        "JobLink": "https://boards.eu.greenhouse.io/mangopay/jobs/4193031101?gh_src=fe482cd2teu"
-    },
-    {
-        "job_title": "Senior Full-Stack Laravel Engineer, Clicks and Mortar",
-        "job_location": "Remote in EU, UK",
-        "JobLink": "https://apply.workable.com/clicks-and-mortar/j/C6BF266FA5/"
-    },
-    {
-        "job_title": "Full-Stack Engineer, Bounti",
-        "job_location": "Berlin",
-        "JobLink": "https://www.bounti.co/.com"
-    },
-    {
-        "job_title": "Full Stack Software Engineer, ScyllaDB",
-        "job_location": "Remote in EU, UK",
-        "JobLink": "https://www.comeet.com/jobs/scylladb/E4.006/full-stack-software-engineer/AF.C14"
-    },
-    {
-        "job_title": "Site Reliability Engineer, Veepee",
-        "job_location": "Paris",
-        "JobLink": "https://jobs.lever.co/veepee/e6d83e88-49a3-415b-9c11-7650e9055380"
-    },
-    {
-        "job_title": "Senior Frontend Engineer, Hivebrite",
-        "job_location": "Remote in France",
-        "JobLink": "https://jobs.lever.co/hivebrite/25deea2e-ad00-468c-805e-23da0f4a5d5e"
-    },
-    {
-        "job_title": "Full Stack Software Engineer, Fingerprint",
-        "job_location": "Remote in Canada, EU, UK, US",
-        "JobLink": "https://fingerprint.com/careers/jobs/apply/?gh_jid=4927101004&gh_src=3f93dfbe4us"
-    },
-    {
-        "job_title": "Back-End Engineer, Preply",
-        "job_location": "Barcelona",
-        "JobLink": "https://preply.com/en/careers/apply?gh_jid=5669857003&gh_src=6ebaf0b93us"
-    },
-    {
-        "job_title": "Principal Frontend Engineer, Collectly",
-        "job_location": "Remote in EU, UK",
-        "JobLink": "https://jobs.lever.co/CollectlyInc./afcbf257-1686-42df-b953-fdce230a4a64"
-    },
-    {
-        "job_title": "Staff Javascript Engineer, VEED",
-        "job_location": "Remote in EU, UK",
-        "JobLink": "https://veed.teamtailor.com/jobs/2457642-staff-javascript-engineer-editor"
-    },
-    {
-        "job_title": "Senior Platform Scalability Engineer, Scalable Capital",
+        "job_title": "Senior Code Module Engineer, Dynatrace",
         "job_location": "Remote in Germany",
-        "JobLink": "https://jobs.smartrecruiters.com/ScalableGmbH/743999913120073--senior-platform-scalability-engineer-m-f-x-onsite-or-remote-in-germany-"
+        "JobLink": "https://jobs.smartrecruiters.com/Dynatrace1/743999913954173-senior-code-module-java-engineer-m-f-x-discover-the-inner-workings-of-java-remote-germany-?utm_source=Otta",
+        "job_posted": "18 July 2023 11:01 AM "
     },
     {
-        "job_title": "Infrastructure Engineer, Dataiku",
-        "job_location": "Remote in France",
-        "JobLink": "https://boards.greenhouse.io/dataiku/jobs/4900824004"
+        "job_title": "Senior Backend Engineer, Omni Creator Products",
+        "job_location": "Remote in Canada, EU, UK, US",
+        "JobLink": "https://jobs.ashbyhq.com/ocp/a5ce36eb-d9b8-428e-878d-f5a3eb2e3d1a?utm_source=Otta",
+        "job_posted": "18 July 2023 11:01 AM "
     },
     {
-        "job_title": "Staff Software Engineer, Qonto",
+        "job_title": "Staff Software Engineer, Eventbrite",
         "job_location": "Remote in Spain",
-        "JobLink": "https://jobs.lever.co/qonto/2520e03c-8c1b-4675-b7c8-e23fdb58eb4c"
+        "JobLink": "https://jobs.lever.co/eventbrite/099aad78-d7ab-44cb-848c-65b6f7e08706?lever-source=Otta",
+        "job_posted": "18 July 2023 11:01 AM "
     },
     {
-        "job_title": "Full Stack Engineer, BlueVoyant",
-        "job_location": "Remote in Germany, Spain, Netherlands",
-        "JobLink": "https://bluevoyant.applytojob.com/apply/bM3pnQ21cL/Remote-FullStack-Engineer-Client-Applications-Team"
+        "job_title": "Senior Software Engineer, Keelvar",
+        "job_location": "Remote in Germany, Ireland, UK",
+        "JobLink": "https://keelvar.jobs.personio.com/job/1081285?utm_source=Otta",
+        "job_posted": "18 July 2023 11:01 AM "
     },
     {
-        "job_title": "Senior/Staff Frontend Engineer, Close",
-        "job_location": "Remote in EU, UK",
-        "JobLink": "https://jobs.lever.co/close.io/10a1e32b-1a59-48dc-b8f4-e6f0dfae4e20"
+        "job_title": "Lead Frontend Software Engineer, Onna",
+        "job_location": "Remote in Spain",
+        "JobLink": "https://boards.greenhouse.io/onna/jobs/6833131002?utm_source=Otta",
+        "job_posted": "18 July 2023 11:01 AM "
     },
     {
-        "job_title": "Senior Backend Engineer, Chess.com",
-        "job_location": "Remote in Canada, EU, UK, US",
-        "JobLink": "https://chesscom.rippling-ats.com/job/305184/senior-backend-engineer-php"
-    },
-    {
-        "job_title": "Director of Platform Engineering, Phrase",
-        "job_location": "Remote in Germany, UK",
-        "JobLink": "https://phrase.com/careers/jobs/?gh_jid=4101316101"
-    },
-    {
-        "job_title": "Senior Backend Engineer, Kalepa",
-        "job_location": "Remote in EU, UK",
-        "JobLink": "https://boards.greenhouse.io/kalepa/jobs/4061797004?gh_src=b0ff6ec84us"
-    },
-    {
-        "job_title": "Senior Backend Engineer, tem.",
-        "job_location": "Remote in EU, UK",
-        "JobLink": "https://www.tem.energy/.com"
-    },
-    {
-        "job_title": "Python Software Engineer, Thunes",
-        "job_location": "Barcelona",
-        "JobLink": "https://www.thunes.com/jobs/5661443003?gh_jid=5661443003"
-    },
-    {
-        "job_title": "Frontend Developer, Worldia",
-        "job_location": "Remote in France, Germany",
-        "JobLink": "https://worldia.teamtailor.com/en-GB/jobs/1634297-frontend-developer-reactjs-remote-friendly"
-    },
-    {
-        "job_title": "Senior PHP/Symfony Developer, Thinksurance",
-        "job_location": "Paris",
-        "JobLink": "https://thinksurance-gmbh.jobs.personio.de/job/557699"
-    },
-    {
-        "job_title": "Senior Full Stack Engineer, SPREAD",
+        "job_title": "Senior Backend Engineer, Buddywise",
         "job_location": "Remote in Germany",
-        "JobLink": "https://spread-gmbh.jobs.personio.de/job/791689"
+        "JobLink": "https://jobs.buddywise.co/jobs/2636180-senior-backend-engineer-python?utm_source=Otta",
+        "job_posted": "18 July 2023 11:02 AM "
     },
     {
-        "job_title": "Senior Backend JavaScript Developer, Sastrify",
+        "job_title": "Senior Software Engineer, Shine",
+        "job_location": "Remote in France",
+        "JobLink": "https://careers.shine.fr/jobs/2859713-senior-software-engineer-product?utm_source=Otta",
+        "job_posted": "18 July 2023 11:02 AM "
+    },
+    {
+        "job_title": "Staff Software Engineer, Paddle",
         "job_location": "Remote in EU, UK",
-        "JobLink": "https://apply.workable.com/sastrify/j/8AB042D4C8/"
+        "JobLink": "https://jobs.ashbyhq.com/paddle/b25bc810-fae7-48f8-be8b-46e3daf5c0bc?utm_source=Otta",
+        "job_posted": "18 July 2023 11:02 AM "
     },
     {
-        "job_title": "Senior Frontend Engineer, Insify",
+        "job_title": "Staff Full Stack Engineer, MoonPay",
+        "job_location": "Remote in EU, UK",
+        "JobLink": "https://boards.greenhouse.io/moonpay/jobs/5609655003?utm_source=Otta",
+        "job_posted": "18 July 2023 11:02 AM "
+    },
+    {
+        "job_title": "Fullstack Software Engineer, Planet",
+        "job_location": "Remote in Germany",
+        "JobLink": "https://boards.greenhouse.io/planetlabs/jobs/4820141?utm_source=Otta",
+        "job_posted": "18 July 2023 11:02 AM "
+    },
+    {
+        "job_title": "Network DevOps Engineer, Adyen",
         "job_location": "Amsterdam",
-        "JobLink": "https://careers.insify.nl/senior-frontend-engineer-react-typescript/en"
+        "JobLink": "https://boards.greenhouse.io/adyen/jobs/4821859?utm_source=Otta",
+        "job_posted": "18 July 2023 11:02 AM "
     },
     {
-        "job_title": "Senior Software Engineer, Pennylane",
+        "job_title": "Senior Frontend Software Engineer, Raisin",
+        "job_location": "Berlin",
+        "JobLink": "https://raisin.jobs.personio.de/job/740495?utm_source=Otta",
+        "job_posted": "18 July 2023 11:03 AM "
+    },
+    {
+        "job_title": "Senior Backend Engineer, Moonfare",
+        "job_location": "Berlin",
+        "JobLink": "https://www.moonfare.com/open-position/?gh_jid=5651858003&utm_source=Otta",
+        "job_posted": "18 July 2023 11:03 AM "
+    },
+    {
+        "job_title": "Senior Software Engineer, PayFit",
         "job_location": "Paris",
-        "JobLink": "https://jobs.lever.co/pennylane/ac5fb505-8f1e-46cc-aa8f-bb4471e27186"
+        "JobLink": "https://jobs.lever.co/payfit/5b965f24-e548-4abe-a9c1-ba96ef998d92?lever-source=Otta",
+        "job_posted": "18 July 2023 11:03 AM "
     },
     {
-        "job_title": "Senior Frontend Developer, EdgeTier",
-        "job_location": "Barcelona",
-        "JobLink": "https://edgetier.bamboohr.com/careers/27"
-    },
-    {
-        "job_title": "Full Stack Developer, ContractHero",
-        "job_location": "Remote in Germany",
-        "JobLink": "https://contracthero-gmbh.jobs.personio.de/job/1130528"
-    },
-    {
-        "job_title": "Senior Devops Engineer, Sidetrade",
-        "job_location": "Paris",
-        "JobLink": "https://apply.workable.com/sidetrade/j/887EFA5F12/"
-    },
-    {
-        "job_title": "Senior Platform Engineer, Spendesk",
+        "job_title": "Senior Backend Engineer, lemon.markets",
         "job_location": "Berlin",
-        "JobLink": "https://jobs.lever.co/spendesk/ff17b3bb-2596-4308-8114-c6236b5cf9a7"
+        "JobLink": "https://jobs.lemon.markets/o/senior-backend-engineer-fmx?utm_source=Otta",
+        "job_posted": "18 July 2023 11:03 AM "
     },
     {
-        "job_title": "Senior Site Reliability Engineer, Trade Republic",
-        "job_location": "Berlin",
-        "JobLink": "https://traderepublic.com/careers/5497671003?gh_jid=5497671003"
-    },
-    {
-        "job_title": "Senior Platform Engineer, Fourthline",
-        "job_location": "Barcelona",
-        "JobLink": "https://boards.eu.greenhouse.io/fourthline/jobs/4096235101"
-    },
-    {
-        "job_title": "Azure Cloud Engineer, Prestatech",
-        "job_location": "Berlin",
-        "JobLink": "https://prestatech.viterbit.site/azure-cloud-engineer-pNQci8LFsOThwsuX/"
-    },
-    {
-        "job_title": "Infrastructure Developer, Adyen",
-        "job_location": "Amsterdam",
-        "JobLink": "https://boards.greenhouse.io/adyen/jobs/4389750"
-    },
-    {
-        "job_title": "Software Engineer, Stripe",
-        "job_location": "Berlin",
-        "JobLink": "https://stripe.com/jobs/search?gh_jid=4835086"
-    },
-    {
-        "job_title": "Site Reliability Engineer, Nethermind",
-        "job_location": "Remote in Canada, EU, UK, US",
-        "JobLink": "https://boards.eu.greenhouse.io/nethermind/jobs/4163772101"
-    },
-    {
-        "job_title": "Backend Engineer, Ben",
-        "job_location": "Berlin",
-        "JobLink": "https://jobs.ashbyhq.com/thanksben/70698051-8a93-42f9-9875-5696b26fb7f9"
-    },
-    {
-        "job_title": "Principal Software Engineer, Tymit",
+        "job_title": "Software Engineer, NoviCap",
         "job_location": "Remote in Spain",
-        "JobLink": "https://apply.workable.com/tymit/j/D270C724D3/"
+        "JobLink": "https://novicap.teamtailor.com/jobs/1031517-software-engineer?utm_source=Otta",
+        "job_posted": "18 July 2023 11:03 AM "
     },
     {
-        "job_title": "Senior Backend Developer, Candis",
-        "job_location": "Berlin",
-        "JobLink": "https://candisgmbh.recruitee.com/o/senior-backend-developer-dfm-berlin"
-    },
-    {
-        "job_title": "Staff Software Engineer, Phantom45",
-        "job_location": "Remote in Canada, EU, UK, US",
-        "JobLink": "https://boards.greenhouse.io/phantom45/jobs/4248310005?gh_jid=4248310005"
-    },
-    {
-        "job_title": "Senior Full Stack Engineer, Scribbr",
-        "job_location": "Amsterdam",
-        "JobLink": "https://jobs.scribbr.com/full-stack-engineer-2/en"
-    },
-    {
-        "job_title": "Senior Full Stack Engineer, Beam",
-        "job_location": "Remote in EU, UK",
-        "JobLink": "https://careers.beam.org/jobs/1054552-senior-full-stack-engineer-ruby-on-rails"
-    },
-    {
-        "job_title": "Senior Backend Engineer, Customer.io",
-        "job_location": "Remote in EU, UK",
-        "JobLink": "https://boards.greenhouse.io/customerio/jobs/5047819?gh_src=e7f34da31us"
-    },
-    {
-        "job_title": "Principal Software Engineer, Noon",
-        "job_location": "Remote in EU, UK",
-        "JobLink": "https://careers.learnatnoon.com/jobs/1709746-principal-software-engineer"
-    },
-    {
-        "job_title": "Senior Frontend Engineer, TestGorilla",
-        "job_location": "Remote in Canada, EU, UK, US",
-        "JobLink": "https://testgorilla.com/.com"
-    },
-    {
-        "job_title": "Senior Frontend Developer, Occtoo",
-        "job_location": "Remote in EU, UK",
-        "JobLink": "https://career.occtoo.com/jobs/1461574-senior-front-end-developer"
-    },
-    {
-        "job_title": "Senior Product Engineer, Plain",
-        "job_location": "Remote in EU, UK",
-        "JobLink": "https://apply.workable.com/plain/j/718127FB1D/"
-    },
-    {
-        "job_title": "Senior Software Engineer, Reedsy",
-        "job_location": "Remote in EU",
-        "JobLink": "https://apply.workable.com/reedsy/j/EAF7E2E057/"
-    },
-    {
-        "job_title": "Senior Angular Developer, Appinio",
-        "job_location": "Remote in Canada, EU, UK, US",
-        "JobLink": "https://boards.eu.greenhouse.io/appinio/jobs/4133585101?gh_src=0c3280f2teu"
-    },
-    {
-        "job_title": "Senior DevSecOps Engineer, HiveMQ",
+        "job_title": "Senior Backend Engineer, Upvest",
         "job_location": "Remote in Germany",
-        "JobLink": "https://www.hivemq.com/jobs?gh_jid=4159431101&gh_src=82f54d72teu"
+        "JobLink": "https://careers.upvest.co/jobs/1956507-senior-backend-engineer-governance-and-treasury-f-m-d?utm_source=Otta",
+        "job_posted": "18 July 2023 11:03 AM "
     },
     {
-        "job_title": "Senior Go Developer, Showpad",
-        "job_location": "Paris",
-        "JobLink": "https://boards.greenhouse.io/showpad/jobs/5068801?gh_src=b13dd58a1us"
+        "job_title": "Senior Software Engineer, Banked",
+        "job_location": "Remote in EU",
+        "JobLink": "https://boards.greenhouse.io/banked/jobs/4181304101?utm_source=Otta",
+        "job_posted": "18 July 2023 11:04 AM "
     },
     {
-        "job_title": "Senior Software Engineer, Dashlane",
-        "job_location": "Paris",
-        "JobLink": "https://boards.greenhouse.io/dashlane/jobs/5091465?gh_src=e3c4fbfb1us"
+        "job_title": "Senior Backend Engineer, CLARK",
+        "job_location": "Berlin",
+        "JobLink": "https://boards.greenhouse.io/clark71/jobs/6720894002?utm_source=Otta",
+        "job_posted": "18 July 2023 11:04 AM "
     },
     {
-        "job_title": "Senior Software Engineer, Omnipresent",
+        "job_title": "Senior Software Engineer, Nelly",
+        "job_location": "Berlin",
+        "JobLink": "https://jobs.lever.co/nelly/224ba25c-a07f-4be4-9c75-7ee8bb753c54?lever-source=Otta",
+        "job_posted": "18 July 2023 11:04 AM "
+    },
+    {
+        "job_title": "Senior Golang Engineer, Saga.xyz",
         "job_location": "Remote in Canada, EU, UK, US",
-        "JobLink": "https://www.omnipresent.com/jobs?gh_jid=4174897101&gh_src=d23a6ab2teu"
+        "JobLink": "https://jobs.lever.co/saga-xyz/2c82ce74-7059-4c33-bd0a-614d289407a6?lever-source=Otta",
+        "job_posted": "18 July 2023 11:04 AM "
     },
     {
-        "job_title": "Senior Frontend Engineer, Hugging Face",
+        "job_title": "Senior Java Developer, Lightspeed",
+        "job_location": "Amsterdam",
+        "JobLink": "https://boards.greenhouse.io/lightspeedhq/jobs/5152603?gh_src=fc3812d41us",
+        "job_posted": "18 July 2023 11:04 AM "
+    },
+    {
+        "job_title": "Senior Full-Stack Developer, Borg",
+        "job_location": "Remote in Germany",
+        "JobLink": "https://apply.workable.com/borg/j/E222205988/?utm_source=Otta",
+        "job_posted": "18 July 2023 11:04 AM "
+    },
+    {
+        "job_title": "Senior C++ Storage Engineer, Voltron Data",
         "job_location": "Remote in Canada, EU, UK, US",
-        "JobLink": "https://apply.workable.com/huggingface/j/09B44FE57C/"
+        "JobLink": "https://boards.greenhouse.io/voltrondata/jobs/4002909006?gh_src=2b3d2dc46us",
+        "job_posted": "18 July 2023 11:05 AM "
     },
     {
-        "job_title": "Senior Back-End Engineer, Veriff",
-        "job_location": "Barcelona",
-        "JobLink": "https://www.veriff.com/careers/position/6694587002?gh_jid=6694587002&gh_src=a39768862us"
+        "job_title": "Senior Software Engineer, Percona",
+        "job_location": "Remote in EU",
+        "JobLink": "https://jobs.lever.co/percona/ee53daa0-9a20-40d8-a01e-e35c545a92f8?lever-source=Otta",
+        "job_posted": "18 July 2023 11:05 AM "
     },
     {
-        "job_title": "",
-        "job_location": "",
-        "JobLink": "https://www.veriff.com/.com"
-    },
-    {
-        "job_title": "",
-        "job_location": "",
-        "JobLink": "https://boards.eu.greenhouse.io/koahealth/jobs/4150469101?gh_src=402ef332teu"
-    },
-    {
-        "job_title": "",
-        "job_location": "",
-        "JobLink": "https://apply.workable.com/linearity/j/16961AA1E2/"
-    },
-    {
-        "job_title": "",
-        "job_location": "",
-        "JobLink": "https://db.wd3.myworkdayjobs.com/en-US/DBWebsite/job/Berlin-Koppenstrae-93/DevOps-Engineer----dbSyndicate_R0239178-2"
-    },
-    {
-        "job_title": "",
-        "job_location": "",
-        "JobLink": "https://careers.descartesunderwriting.com/jobs/1529420-devops-engineer-dataops-mlops-gcp-k8s-terraform"
-    },
-    {
-        "job_title": "",
-        "job_location": "",
-        "JobLink": "https://jobs.lever.co/outsight/1708ff2d-da8f-4481-a5d8-10f5a99aae4b"
-    },
-    {
-        "job_title": "",
-        "job_location": "",
-        "JobLink": "https://jobs.lever.co/cresta/78382319-b731-44eb-901a-eb8618a1e745"
-    },
-    {
-        "job_title": "",
-        "job_location": "",
-        "JobLink": "https://boards.greenhouse.io/commercetools/jobs/5625646003"
-    },
-    {
-        "job_title": "",
-        "job_location": "",
-        "JobLink": "https://ocado.wd3.myworkdayjobs.com/en-US/OcadoGroupCareers/job/Barcelona/Software-Engineer-in-Test---Ecommerce-Platform---Production-Engineering_JR-2762"
-    },
-    {
-        "job_title": "",
-        "job_location": "",
-        "JobLink": "https://careers.morressier.com/jobs/2959411-security-focused-site-reliability-engineer"
-    },
-    {
-        "job_title": "",
-        "job_location": "",
-        "JobLink": "https://jobs.lever.co/bonial-2/d3e9cb0b-857c-4d4d-ba07-6793028e4f06"
-    },
-    {
-        "job_title": "",
-        "job_location": "",
-        "JobLink": "https://evbox.com/en/about/careers/job?gh_jid=5613534003"
-    },
-    {
-        "job_title": "",
-        "job_location": "",
-        "JobLink": "https://careers.gitguardian.com/jobs/2659309-senior-devops"
-    },
-    {
-        "job_title": "Senior Full Stack Software Engineer, DeepL",
-        "job_location": "Remote in Germany, Netherlands, UK",
-        "JobLink": "https://jobs.deepl.com/o/senior-full-stack-software-engineer-integrations-team"
-    },
-    {
-        "job_title": "Senior Full-stack Javascript Developer, WAAT",
-        "job_location": "Remote in EU, UK",
-        "JobLink": "https://join.com/companies/waat/8570602-senior-full-stack-javascript-developer-remote"
-    },
-    {
-        "job_title": "Postgres Quality Engineer, Neon",
-        "job_location": "Remote in EU, UK",
-        "JobLink": "https://boards.greenhouse.io/neondatabase/jobs/4926965004"
+        "job_title": "Senior Java Software Engineer, ThousandEyes",
+        "job_location": "Remote in Spain",
+        "JobLink": "https://boards.greenhouse.io/thousandeyes/jobs/3756117?gh_src=d61607e71us",
+        "job_posted": "18 July 2023 11:05 AM "
     },
     {
         "job_title": "Full Stack Web Developer, StarTree",
         "job_location": "Remote in Canada, EU, UK",
-        "JobLink": "https://boards.greenhouse.io/startree/jobs/4928144004"
-    },
-    {
-        "job_title": "Full Stack Engineer, Optibus",
-        "job_location": "Remote in Germany",
-        "JobLink": "https://www.comeet.com/jobs/optibus/D1.00C/full-stack-engineer-data/B9.93F"
+        "JobLink": "https://boards.greenhouse.io/startree/jobs/4928144004?utm_source=Otta",
+        "job_posted": "18 July 2023 11:36 AM "
     },
     {
         "job_title": "Software Engineer, Shopware",
         "job_location": "Remote in EU, UK",
-        "JobLink": "https://shopwareag.recruitee.com/l/en/o/software-engineer-3d-javascript-mwd"
-    },
-    {
-        "job_title": "Senior Full Stack Developer, Wallbox",
-        "job_location": "Barcelona",
-        "JobLink": "https://apply.workable.com/wallbox/j/104630DA56/"
-    },
-    {
-        "job_title": "Senior Full Stack Engineer, Social Sweethearts",
-        "job_location": "Remote in Germany",
-        "JobLink": "https://apply.workable.com/socialsweethearts/j/F0DDFB8DCD/"
-    },
-    {
-        "job_title": "Senior Backend Engineer, Knowunity",
-        "job_location": "Berlin",
-        "JobLink": "https://careers.knowunity.de/jobs/8d_Qt5RB4fYa/(Senior)%20Backend%20Engineer%20(m%2Ff%2Fx)"
-    },
-    {
-        "job_title": "Software Engineer (Streaming), Infomediji",
-        "job_location": "Remote in EU, UK",
-        "JobLink": "https://infomediji.com/#/.com"
-    },
-    {
-        "job_title": "Senior Frontend Engineer, Workato",
-        "job_location": "Remote in Germany",
-        "JobLink": "https://boards.greenhouse.io/workato/jobs/6822988002"
-    },
-    {
-        "job_title": "Senior Engineer, Ockam",
-        "job_location": "Remote in Canada, EU, UK, US",
-        "JobLink": "https://jobs.lever.co/ockam/55378c68-cb5c-4550-8687-890f9b8cdb29"
-    },
-    {
-        "job_title": "PHP Developer, WP-Media",
-        "job_location": "Remote in Canada, EU, UK, US",
-        "JobLink": "https://apply.workable.com/wp-media/j/F151D08C96/"
-    },
-    {
-        "job_title": "Principal Site Reliability Engineer, GoDaddy",
-        "job_location": "Remote in EU, UK",
-        "JobLink": "https://boards.greenhouse.io/godaddy/jobs/5614906003?gh_jid=5614906003"
-    },
-    {
-        "job_title": "SRE/DevOps Engineer, Vonage",
-        "job_location": "Remote in Spain",
-        "JobLink": "https://boards.greenhouse.io/vonage/jobs/6722934002?gh_src=62a0e62b2us"
-    },
-    {
-        "job_title": "Senior Frontend Developer, Cint",
-        "job_location": "Remote in Spain",
-        "JobLink": "https://www.careers.cint.com/jobs/2904952-senior-frontend-developer"
-    },
-    {
-        "job_title": "Staff .Net Engineer, Apaleo",
-        "job_location": "Remote in EU, UK",
-        "JobLink": "https://boards.greenhouse.io/apaleo/jobs/5610030003"
-    },
-    {
-        "job_title": "Senior PHP Developer, PerchPeek",
-        "job_location": "Remote in EU, UK",
-        "JobLink": "https://apply.workable.com/perchpeek/j/519B1FD966/"
-    },
-    {
-        "job_title": "Lead Platform Engineer, Personio",
-        "job_location": "Remote in Germany, Spain, Netherlands, UK",
-        "JobLink": "https://personio.jobs.personio.de/job/284166"
-    },
-    {
-        "job_title": "Online Services Developer, Virtex Stadium",
-        "job_location": "Remote in EU, UK",
-        "JobLink": "https://boards.eu.greenhouse.io/virtex/jobs/4107410101"
-    },
-    {
-        "job_title": "Senior Full-Stack Engineer, Penzilla",
-        "job_location": "Remote in Germany",
-        "JobLink": "https://penzilla-gmbh.jobs.personio.de/job/1072568"
-    },
-    {
-        "job_title": "Backend Engineer, Griffin",
-        "job_location": "Remote in Germany, Ireland, UK",
-        "JobLink": "https://griffin.sh/jobs?gh_jid=4202613003&gh_src=8e3cb92e3us"
-    },
-    {
-        "job_title": "Frontend Engineer, CleanHub",
-        "job_location": "Berlin",
-        "JobLink": "https://cleanhub.jobs.personio.de/job/579958"
-    },
-    {
-        "job_title": "Backend Engineer, Alcion",
-        "job_location": "Remote in Canada, EU, UK, US",
-        "JobLink": "https://jobs.lever.co/alcion/70058f5e-6ed3-41c2-9ccf-aa0dee7900f2"
-    },
-    {
-        "job_title": "Senior Staff Software Engineer, Mozilla",
-        "job_location": "Remote in Germany",
-        "JobLink": "https://boards.greenhouse.io/mozilla/jobs/5109823?gh_src=6886f70d1us"
-    },
-    {
-        "job_title": "Senior Software Engineer, Airwallex",
-        "job_location": "Amsterdam",
-        "JobLink": "https://jobs.lever.co/airwallex/0b1911a3-e878-4c19-bcb7-ed4f2a665e10"
-    },
-    {
-        "job_title": "Senior Software Engineer, Percona",
-        "job_location": "Remote in EU, UK",
-        "JobLink": "https://jobs.lever.co/percona/272d08cf-c22d-478d-9532-53a3a15e86ab"
-    },
-    {
-        "job_title": "Senior Software Engineer, ZOE",
-        "job_location": "Remote in EU, UK",
-        "JobLink": "https://jobs.lever.co/joinzoe/382af7d5-ee96-47a7-a516-f3529dc4bacc"
-    },
-    {
-        "job_title": "Senior Software Engineer, JustWatch",
-        "job_location": "Berlin",
-        "JobLink": "https://jobs.lever.co/justwatch/5ccc8a3e-d4b4-4b46-b64e-e88a40b0de6f"
-    },
-    {
-        "job_title": "Senior Software Engineer, sismo",
-        "job_location": "Remote in France",
-        "JobLink": "https://apply.workable.com/sismo-1/j/DE1EE3AA27/"
-    },
-    {
-        "job_title": "Senior Frontend Software Engineer, neptune.ai",
-        "job_location": "Remote in EU",
-        "JobLink": "https://boards.eu.greenhouse.io/neptuneai/jobs/4163493101?gh_src=b6620502teu"
-    },
-    {
-        "job_title": "Full Stack Software Engineer, LearnWorlds",
-        "job_location": "Remote in EU, UK",
-        "JobLink": "https://apply.workable.com/learnworlds/j/043EDA1224/"
-    },
-    {
-        "job_title": "Senior Backend Engineer, Craft",
-        "job_location": "Remote in EU",
-        "JobLink": "https://boards.greenhouse.io/craftdocs/jobs/4787444004?gh_src=2878c3ce4us"
-    },
-    {
-        "job_title": "Backend Software Engineer, Bankable",
-        "job_location": "Remote in Spain",
-        "JobLink": "https://apply.workable.com/bankable/j/126951EABF/"
-    },
-    {
-        "job_title": "Senior Site Reliability Engineer, Just Eat",
-        "job_location": "Berlin",
-        "JobLink": "https://wd3.myworkdaysite.com/en-US/recruiting/takeaway/JET-ECS-R/job/Berlin-Office/Senior-Site-Reliability-Engineer_R_032089"
-    },
-    {
-        "job_title": "Senior Site Reliability Engineer, Picnic",
-        "job_location": "Amsterdam",
-        "JobLink": "https://picnic.app/careers/jobs/4466490/technology--amp--engineering/amsterdam-north-holland-netherlands/senior-site-reliability-engineer"
-    },
-    {
-        "job_title": "Senior Frontend Developer, Collective Minds Radiology",
-        "job_location": "Barcelona",
-        "JobLink": "https://careers.cmrad.com/jobs/1007609-senior-frontend-developer-vue-js"
-    },
-    {
-        "job_title": "DevOps Engineer, Revinate",
-        "job_location": "Amsterdam",
-        "JobLink": "https://jobs.lever.co/revinate/866217d9-14ff-447a-9612-73de9e0bf25b"
-    },
-    {
-        "job_title": "Lead Developer, 1Komma5\u00b0",
-        "job_location": "Berlin",
-        "JobLink": "https://1komma5grad.jobs.personio.de/job/1175256"
-    },
-    {
-        "job_title": "Senior Site Reliability Engineer, Miro",
-        "job_location": "Amsterdam",
-        "JobLink": "https://miro.com/careers/vacancy/6680253002?gh_jid=6680253002"
-    },
-    {
-        "job_title": "Backend Technology Lead, Temper",
-        "job_location": "Amsterdam",
-        "JobLink": "https://temper2.recruitee.com/o/technology-lead-backend"
-    },
-    {
-        "job_title": "Platform Engineer, Dott",
-        "job_location": "Paris",
-        "JobLink": "https://jobs.lever.co/dott/df24e2ae-e9c0-45d8-8514-49f89f507aaa"
-    },
-    {
-        "job_title": "Senior Platform Engineer, Yassir",
-        "job_location": "Berlin",
-        "JobLink": "https://jobs.lever.co/Yassir/cd4a63d4-a3c0-485f-b40b-3bae7d06406b"
-    },
-    {
-        "job_title": "DevOps Engineer, Brevo",
-        "job_location": "Berlin",
-        "JobLink": "https://jobs.lever.co/brevo/b677cf94-4d5b-4ac7-8758-77e027ab739e"
-    },
-    {
-        "job_title": "Software Engineer, Turnitin",
-        "job_location": "Remote in Netherlands",
-        "JobLink": "https://jobs.smartrecruiters.com/TurnitinLLC/743999917237540-software-engineer-netherlands-remote-?utm_source=Otta"
-    },
-    {
-        "job_title": "Software Engineer, dLocal",
-        "job_location": "Remote in Spain",
-        "JobLink": "https://jobs.lever.co/dlocal/f36bc8c4-0950-4d08-a484-74f11bc851c5?lever-source=Otta"
-    },
-    {
-        "job_title": "Senior Frontend Engineer, AccelByte",
-        "job_location": "Remote in EU, UK",
-        "JobLink": "https://accelbyte.io/job?gh_jid=4256572005&utm_source=Otta"
-    },
-    {
-        "job_title": "Senior Fullstack Javascript Engineer, Weavr",
-        "job_location": "Remote in EU, UK",
-        "JobLink": "https://careers.weavr.io/jobs/2610304-senior-fullstack-javascript-engineer?utm_source=Otta"
-    },
-    {
-        "job_title": "Senior Software Engineer, Tucows",
-        "job_location": "Remote in EU, US",
-        "JobLink": "https://tucows.com/careers/jobs?%3Fgh_jid=5663234003&utm_source=Otta"
-    },
-    {
-        "job_title": "Lead Software Engineer, Enpal",
-        "job_location": "Berlin",
-        "JobLink": "https://jobs.smartrecruiters.com/EnpalBV/743999916951088-lead-software-engineer-f-m-d-financial-services?utm_source=Otta"
-    },
-    {
-        "job_title": "Fullstack Software Engineer, Datafold",
-        "job_location": "Remote in Canada, EU, UK, US",
-        "JobLink": "https://jobs.ashbyhq.com/datafold/a7e8e07d-c3c3-4b38-98a8-d540bb009e72?utm_source=Otta"
-    },
-    {
-        "job_title": "Senior Full Stack Software Engineer, Ride Capital",
-        "job_location": "Berlin",
-        "JobLink": "https://ride.jobs.personio.de/job/1170042"
-    },
-    {
-        "job_title": "Software Engineer, Eventbrite",
-        "job_location": "Remote in Spain",
-        "JobLink": "https://jobs.lever.co/eventbrite/5b2bd7ef-be42-4ec6-8df2-cec6295938ab"
-    },
-    {
-        "job_title": "Senior Software Engineer, Xentral",
-        "job_location": "Remote in Germany",
-        "JobLink": "https://jobs.eu.lever.co/xentral/8dc03fb0-8754-4b63-87c4-0b06523f3d4f"
-    },
-    {
-        "job_title": "Senior Full Stack & Frontend Engineer, Ada Health",
-        "job_location": "Remote in EU, UK",
-        "JobLink": "https://ada.com/careers/job/6757911002/?gh_jid=6757911002"
-    },
-    {
-        "job_title": "Senior Full Stack Engineer, WeRoad",
-        "job_location": "Remote in EU",
-        "JobLink": "https://weroad.hirehive.com/job/114965/freelance-piva-senior-full-stack-nodejstypescript-vuenuxt-engineer-european-remote"
-    },
-    {
-        "job_title": "Backend Engineer, Feeld",
-        "job_location": "Remote in Netherlands",
-        "JobLink": "https://apply.workable.com/feeldco/j/002EDE3738/"
-    },
-    {
-        "job_title": "Senior Frontend Engineer, Banxware",
-        "job_location": "Berlin",
-        "JobLink": "https://banxware.jobs.personio.com/job/1131641"
-    },
-    {
-        "job_title": "Frontend Engineer, Deel",
-        "job_location": "Remote in EU, UK",
-        "JobLink": "https://jobs.ashbyhq.com/Deel/19e52e04-b3da-44da-89a0-b13de607aff3"
-    },
-    {
-        "job_title": "Frontend & Backend Developer, Zaubar",
-        "job_location": "Berlin",
-        "JobLink": "https://join.com/companies/zaubar/8498413-frontend-and-backend-developer-for-gen-ai-metaverse-startup-in-berlin-hybrid"
-    },
-    {
-        "job_title": "Backend Software Engineer, Blueground",
-        "job_location": "Berlin",
-        "JobLink": "https://boards.greenhouse.io/blueground/jobs/4233460006"
-    },
-    {
-        "job_title": "Senior DevOps Engineer, AssemblyAI",
-        "job_location": "Remote in Canada, EU, UK, US",
-        "JobLink": "https://boards.greenhouse.io/assemblyai/jobs/4242944005"
-    },
-    {
-        "job_title": "Senior Infrastructure Engineer, Dataiku",
-        "job_location": "Remote in France",
-        "JobLink": "https://boards.greenhouse.io/dataiku/jobs/4811201004"
-    },
-    {
-        "job_title": "Senior DevSecOps Engineer, deepset",
-        "job_location": "Remote in EU",
-        "JobLink": "https://deepset.jobs.personio.de/job/1182225"
-    },
-    {
-        "job_title": "Senior Site Reliability Engineer, GitGuardian",
-        "job_location": "Remote in France",
-        "JobLink": "https://careers.gitguardian.com/jobs/1342892-senior-sre-site-reliability-engineer-devops"
-    },
-    {
-        "job_title": "Senior/Staff DevOps Engineer, Celonis",
-        "job_location": "Remote in Germany",
-        "JobLink": "https://boards.greenhouse.io/celonis/jobs/5566124003"
-    },
-    {
-        "job_title": "Senior Cloud Engineer, Mindera",
-        "job_location": "Remote in Spain",
-        "JobLink": "https://apply.workable.com/minderacraft/j/D4458C96A4/"
-    },
-    {
-        "job_title": "Senior Site Reliability Engineer, Workato",
-        "job_location": "Remote in Germany",
-        "JobLink": "https://boards.greenhouse.io/workato/jobs/6814471002"
-    },
-    {
-        "job_title": "Site Reliability Engineer, Giant Swarm",
-        "job_location": "Remote in EU, UK",
-        "JobLink": "https://giant-swarm.jobs.personio.de/job/180887"
-    },
-    {
-        "job_title": "DevOps Engineer, Coalesce Automation",
-        "job_location": "Remote in Canada, EU, UK, US",
-        "JobLink": "https://jobs.lever.co/coalesce.io/497eaa6d-bd10-438d-8ea9-0cf90a2b2d05"
-    },
-    {
-        "job_title": "DevOps Engineer, O(1) Labs",
-        "job_location": "Remote in EU",
-        "JobLink": "https://boards.greenhouse.io/o1labs/jobs/4908634004"
-    },
-    {
-        "job_title": "Backend Software Engineer, Pigment",
-        "job_location": "Remote in France",
-        "JobLink": "https://jobs.lever.co/pigment/bf7cacad-0f52-4db4-88d4-ad7b22bd852e"
-    },
-    {
-        "job_title": "Senior Full Stack Software Engineer, Ride Capital",
-        "job_location": "Berlin",
-        "JobLink": "https://ride.jobs.personio.de/job/1170042"
-    },
-    {
-        "job_title": "Software Engineer, Eventbrite",
-        "job_location": "Remote in Spain",
-        "JobLink": "https://jobs.lever.co/eventbrite/5b2bd7ef-be42-4ec6-8df2-cec6295938ab"
-    },
-    {
-        "job_title": "Senior Software Engineer, Xentral",
-        "job_location": "Remote in Germany",
-        "JobLink": "https://jobs.eu.lever.co/xentral/8dc03fb0-8754-4b63-87c4-0b06523f3d4f"
-    },
-    {
-        "job_title": "Senior Full Stack & Frontend Engineer, Ada Health",
-        "job_location": "Remote in EU, UK",
-        "JobLink": "https://ada.com/careers/job/6757911002/?gh_jid=6757911002"
-    },
-    {
-        "job_title": "Senior Full Stack Engineer, WeRoad",
-        "job_location": "Remote in EU",
-        "JobLink": "https://weroad.hirehive.com/job/114965/freelance-piva-senior-full-stack-nodejstypescript-vuenuxt-engineer-european-remote"
-    },
-    {
-        "job_title": "Backend Engineer, Feeld",
-        "job_location": "Remote in Netherlands",
-        "JobLink": "https://apply.workable.com/feeldco/j/002EDE3738/"
-    },
-    {
-        "job_title": "Senior Frontend Engineer, Banxware",
-        "job_location": "Berlin",
-        "JobLink": "https://banxware.jobs.personio.com/job/1131641"
-    },
-    {
-        "job_title": "Frontend Engineer, Deel",
-        "job_location": "Remote in EU, UK",
-        "JobLink": "https://jobs.ashbyhq.com/Deel/19e52e04-b3da-44da-89a0-b13de607aff3"
-    },
-    {
-        "job_title": "Frontend & Backend Developer, Zaubar",
-        "job_location": "Berlin",
-        "JobLink": "https://join.com/companies/zaubar/8498413-frontend-and-backend-developer-for-gen-ai-metaverse-startup-in-berlin-hybrid"
-    },
-    {
-        "job_title": "Backend Software Engineer, Blueground",
-        "job_location": "Berlin",
-        "JobLink": "https://boards.greenhouse.io/blueground/jobs/4233460006"
-    },
-    {
-        "job_title": "Senior DevOps Engineer, AssemblyAI",
-        "job_location": "Remote in Canada, EU, UK, US",
-        "JobLink": "https://boards.greenhouse.io/assemblyai/jobs/4242944005"
-    },
-    {
-        "job_title": "Senior Infrastructure Engineer, Dataiku",
-        "job_location": "Remote in France",
-        "JobLink": "https://boards.greenhouse.io/dataiku/jobs/4811201004"
-    },
-    {
-        "job_title": "Senior DevSecOps Engineer, deepset",
-        "job_location": "Remote in EU",
-        "JobLink": "https://deepset.jobs.personio.de/job/1182225"
-    },
-    {
-        "job_title": "Senior Site Reliability Engineer, GitGuardian",
-        "job_location": "Remote in France",
-        "JobLink": "https://careers.gitguardian.com/jobs/1342892-senior-sre-site-reliability-engineer-devops"
-    },
-    {
-        "job_title": "Senior/Staff DevOps Engineer, Celonis",
-        "job_location": "Remote in Germany",
-        "JobLink": "https://boards.greenhouse.io/celonis/jobs/5566124003"
-    },
-    {
-        "job_title": "Senior Cloud Engineer, Mindera",
-        "job_location": "Remote in Spain",
-        "JobLink": "https://apply.workable.com/minderacraft/j/D4458C96A4/"
-    },
-    {
-        "job_title": "Senior Site Reliability Engineer, Workato",
-        "job_location": "Remote in Germany",
-        "JobLink": "https://boards.greenhouse.io/workato/jobs/6814471002"
-    },
-    {
-        "job_title": "Site Reliability Engineer, Giant Swarm",
-        "job_location": "Remote in EU, UK",
-        "JobLink": "https://giant-swarm.jobs.personio.de/job/180887"
-    },
-    {
-        "job_title": "DevOps Engineer, Coalesce Automation",
-        "job_location": "Remote in Canada, EU, UK, US",
-        "JobLink": "https://jobs.lever.co/coalesce.io/497eaa6d-bd10-438d-8ea9-0cf90a2b2d05"
-    },
-    {
-        "job_title": "DevOps Engineer, O(1) Labs",
-        "job_location": "Remote in EU",
-        "JobLink": "https://boards.greenhouse.io/o1labs/jobs/4908634004"
-    },
-    {
-        "job_title": "Backend Software Engineer, Pigment",
-        "job_location": "Remote in France",
-        "JobLink": "https://jobs.lever.co/pigment/bf7cacad-0f52-4db4-88d4-ad7b22bd852e"
-    },
-    {
-        "job_title": "Senior Full Stack Software Engineer, Ride Capital",
-        "job_location": "Berlin",
-        "JobLink": "https://ride.jobs.personio.de/job/1170042"
-    },
-    {
-        "job_title": "Software Engineer, Eventbrite",
-        "job_location": "Remote in Spain",
-        "JobLink": "https://jobs.lever.co/eventbrite/5b2bd7ef-be42-4ec6-8df2-cec6295938ab"
-    },
-    {
-        "job_title": "Senior Software Engineer, Xentral",
-        "job_location": "Remote in Germany",
-        "JobLink": "https://jobs.eu.lever.co/xentral/8dc03fb0-8754-4b63-87c4-0b06523f3d4f"
-    },
-    {
-        "job_title": "Senior Full Stack & Frontend Engineer, Ada Health",
-        "job_location": "Remote in EU, UK",
-        "JobLink": "https://ada.com/careers/job/6757911002/?gh_jid=6757911002"
-    },
-    {
-        "job_title": "Senior Full Stack Engineer, WeRoad",
-        "job_location": "Remote in EU",
-        "JobLink": "https://weroad.hirehive.com/job/114965/freelance-piva-senior-full-stack-nodejstypescript-vuenuxt-engineer-european-remote"
-    },
-    {
-        "job_title": "Backend Engineer, Feeld",
-        "job_location": "Remote in Netherlands",
-        "JobLink": "https://apply.workable.com/feeldco/j/002EDE3738/"
-    },
-    {
-        "job_title": "Senior Frontend Engineer, Banxware",
-        "job_location": "Berlin",
-        "JobLink": "https://banxware.jobs.personio.com/job/1131641"
-    },
-    {
-        "job_title": "Frontend Engineer, Deel",
-        "job_location": "Remote in EU, UK",
-        "JobLink": "https://jobs.ashbyhq.com/Deel/19e52e04-b3da-44da-89a0-b13de607aff3"
-    },
-    {
-        "job_title": "Frontend & Backend Developer, Zaubar",
-        "job_location": "Berlin",
-        "JobLink": "https://join.com/companies/zaubar/8498413-frontend-and-backend-developer-for-gen-ai-metaverse-startup-in-berlin-hybrid"
-    },
-    {
-        "job_title": "Backend Software Engineer, Blueground",
-        "job_location": "Berlin",
-        "JobLink": "https://boards.greenhouse.io/blueground/jobs/4233460006"
-    },
-    {
-        "job_title": "Senior DevOps Engineer, AssemblyAI",
-        "job_location": "Remote in Canada, EU, UK, US",
-        "JobLink": "https://boards.greenhouse.io/assemblyai/jobs/4242944005"
-    },
-    {
-        "job_title": "Senior Infrastructure Engineer, Dataiku",
-        "job_location": "Remote in France",
-        "JobLink": "https://boards.greenhouse.io/dataiku/jobs/4811201004"
-    },
-    {
-        "job_title": "Senior DevSecOps Engineer, deepset",
-        "job_location": "Remote in EU",
-        "JobLink": "https://deepset.jobs.personio.de/job/1182225"
-    },
-    {
-        "job_title": "Senior Site Reliability Engineer, GitGuardian",
-        "job_location": "Remote in France",
-        "JobLink": "https://careers.gitguardian.com/jobs/1342892-senior-sre-site-reliability-engineer-devops"
-    },
-    {
-        "job_title": "Senior/Staff DevOps Engineer, Celonis",
-        "job_location": "Remote in Germany",
-        "JobLink": "https://boards.greenhouse.io/celonis/jobs/5566124003"
-    },
-    {
-        "job_title": "Senior Cloud Engineer, Mindera",
-        "job_location": "Remote in Spain",
-        "JobLink": "https://apply.workable.com/minderacraft/j/D4458C96A4/"
-    },
-    {
-        "job_title": "Senior Site Reliability Engineer, Workato",
-        "job_location": "Remote in Germany",
-        "JobLink": "https://boards.greenhouse.io/workato/jobs/6814471002"
-    },
-    {
-        "job_title": "Site Reliability Engineer, Giant Swarm",
-        "job_location": "Remote in EU, UK",
-        "JobLink": "https://giant-swarm.jobs.personio.de/job/180887"
-    },
-    {
-        "job_title": "DevOps Engineer, Coalesce Automation",
-        "job_location": "Remote in Canada, EU, UK, US",
-        "JobLink": "https://jobs.lever.co/coalesce.io/497eaa6d-bd10-438d-8ea9-0cf90a2b2d05"
-    },
-    {
-        "job_title": "DevOps Engineer, O(1) Labs",
-        "job_location": "Remote in EU",
-        "JobLink": "https://boards.greenhouse.io/o1labs/jobs/4908634004"
-    },
-    {
-        "job_title": "Backend Software Engineer, Pigment",
-        "job_location": "Remote in France",
-        "JobLink": "https://jobs.lever.co/pigment/bf7cacad-0f52-4db4-88d4-ad7b22bd852e"
-    },
-    {
-        "job_title": "Senior Full Stack Software Engineer, Ride Capital",
-        "job_location": "Berlin",
-        "JobLink": "https://ride.jobs.personio.de/job/1170042"
-    },
-
-    {
-        "job_title": "Senior Full Stack Software Engineer, Ride Capital",
-        "job_location": "Berlin",
-        "JobLink": "https://ride.jobs.personio.de/job/1170042"
-    },
-    {
-        "job_title": "Fullstack Software Engineer, Datafold",
-        "job_location": "Remote in Canada, EU, UK, US",
-        "JobLink": "https://jobs.ashbyhq.com/datafold/a7e8e07d-c3c3-4b38-98a8-d540bb009e72?utm_source=Otta"
-    },
-    {
-        "job_title": "Full Stack Engineer, Porsche Digital",
-        "job_location": "Barcelona",
-        "JobLink": "https://porsche-digital.softgarden.io/job/33457492/FULL-STACK-ENGINEER-%E2%80%93-COMMUNITIES-TEAM-F-M-D-?jobDbPVId=85920236&l=en&utm_source=Otta"
-    },
-    {
-        "job_title": "Backend Software Engineer, Block",
-        "job_location": "Remote in Germany",
-        "JobLink": "https://jobs.smartrecruiters.com/Square/743999918317674-backend-software-engineer-authentication-and-identity-tidal?utm_source=Otta"
-    },
-    {
-        "job_title": "Senior Backend Engineer, Back Market",
-        "job_location": "Remote in Spain",
-        "JobLink": "https://jobs.lever.co/backmarket/06f47343-9d60-4d4f-a02d-57f36a488d8e?lever-source=Otta"
-    },
-    {
-        "job_title": "Senior Backend Engineer, flooz",
-        "job_location": "Remote in EU, UK",
-        "JobLink": "https://join.com/companies/flooz/8595191-senior-backend-engineer-f-m-d-remote?utm_source=Otta"
+        "JobLink": "https://shopwareag.recruitee.com/l/en/o/software-engineer-3d-javascript-mwd?utm_source=Otta",
+        "job_posted": "18 July 2023 11:37 AM "
     },
     {
         "job_title": "Full-Stack Remote Developer, flair",
         "job_location": "Remote in EU, UK",
-        "JobLink": "https://flair.jobs.flair.hr/a0Y2p00000OpfWCEAZ?utm_source=Otta"
+        "JobLink": "https://flair.jobs.flair.hr/a0Y2p00000OpfWCEAZ?utm_source=Otta",
+        "job_posted": "18 July 2023 11:37 AM "
     },
     {
-        "job_title": "Senior/Lead Backend Developer, Speckle",
-        "job_location": "Remote in Canada, EU, UK, US",
-        "JobLink": "https://speckle.jobs.personio.com/job/1179195?utm_source=Otta"
+        "job_title": "Senior Full Stack Developer, Wallbox",
+        "job_location": "Barcelona",
+        "JobLink": "https://apply.workable.com/wallbox/j/104630DA56/?utm_source=Otta",
+        "job_posted": "18 July 2023 11:37 AM "
     },
     {
-        "job_title": "Front End Developer, Overleaf",
-        "job_location": "Remote in EU, UK",
-        "JobLink": "https://digitalscience.pinpointhq.com/en/postings/847e7b68-5a5b-4902-a64d-fa2ac290105d?utm_source=Otta"
+        "job_title": "Senior Full Stack Software Engineer, DeepL",
+        "job_location": "Remote in Germany, Netherlands, UK",
+        "JobLink": "https://jobs.deepl.com/o/senior-full-stack-software-engineer-integrations-team?utm_source=Otta",
+        "job_posted": "18 July 2023 11:37 AM "
     },
     {
-        "job_title": "Senior Frontend Engineer, Vendr",
-        "job_location": "Remote in Canada, EU, UK, US",
-        "JobLink": "https://boards.greenhouse.io/vendr?gh_jid=4539989004&utm_source=Otta"
-    },
-    {
-        "job_title": "Senior Go Engineer, Creative Fabrica",
-        "job_location": "Amsterdam",
-        "JobLink": "https://boards.eu.greenhouse.io/creativefabrica/jobs/4192810101?gh_src=a7e9b972teu"
-    },
-    {
-        "job_title": "DevOps Manager, CERE Network",
-        "job_location": "Remote in EU, UK",
-        "JobLink": "https://jobs.lever.co/cere-network/ea1fbde4-8e26-4479-bd03-457293a7855f?lever-source=Otta"
-    },
-    {
-        "job_title": "Staff Software Engineer, Xata",
+        "job_title": "Senior DevSecOps Engineer, deepset",
         "job_location": "Remote in EU",
-        "JobLink": "https://xataio-1680192386.teamtailor.com/jobs/2942243-staff-software-engineer?utm_source=Otta"
+        "JobLink": "https://deepset.jobs.personio.de/job/1182225?utm_source=Otta",
+        "job_posted": "18 July 2023 11:37 AM "
     },
     {
-        "job_title": "PHP Developer, Team ITG",
-        "job_location": "Remote in Netherlands",
-        "JobLink": "https://apply.workable.com/teamitg/j/B9153AA0FA/?utm_source=Otta"
-    },
-    {
-        "job_title": "Senior Systems Engineer, Dailymotion",
-        "job_location": "Remote in France",
-        "JobLink": "https://jobs.smartrecruiters.com/Dailymotion/743999806466679-senior-systems-engineer-storage-all-genders-?utm_source=Otta"
-    },
-    {
-        "job_title": "Senior Cloud Developer, 1NCE",
-        "job_location": "Remote in Germany",
-        "JobLink": "https://1nce.jobs.personio.com/job/966806?utm_source=Otta"
-    },
-    {
-        "job_title": "Full-Stack JavaScript Developer, Planhat",
-        "job_location": "Remote in EU, UK",
-        "JobLink": "https://emp.jobylon.com/jobs/140816-planhat-remote-full-stack-javascript-developer/?utm_source=Otta"
-    },
-    {
-        "job_title": "Senior Backend Software Engineer, Enlyze",
-        "job_location": "Remote in Germany",
-        "JobLink": "https://jobs.smartrecruiters.com/ENLYZE/743999821711313-senior-software-engineer-backend-f-m-d-?utm_source=Otta"
-    },
-    {
-        "job_title": "Senior Full Stack Engineer, Hopin",
-        "job_location": "Remote in Spain",
-        "JobLink": "https://boards.greenhouse.io/hopin/jobs/5552053003?utm_source=Otta"
-    },
-    {
-        "job_title": "Platform Engineer, Giant Swarm",
-        "job_location": "Remote in Germany",
-        "JobLink": "https://giant-swarm.jobs.personio.de/job/166734?utm_source=Otta"
-    },
-    {
-        "job_title": "Site Reliability Engineer, MoonPay",
-        "job_location": "Remote in EU, UK",
-        "JobLink": "https://boards.greenhouse.io/moonpay/jobs/5662708003?utm_source=Otta"
-    },
-    {
-        "job_title": "Senior Webflow Developer, Moonfare",
+        "job_title": "Senior C# Software Engineer, Enpal",
         "job_location": "Berlin",
-        "JobLink": "https://www.moonfare.com/open-position/?gh_jid=5643438003&utm_source=Otta"
+        "JobLink": "https://jobs.smartrecruiters.com/EnpalBV/743999918870463-senior-software-engineer-c-f-m-d-?utm_source=Otta",
+        "job_posted": "18 July 2023 11:37 AM "
     },
     {
-        "job_title": "Senior Frontend Engineer, Prima",
-        "job_location": "Remote in Spain",
-        "JobLink": "https://apply.workable.com/primait/j/B151CB68F1/?utm_source=Otta"
-    },
-    {
-        "job_title": "Senior Full Stack Engineer, DigiSure Insurance Solutions",
-        "job_location": "Remote in Canada, EU, UK, US",
-        "JobLink": "https://digisure.rippling-ats.com/job/362302/senior-full-stack-engineer?utm_source=Otta"
-    },
-    {
-        "job_title": "Senior Software Engineer, Kraken",
-        "job_location": "Remote in Canada, EU, UK, US",
-        "JobLink": "https://jobs.lever.co/kraken/42ac2968-f431-41b9-8470-253d4cda8d28?lever-source=Otta"
-    },
-    {
-        "job_title": "Senior Backend Software Engineer, SwissBorg",
-        "job_location": "Paris",
-        "JobLink": "https://jobs.lever.co/swissborg/cb75c6ed-cffe-45ac-9624-a900be20ef1e?lever-source=Otta"
-    },
-    {
-        "job_title": "Backend Engineer, symmetrical.ai",
-        "job_location": "Remote in EU, UK",
-        "JobLink": "https://apply.workable.com/symmetricalai/j/2FEDB549BC/?utm_source=Otta"
-    },
-    {
-        "job_title": "Backend Software Engineer, Caravelo",
-        "job_location": "Barcelona",
-        "JobLink": "https://caravelo.jobs.personio.com/job/1164682?utm_source=Otta"
-    },
-    {
-        "job_title": "Software Engineer, Status",
-        "job_location": "Remote in Canada, EU, UK, US",
-        "JobLink": "https://jobs.status.im/?gh_jid=5113467&utm_source=Otta"
-    },
-    {
-        "job_title": "Senior Product Engineer, Upvest",
-        "job_location": "Remote in Germany",
-        "JobLink": "https://careers.upvest.co/jobs/1860859-senior-product-engineer-investment-data-and-reporting-f-m-d?utm_source=Otta"
-    },
-    {
-        "job_title": "Senior Software Engineer, Protocol Labs",
-        "job_location": "Remote in Canada, EU, UK, US",
-        "JobLink": "https://boards.greenhouse.io/protocollabs/jobs/4886145004?utm_source=Otta"
-    },
-    {
-        "job_title": "Backend Engineer, SoundCloud",
+        "job_title": "Senior DevOps Engineer, Raisin",
         "job_location": "Berlin",
-        "JobLink": "https://careers.soundcloud.com/job?gh_jid=6629137002&utm_source=Otta"
+        "JobLink": "https://raisin.jobs.personio.de/job/1186737?utm_source=Otta",
+        "job_posted": "18 July 2023 11:37 AM "
     },
-    {
-        "job_title": "Senior Software Developer, Pinpoint",
-        "job_location": "Remote in EU, UK",
-        "JobLink": "https://workwithus.pinpointhq.com/en/postings/71036f75-553b-4db5-981b-5fe9e615c5ac?utm_source=Otta"
-    },
-    {
-        "job_title": "Senior Frontend Engineer, Gigs",
-        "job_location": "Remote in EU, UK",
-        "JobLink": "https://apply.workable.com/gigs/j/259E3FB49A/?utm_source=Otta"
-    },
-    {
-        "job_title": "Senior Software Engineer, Docker",
-        "job_location": "Remote in EU, UK",
-        "JobLink": "https://jobs.ashbyhq.com/docker/b8f8608f-6191-4285-b63d-b03900b5f159?utm_source=Otta"
-    },
-    {
-        "job_title": "Senior Backend Engineer, Fever",
-        "job_location": "Remote in Spain",
-        "JobLink": "https://boards.greenhouse.io/feverup/jobs/4085720101?utm_source=Otta"
-    },
-    {
-        "job_title": "Principal Software Engineer, Bobsled",
-        "job_location": "Remote in EU, US",
-        "JobLink": "https://boards.greenhouse.io/bobsledinc/jobs/4110666005?gh_jid=4110666005&utm_source=Otta"
-    },
-    {
-        "job_title": "Senior Backend Engineer, Shine",
-        "job_location": "Remote in EU, UK",
-        "JobLink": "https://careers.shine.fr/jobs/2863511-senior-backend-engineer-platform?utm_source=Otta"
-    },
-    {
-        "job_title": "Senior Frontend Engineer, Katanox",
-        "job_location": "Amsterdam",
-        "JobLink": "https://careers.katanox.com/senior-front-end-engineer/en?utm_source=Otta"
-    },
-    {
-        "job_title": "Search Engineer, Brave",
-        "job_location": "Remote in EU, UK",
-        "JobLink": "https://boards.greenhouse.io/brave/jobs/4822139?utm_source=Otta"
-    },
-    {
-        "job_title": "Senior Frontend Software Engineer, Club",
-        "job_location": "Remote in France, US",
-        "JobLink": "https://club.crew.work/jobs/61e98ecc035d0abac3ffdda5?utm_source=Otta"
-    },
-    {
-        "job_title": "Python Backend Engineer, Altruistiq",
-        "job_location": "Remote in Canada, EU, US",
-        "JobLink": "https://boards.eu.greenhouse.io/altruistiq/jobs/4173862101?gh_src=98e18af2teu"
-    },
-    {
-        "job_title": "Senior Backend Engineer, Charles",
-        "job_location": "Berlin",
-        "JobLink": "https://boards.eu.greenhouse.io/charles/jobs/4174849101?gh_src=ab4c1b42teu"
-    },
-    {
-        "job_title": "Javascript Senior Software Engineer, Ledger",
-        "job_location": "Paris",
-        "JobLink": "https://jobs.lever.co/ledger/eb044e28-7e60-4829-83ae-01dd135d4fe2?lever-source=Otta"
-    },
-    {
-        "job_title": "Fullstack Developer, TP24",
-        "job_location": "Remote in EU, UK",
-        "JobLink": "https://tp24group.com/?utm_source=otta.com"
-    },
-    {
-        "job_title": "Senior Software Engineer, PPRO",
-        "job_location": "Berlin",
-        "JobLink": "https://jobs.lever.co/ppro/faa99e03-523a-44a4-86fe-c845315d79bb?lever-source=Otta"
-    },
-    {
-        "job_title": "Senior Software Engineer, Flexport",
-        "job_location": "Amsterdam",
-        "JobLink": "https://boards.greenhouse.io/flexport/jobs/3818408?gh_src=ebc9ba901us"
-    },
-    {
-        "job_title": "Lead Backend Engineer, Mimica",
-        "job_location": "Remote in EU, UK",
-        "JobLink": "https://apply.workable.com/mimica-automation/j/9085737E1B/?utm_source=Otta"
-    },
-    {
-        "job_title": "Senior Software Engineer, Timescale",
-        "job_location": "Remote in Canada, EU, UK, US",
-        "JobLink": "https://www.timescale.com/careers/6652057002?gh_jid=6652057002&gh_src=25afb8d22us"
-    },
-    {
-        "job_title": "Senior Software Engineer, MessageBird",
-        "job_location": "Remote in EU, UK",
-        "JobLink": "https://jobs.ashbyhq.com/messagebird/ef8f538e-8c39-4dcc-bbf2-ebd92bb9939c?utm_source=Otta"
-    },
-    {
-        "job_title": "Senior Fullstack Engineer, Choco",
-        "job_location": "Berlin",
-        "JobLink": "https://app.careerpuck.com/job-board/choco/job/4763482003?gh_jid=4763482003&gh_src=dd5306693us"
-    },
-    {
-        "job_title": "DevOps Engineer, Red Points",
-        "job_location": "Barcelona",
-        "JobLink": "https://jobs.smartrecruiters.com/RedPoints1/743999894209979-devops-engineer?utm_source=Otta"
-    },
-    {
-        "job_title": "CI/CD Engineer, Scaleway",
-        "job_location": "Paris",
-        "JobLink": "https://jobs.lever.co/scaleway/fabd7781-87fa-4d33-949b-21d239098061?lever-source=Otta"
-    },
-    {
-        "job_title": "DevOps Software Engineer, DNA Script",
-        "job_location": "Paris",
-        "JobLink": "https://dnascript.com/careers?gh_jid=4147936101&utm_source=Otta"
-    },
-    {
-        "job_title": "PHP Developer, Starred",
-        "job_location": "Amsterdam",
-        "JobLink": "https://jobs.starred.com/backend-developer-2/en?utm_source=Otta"
-    },
-    {
-        "job_title": "Senior Software Engineer, King",
-        "job_location": "Barcelona",
-        "JobLink": "https://careers.king.com/jobs/job/r016693-senior-software-engineer-telemetry-streaming-shared-tech/?utm_source=Otta"
-    },
-    {
-        "job_title": "Lead DevOps Engineer, Intenseye",
-        "job_location": "Berlin",
-        "JobLink": "https://jobs.lever.co/intenseye/36e874da-2a36-4cca-908e-8388070b1cfb?lever-source=Otta"
-    },
-    {
-        "job_title": "Frontend Engineering Lead, myTomorrows",
-        "job_location": "Amsterdam",
-        "JobLink": "https://mytomorrows.recruitee.com/o/frontend-engineering-lead?utm_source=Otta"
-    },
-    {
-        "job_title": "Senior PHP Developer, ManyChat",
-        "job_location": "Barcelona",
-        "JobLink": "https://boards.greenhouse.io/manychat/jobs/6764046002?gh_jid=6764046002&utm_source=Otta"
-    },
-    {
-        "job_title": "Quality Engineer, PlayPlay",
-        "job_location": "Paris",
-        "JobLink": "https://jobs.lever.co/playplay/73c7e7b0-af8b-4e29-9114-9b0c5ac01112?lever-source=Otta"
-    },
-    {
-        "job_title": "Senior Full Stack Software Engineer, Scaler",
-        "job_location": "Amsterdam",
-        "JobLink": "https://jobs.ashbyhq.com/scaler/f782ee8e-db22-469d-980e-84a1ed240970?utm_source=Otta"
-    },
-    {
-      "job_title": "Senior Full Stack Software Engineer, Ride Capital",
-      "job_location": "Berlin",
-      "JobLink": "https://ride.jobs.personio.de/job/1170042"
-  },
-  {
-      "job_title": "Fullstack Software Engineer, Datafold",
-      "job_location": "Remote in Canada, EU, UK, US",
-      "JobLink": "https://jobs.ashbyhq.com/datafold/a7e8e07d-c3c3-4b38-98a8-d540bb009e72?utm_source=Otta"
-  },
-  {
-      "job_title": "Full Stack Engineer, Porsche Digital",
-      "job_location": "Barcelona",
-      "JobLink": "https://porsche-digital.softgarden.io/job/33457492/FULL-STACK-ENGINEER-%E2%80%93-COMMUNITIES-TEAM-F-M-D-?jobDbPVId=85920236&l=en&utm_source=Otta"
-  },
-  {
-      "job_title": "Backend Software Engineer, Block",
-      "job_location": "Remote in Germany",
-      "JobLink": "https://jobs.smartrecruiters.com/Square/743999918317674-backend-software-engineer-authentication-and-identity-tidal?utm_source=Otta"
-  },
-  {
-      "job_title": "Senior Backend Engineer, Back Market",
-      "job_location": "Remote in Spain",
-      "JobLink": "https://jobs.lever.co/backmarket/06f47343-9d60-4d4f-a02d-57f36a488d8e?lever-source=Otta"
-  },
-  {
-      "job_title": "Senior Backend Engineer, flooz",
-      "job_location": "Remote in EU, UK",
-      "JobLink": "https://join.com/companies/flooz/8595191-senior-backend-engineer-f-m-d-remote?utm_source=Otta"
-  },
-  {
-      "job_title": "Full-Stack Remote Developer, flair",
-      "job_location": "Remote in EU, UK",
-      "JobLink": "https://flair.jobs.flair.hr/a0Y2p00000OpfWCEAZ?utm_source=Otta"
-  },
-  {
-      "job_title": "Senior/Lead Backend Developer, Speckle",
-      "job_location": "Remote in Canada, EU, UK, US",
-      "JobLink": "https://speckle.jobs.personio.com/job/1179195?utm_source=Otta"
-  },
-  {
-      "job_title": "Front End Developer, Overleaf",
-      "job_location": "Remote in EU, UK",
-      "JobLink": "https://digitalscience.pinpointhq.com/en/postings/847e7b68-5a5b-4902-a64d-fa2ac290105d?utm_source=Otta"
-  },
-  {
-      "job_title": "Senior Frontend Engineer, Vendr",
-      "job_location": "Remote in Canada, EU, UK, US",
-      "JobLink": "https://boards.greenhouse.io/vendr?gh_jid=4539989004&utm_source=Otta"
-  },
-  {
-      "job_title": "Senior Go Engineer, Creative Fabrica",
-      "job_location": "Amsterdam",
-      "JobLink": "https://boards.eu.greenhouse.io/creativefabrica/jobs/4192810101?gh_src=a7e9b972teu"
-  },
-  {
-      "job_title": "DevOps Manager, CERE Network",
-      "job_location": "Remote in EU, UK",
-      "JobLink": "https://jobs.lever.co/cere-network/ea1fbde4-8e26-4479-bd03-457293a7855f?lever-source=Otta"
-  },
-  {
-      "job_title": "Staff Software Engineer, Xata",
-      "job_location": "Remote in EU",
-      "JobLink": "https://xataio-1680192386.teamtailor.com/jobs/2942243-staff-software-engineer?utm_source=Otta"
-  },
-  {
-      "job_title": "PHP Developer, Team ITG",
-      "job_location": "Remote in Netherlands",
-      "JobLink": "https://apply.workable.com/teamitg/j/B9153AA0FA/?utm_source=Otta"
-  },
-  {
-      "job_title": "Senior Systems Engineer, Dailymotion",
-      "job_location": "Remote in France",
-      "JobLink": "https://jobs.smartrecruiters.com/Dailymotion/743999806466679-senior-systems-engineer-storage-all-genders-?utm_source=Otta"
-  },
-  {
-      "job_title": "Senior Cloud Developer, 1NCE",
-      "job_location": "Remote in Germany",
-      "JobLink": "https://1nce.jobs.personio.com/job/966806?utm_source=Otta"
-  },
-  {
-      "job_title": "Full-Stack JavaScript Developer, Planhat",
-      "job_location": "Remote in EU, UK",
-      "JobLink": "https://emp.jobylon.com/jobs/140816-planhat-remote-full-stack-javascript-developer/?utm_source=Otta"
-  },
-  {
-      "job_title": "Senior Backend Software Engineer, Enlyze",
-      "job_location": "Remote in Germany",
-      "JobLink": "https://jobs.smartrecruiters.com/ENLYZE/743999821711313-senior-software-engineer-backend-f-m-d-?utm_source=Otta"
-  },
-  {
-      "job_title": "Senior Full Stack Engineer, Hopin",
-      "job_location": "Remote in Spain",
-      "JobLink": "https://boards.greenhouse.io/hopin/jobs/5552053003?utm_source=Otta"
-  },
-  {
-      "job_title": "Platform Engineer, Giant Swarm",
-      "job_location": "Remote in Germany",
-      "JobLink": "https://giant-swarm.jobs.personio.de/job/166734?utm_source=Otta"
-  },
-  {
-      "job_title": "Site Reliability Engineer, MoonPay",
-      "job_location": "Remote in EU, UK",
-      "JobLink": "https://boards.greenhouse.io/moonpay/jobs/5662708003?utm_source=Otta"
-  },
-  {
-      "job_title": "Senior Webflow Developer, Moonfare",
-      "job_location": "Berlin",
-      "JobLink": "https://www.moonfare.com/open-position/?gh_jid=5643438003&utm_source=Otta"
-  },
-  {
-      "job_title": "Senior Frontend Engineer, Prima",
-      "job_location": "Remote in Spain",
-      "JobLink": "https://apply.workable.com/primait/j/B151CB68F1/?utm_source=Otta"
-  },
-  {
-      "job_title": "Senior Full Stack Engineer, DigiSure Insurance Solutions",
-      "job_location": "Remote in Canada, EU, UK, US",
-      "JobLink": "https://digisure.rippling-ats.com/job/362302/senior-full-stack-engineer?utm_source=Otta"
-  },
-  {
-      "job_title": "Senior Software Engineer, Kraken",
-      "job_location": "Remote in Canada, EU, UK, US",
-      "JobLink": "https://jobs.lever.co/kraken/42ac2968-f431-41b9-8470-253d4cda8d28?lever-source=Otta"
-  },
-  {
-      "job_title": "Senior Backend Software Engineer, SwissBorg",
-      "job_location": "Paris",
-      "JobLink": "https://jobs.lever.co/swissborg/cb75c6ed-cffe-45ac-9624-a900be20ef1e?lever-source=Otta"
-  },
-  {
-      "job_title": "Backend Engineer, symmetrical.ai",
-      "job_location": "Remote in EU, UK",
-      "JobLink": "https://apply.workable.com/symmetricalai/j/2FEDB549BC/?utm_source=Otta"
-  },
-  {
-      "job_title": "Backend Software Engineer, Caravelo",
-      "job_location": "Barcelona",
-      "JobLink": "https://caravelo.jobs.personio.com/job/1164682?utm_source=Otta"
-  },
-  {
-      "job_title": "Software Engineer, Status",
-      "job_location": "Remote in Canada, EU, UK, US",
-      "JobLink": "https://jobs.status.im/?gh_jid=5113467&utm_source=Otta"
-  },
-  {
-      "job_title": "Senior Product Engineer, Upvest",
-      "job_location": "Remote in Germany",
-      "JobLink": "https://careers.upvest.co/jobs/1860859-senior-product-engineer-investment-data-and-reporting-f-m-d?utm_source=Otta"
-  },
-  {
-      "job_title": "Senior Software Engineer, Protocol Labs",
-      "job_location": "Remote in Canada, EU, UK, US",
-      "JobLink": "https://boards.greenhouse.io/protocollabs/jobs/4886145004?utm_source=Otta"
-  },
-  {
-      "job_title": "Backend Engineer, SoundCloud",
-      "job_location": "Berlin",
-      "JobLink": "https://careers.soundcloud.com/job?gh_jid=6629137002&utm_source=Otta"
-  },
-  {
-      "job_title": "Senior Software Developer, Pinpoint",
-      "job_location": "Remote in EU, UK",
-      "JobLink": "https://workwithus.pinpointhq.com/en/postings/71036f75-553b-4db5-981b-5fe9e615c5ac?utm_source=Otta"
-  },
-  {
-      "job_title": "Senior Frontend Engineer, Gigs",
-      "job_location": "Remote in EU, UK",
-      "JobLink": "https://apply.workable.com/gigs/j/259E3FB49A/?utm_source=Otta"
-  },
-  {
-      "job_title": "Senior Software Engineer, Docker",
-      "job_location": "Remote in EU, UK",
-      "JobLink": "https://jobs.ashbyhq.com/docker/b8f8608f-6191-4285-b63d-b03900b5f159?utm_source=Otta"
-  },
-  {
-      "job_title": "Senior Backend Engineer, Fever",
-      "job_location": "Remote in Spain",
-      "JobLink": "https://boards.greenhouse.io/feverup/jobs/4085720101?utm_source=Otta"
-  },
-  {
-      "job_title": "Principal Software Engineer, Bobsled",
-      "job_location": "Remote in EU, US",
-      "JobLink": "https://boards.greenhouse.io/bobsledinc/jobs/4110666005?gh_jid=4110666005&utm_source=Otta"
-  },
-  {
-      "job_title": "Senior Backend Engineer, Shine",
-      "job_location": "Remote in EU, UK",
-      "JobLink": "https://careers.shine.fr/jobs/2863511-senior-backend-engineer-platform?utm_source=Otta"
-  },
-  {
-      "job_title": "Senior Frontend Engineer, Katanox",
-      "job_location": "Amsterdam",
-      "JobLink": "https://careers.katanox.com/senior-front-end-engineer/en?utm_source=Otta"
-  },
-  {
-      "job_title": "Search Engineer, Brave",
-      "job_location": "Remote in EU, UK",
-      "JobLink": "https://boards.greenhouse.io/brave/jobs/4822139?utm_source=Otta"
-  },
-  {
-      "job_title": "Senior Frontend Software Engineer, Club",
-      "job_location": "Remote in France, US",
-      "JobLink": "https://club.crew.work/jobs/61e98ecc035d0abac3ffdda5?utm_source=Otta"
-  },
-  {
-      "job_title": "Python Backend Engineer, Altruistiq",
-      "job_location": "Remote in Canada, EU, US",
-      "JobLink": "https://boards.eu.greenhouse.io/altruistiq/jobs/4173862101?gh_src=98e18af2teu"
-  },
-  {
-      "job_title": "Senior Backend Engineer, Charles",
-      "job_location": "Berlin",
-      "JobLink": "https://boards.eu.greenhouse.io/charles/jobs/4174849101?gh_src=ab4c1b42teu"
-  },
-  {
-      "job_title": "Javascript Senior Software Engineer, Ledger",
-      "job_location": "Paris",
-      "JobLink": "https://jobs.lever.co/ledger/eb044e28-7e60-4829-83ae-01dd135d4fe2?lever-source=Otta"
-  },
-  {
-      "job_title": "Fullstack Developer, TP24",
-      "job_location": "Remote in EU, UK",
-      "JobLink": "https://tp24group.com/?utm_source=otta.com"
-  },
-  {
-      "job_title": "Senior Software Engineer, PPRO",
-      "job_location": "Berlin",
-      "JobLink": "https://jobs.lever.co/ppro/faa99e03-523a-44a4-86fe-c845315d79bb?lever-source=Otta"
-  },
-  {
-      "job_title": "Senior Software Engineer, Flexport",
-      "job_location": "Amsterdam",
-      "JobLink": "https://boards.greenhouse.io/flexport/jobs/3818408?gh_src=ebc9ba901us"
-  },
-  {
-      "job_title": "Lead Backend Engineer, Mimica",
-      "job_location": "Remote in EU, UK",
-      "JobLink": "https://apply.workable.com/mimica-automation/j/9085737E1B/?utm_source=Otta"
-  },
-  {
-      "job_title": "Senior Software Engineer, Timescale",
-      "job_location": "Remote in Canada, EU, UK, US",
-      "JobLink": "https://www.timescale.com/careers/6652057002?gh_jid=6652057002&gh_src=25afb8d22us"
-  },
-  {
-      "job_title": "Senior Software Engineer, MessageBird",
-      "job_location": "Remote in EU, UK",
-      "JobLink": "https://jobs.ashbyhq.com/messagebird/ef8f538e-8c39-4dcc-bbf2-ebd92bb9939c?utm_source=Otta"
-  },
-  {
-      "job_title": "Senior Fullstack Engineer, Choco",
-      "job_location": "Berlin",
-      "JobLink": "https://app.careerpuck.com/job-board/choco/job/4763482003?gh_jid=4763482003&gh_src=dd5306693us"
-  },
-  {
-      "job_title": "DevOps Engineer, Red Points",
-      "job_location": "Barcelona",
-      "JobLink": "https://jobs.smartrecruiters.com/RedPoints1/743999894209979-devops-engineer?utm_source=Otta"
-  },
-  {
-      "job_title": "CI/CD Engineer, Scaleway",
-      "job_location": "Paris",
-      "JobLink": "https://jobs.lever.co/scaleway/fabd7781-87fa-4d33-949b-21d239098061?lever-source=Otta"
-  },
-  {
-      "job_title": "DevOps Software Engineer, DNA Script",
-      "job_location": "Paris",
-      "JobLink": "https://dnascript.com/careers?gh_jid=4147936101&utm_source=Otta"
-  },
-  {
-      "job_title": "PHP Developer, Starred",
-      "job_location": "Amsterdam",
-      "JobLink": "https://jobs.starred.com/backend-developer-2/en?utm_source=Otta"
-  },
-  {
-      "job_title": "Senior Software Engineer, King",
-      "job_location": "Barcelona",
-      "JobLink": "https://careers.king.com/jobs/job/r016693-senior-software-engineer-telemetry-streaming-shared-tech/?utm_source=Otta"
-  },
-  {
-      "job_title": "Lead DevOps Engineer, Intenseye",
-      "job_location": "Berlin",
-      "JobLink": "https://jobs.lever.co/intenseye/36e874da-2a36-4cca-908e-8388070b1cfb?lever-source=Otta"
-  },
-  {
-      "job_title": "Frontend Engineering Lead, myTomorrows",
-      "job_location": "Amsterdam",
-      "JobLink": "https://mytomorrows.recruitee.com/o/frontend-engineering-lead?utm_source=Otta"
-  },
-  {
-      "job_title": "Senior PHP Developer, ManyChat",
-      "job_location": "Barcelona",
-      "JobLink": "https://boards.greenhouse.io/manychat/jobs/6764046002?gh_jid=6764046002&utm_source=Otta"
-  },
-  {
-      "job_title": "Quality Engineer, PlayPlay",
-      "job_location": "Paris",
-      "JobLink": "https://jobs.lever.co/playplay/73c7e7b0-af8b-4e29-9114-9b0c5ac01112?lever-source=Otta"
-  },
-  {
-      "job_title": "Senior Full Stack Software Engineer, Scaler",
-      "job_location": "Amsterdam",
-      "JobLink": "https://jobs.ashbyhq.com/scaler/f782ee8e-db22-469d-980e-84a1ed240970?utm_source=Otta"
-  },
     {
         "job_title": "Software Engineer, Round",
         "job_location": "Remote in EU, UK",
         "JobLink": "https://round.cash/?utm_source=otta.com",
-        "JobPosted": "17 July 2023"
+        "job_posted": "18 July 2023 11:38 AM "
     },
     {
-        "job_title": "Backend Engineer, Babbel",
-        "job_location": "Berlin",
-        "JobLink": "https://join.com/companies/babbel/8569502-backend-engineer-ruby-all-genders?utm_source=Otta",
-        "JobPosted": "17 July 2023"
-    },
-    {
-        "job_title": "Full Stack Engineer, Supabase",
-        "job_location": "Remote in Canada, EU, UK, US",
-        "JobLink": "https://boards.greenhouse.io/supabase/jobs/4929454004?utm_source=Otta",
-        "JobPosted": "17 July 2023"
-    },
-    {
-        "job_title": "Javascript Software Engineer, Dashlane",
-        "job_location": "Paris",
-        "JobLink": "https://boards.greenhouse.io/dashlane/jobs/5157592?gh_src=8911cfd71us",
-        "JobPosted": "17 July 2023"
-    },
-    {
-        "job_title": "Software Engineer, ZOE",
-        "job_location": "Remote in EU, UK",
-        "JobLink": "https://jobs.lever.co/joinzoe/145fc90c-f025-4305-9335-dff0d86ce156?lever-source=Otta",
-        "JobPosted": "17 July 2023"
-    },
-    {
-        "job_title": "Backend Engineer, Strapi",
-        "job_location": "Remote in EU, UK",
-        "JobLink": "https://jobs.lever.co/strapi/947f08b8-f0e1-4e03-8bc7-c6fbc60bbcfc?lever-source=Otta",
-        "JobPosted": "17 July 2023"
-    },
-    {
-        "job_title": "Senior Fullstack Engineer, Scalable Capital",
-        "job_location": "Remote in Germany",
-        "JobLink": "https://jobs.smartrecruiters.com/ScalableGmbH/743999918248619-senior-fullstack-engineer-core-tribe-m-f-x-onsite-or-remote-in-germany?utm_source=Otta",
-        "JobPosted": "17 July 2023"
-    },
-    {
-        "job_title": "Medior/Senior Front End Software Engineer, Oper",
-        "job_location": "Remote in EU, UK",
-        "JobLink": "https://join.com/companies/oper/8599837-medior-senior-front-end-software-engineer?utm_source=Otta",
-        "JobPosted": "17 July 2023"
-    },
-    {
-        "job_title": "Freelancer Senior Software Engineer, Raisin",
-        "job_location": "Berlin",
-        "JobLink": "https://raisin.jobs.personio.de/job/1186779?utm_source=Otta",
-        "JobPosted": "17 July 2023"
-    },
-    {
-        "job_title": "Staff Backend Software Engineer, Hivebrite",
-        "job_location": "Remote in France",
-        "JobLink": "https://jobs.lever.co/hivebrite/dc747e80-24f4-4c90-b40c-f6ef18da94a2?lever-source=Otta",
-        "JobPosted": "17 July 2023"
-    },
-    {
-        "job_title": "Senior Full Stack Engineer, remberg",
-        "job_location": "Remote in Germany",
-        "JobLink": "https://remberg.breezy.hr/p/afcf336ed92c01-senior-full-stack-engineer-mean-f-m-d?source=Otta",
-        "JobPosted": "17 July 2023"
-    },
-    {
-        "job_title": "Frontend Engineer, Qonto",
-        "job_location": "Remote in France, Germany, Spain",
-        "JobLink": "https://jobs.lever.co/qonto/c946b5e0-c7e8-43af-98ad-0ee6e7411630?lever-source=Otta",
-        "JobPosted": "17 July 2023"
-    },
-    {
-        "job_title": "Kubernetes Site Reliability Engineer, flanksource",
-        "job_location": "Remote in Canada, EU, UK, US",
-        "JobLink": "https://flanksource1.recruitee.com/o/kubernetes-site-reliability-engineer?utm_source=Otta",
-        "JobPosted": "17 July 2023"
-    },
-    {
-        "job_title": "Software Engineer, YouGov",
-        "job_location": "Remote in Spain",
-        "JobLink": "https://jobs.smartrecruiters.com/YouGov1/743999910189153-software-engineer-angular-javascript?utm_source=Otta",
-        "JobPosted": "17 July 2023"
-    },
-    {
-        "job_title": "Senior Staff Fullstack Engineer, Linear",
+        "job_title": "DevOps Cloud Engineer, One Dot",
         "job_location": "Remote in EU",
-        "JobLink": "https://jobs.ashbyhq.com/Linear/d3bc1ced-3ce4-4086-a050-555055dbb1ff?utm_source=Otta",
-        "JobPosted": "17 July 2023"
+        "JobLink": "https://join.com/companies/onedot/8616133-devops-cloud-engineer?utm_source=Otta",
+        "job_posted": "18 July 2023 11:38 AM "
     },
     {
-        "job_title": "Senior ReactJS Engineer, GotPhoto",
-        "job_location": "Remote in Germany, Spain, Netherlands",
-        "JobLink": "https://fotograf.jobs.personio.de/job/1171210?utm_source=Otta",
-        "JobPosted": "17 July 2023"
-    },
-    {
-        "job_title": "Senior Backend Software Engineer, Printify",
+        "job_title": "Senior Site Reliability Engineer, Shine",
         "job_location": "Remote in EU, UK",
-        "JobLink": "https://jobs.lever.co/printify/74857a15-c0a9-4837-844d-3d2a347cb6d7?lever-source=Otta",
-        "JobPosted": "17 July 2023"
+        "JobLink": "https://careers.shine.fr/jobs/2861986-senior-site-reliability-engineer-platform?utm_source=Otta",
+        "job_posted": "18 July 2023 11:38 AM "
     },
     {
-        "job_title": "Senior Backend Engineer, Scandit",
-        "job_location": "Remote in France, Germany, Spain, UK",
-        "JobLink": "https://www.scandit.com/careers/job-description/?gh_jid=5131285&utm_source=Otta",
-        "JobPosted": "17 July 2023"
-    },
-    {
-        "job_title": "Principal Frontend Engineer, commercetools",
-        "job_location": "Remote in Germany",
-        "JobLink": "https://boards.greenhouse.io/commercetools/jobs/5647393003?utm_source=Otta",
-        "JobPosted": "17 July 2023"
-    },
-    {
-        "job_title": "Frontend Developer, Mindera",
+        "job_title": "Tech Lead, Fever",
         "job_location": "Remote in Spain",
-        "JobLink": "https://apply.workable.com/minderacraft/j/D52BA0E84F/?utm_source=Otta",
-        "JobPosted": "17 July 2023"
+        "JobLink": "https://boards.greenhouse.io/feverup/jobs/4090030101?utm_source=Otta",
+        "job_posted": "18 July 2023 11:38 AM "
     },
     {
-        "job_title": "Site Reliability Engineer, Moonfare",
-        "job_location": "Berlin",
-        "JobLink": "https://www.moonfare.com/open-position/?gh_jid=5202352003&utm_source=Otta",
-        "JobPosted": "17 July 2023"
+        "job_title": "Senior Backend Engineer, Gigs",
+        "job_location": "Remote in EU, UK",
+        "JobLink": "https://apply.workable.com/gigs/j/763BB4884D/?utm_source=Otta",
+        "job_posted": "18 July 2023 11:38 AM "
     },
     {
-        "job_title": "Senior Software Engineer, Prestatech",
-        "job_location": "Remote in Germany",
-        "JobLink": "https://prestatech.viterbit.site/senior-software-engineer-TLxSsbq11siFWmU5/?utm_source=Otta",
-        "JobPosted": "17 July 2023"
+        "job_title": "QA Lead, BeReal",
+        "job_location": "Remote in EU, UK",
+        "JobLink": "https://boards.eu.greenhouse.io/bereal/jobs/4122198101?utm_source=Otta",
+        "job_posted": "18 July 2023 11:39 AM "
     },
     {
-        "job_title": "Senior Software Engineer, Protocol Labs",
+        "job_title": "Fullstack Software Engineer, Pigment",
+        "job_location": "Remote in France",
+        "JobLink": "https://jobs.lever.co/pigment/d4f42533-dabb-49c5-9846-24abbb3f61d8?lever-source=Otta",
+        "job_posted": "18 July 2023 11:39 AM "
+    },
+    {
+        "job_title": "Senior Frontend Engineer, Parasol",
         "job_location": "Remote in Canada, EU, UK, US",
-        "JobLink": "https://boards.greenhouse.io/protocollabs/jobs/4874341004?utm_source=Otta",
-        "JobPosted": "17 July 2023"
+        "JobLink": "https://jobs.ashbyhq.com/Parasol/016e8c3f-b3e7-45cb-baf4-d2d11fbc7b65?utm_source=Otta",
+        "job_posted": "18 July 2023 11:39 AM "
     },
     {
-        "job_title": "Backend Engineer, lemon.markets",
+        "job_title": "Principal Product Engineer, Craft",
+        "job_location": "Remote in EU",
+        "JobLink": "https://boards.greenhouse.io/craftdocs/jobs/4727043004?gh_src=2878c3ce4us",
+        "job_posted": "18 July 2023 11:39 AM "
+    },
+    {
+        "job_title": "Senior Infrastructure Engineer, fabriq",
+        "job_location": "Remote in France",
+        "JobLink": "https://fabriq.crew.work/jobs/649d89b48a9365dc95062e68?utm_source=Otta",
+        "job_posted": "18 July 2023 11:39 AM "
+    },
+    {
+        "job_title": "Staff Software Engineer, Qonto",
+        "job_location": "Remote in France, Germany, Spain",
+        "JobLink": "https://jobs.lever.co/qonto/1f945bad-2c45-4ac1-be06-a219dc9e1a93?lever-source=Otta",
+        "job_posted": "18 July 2023 11:39 AM "
+    },
+    {
+        "job_title": "Integration Reliability Engineer, Stripe",
+        "job_location": "Remote in France, Ireland, Netherlands, UK",
+        "JobLink": "https://stripe.com/jobs/search?gh_jid=4946823&utm_source=Otta",
+        "job_posted": "18 July 2023 11:39 AM "
+    },
+    {
+        "job_title": "Software Engineer in Test, Insify",
+        "job_location": "Amsterdam",
+        "JobLink": "https://careers.insify.nl/software-engineer-in-test/en?utm_source=Otta",
+        "job_posted": "18 July 2023 11:40 AM "
+    },
+    {
+        "job_title": "Quality Assurance Engineer, SPREAD",
+        "job_location": "Remote in Germany",
+        "JobLink": "https://spread-gmbh.jobs.personio.de/job/333064?utm_source=Otta",
+        "job_posted": "18 July 2023 11:40 AM "
+    },
+    {
+        "job_title": "Backend Python Developer, Octopus Energy",
+        "job_location": "Paris",
+        "JobLink": "https://jobs.lever.co/octoenergy/2e77f196-3f3e-4808-bb60-0562ce0f7b2d?lever-source=Otta",
+        "job_posted": "18 July 2023 11:40 AM "
+    },
+    {
+        "job_title": "Senior Fullstack Engineer, Tomorrow's Education",
+        "job_location": "Remote in Germany",
+        "JobLink": "https://tomorrowuniversity.recruitee.com/o/remoteberlin-senior-fullstack-engineer-mfd?utm_source=Otta",
+        "job_posted": "18 July 2023 11:40 AM "
+    },
+    {
+        "job_title": "DevOps Engineer, Ecochain",
+        "job_location": "Remote in Netherlands",
+        "JobLink": "https://ecochain.recruitee.com/o/devops-engineer-saas-scale-up-aws-docker-terraform-kubernetes?utm_source=Otta",
+        "job_posted": "18 July 2023 11:40 AM "
+    },
+    {
+        "job_title": "Frontend Engineer, CleanHub",
         "job_location": "Berlin",
-        "JobLink": "https://jobs.lemon.markets/o/backend-engineer-fmx?utm_source=Otta",
-        "JobPosted": "17 July 2023"
+        "JobLink": "https://cleanhub.jobs.personio.de/job/579958?utm_source=Otta",
+        "job_posted": "18 July 2023 11:40 AM "
+    },
+    {
+        "job_title": "Frontend Developer, Worldia",
+        "job_location": "Remote in France, Germany",
+        "JobLink": "https://worldia.teamtailor.com/en-GB/jobs/1634297-frontend-developer-reactjs-remote-friendly?utm_source=Otta",
+        "job_posted": "18 July 2023 11:41 AM "
+    },
+    {
+        "job_title": "Software Engineer, Source.ag",
+        "job_location": "Amsterdam",
+        "JobLink": "https://source.recruitee.com/o/software-engineer-amsterdam?utm_source=Otta",
+        "job_posted": "18 July 2023 11:41 AM "
+    },
+    {
+        "job_title": "Senior DevOps Engineer, EdgeTier",
+        "job_location": "Remote in Ireland, Spain",
+        "JobLink": "https://edgetier.bamboohr.com/careers/26?utm_source=Otta",
+        "job_posted": "18 July 2023 11:41 AM "
+    },
+    {
+        "job_title": "Python Software Engineer, Thunes",
+        "job_location": "Barcelona",
+        "JobLink": "https://www.thunes.com/jobs/5661443003?gh_jid=5661443003&utm_source=Otta",
+        "job_posted": "18 July 2023 11:41 AM "
+    },
+    {
+        "job_title": "Senior Software Engineer, ZOE",
+        "job_location": "Remote in EU, UK",
+        "JobLink": "https://jobs.lever.co/joinzoe/14979976-d648-40a6-9237-a47e571f61d0?lever-source=Otta",
+        "job_posted": "18 July 2023 11:41 AM "
+    },
+    {
+        "job_title": "Lead Founding Engineer, tocco",
+        "job_location": "Remote in Canada, EU, UK",
+        "JobLink": "https://www.tocco.earth/?utm_source=otta.com",
+        "job_posted": "18 July 2023 11:42 AM "
+    },
+    {
+        "job_title": "Staff DevOps Engineer, Voltron Data",
+        "job_location": "Remote in Canada, EU, UK, US",
+        "JobLink": "https://boards.greenhouse.io/voltrondata/jobs/4006624006?gh_src=2b3d2dc46us",
+        "job_posted": "18 July 2023 11:42 AM "
+    },
+    {
+        "job_title": "Product Engineer, Treecard",
+        "job_location": "Remote in Canada, EU, UK, US",
+        "JobLink": "https://jobs.lever.co/treecard/053e6809-6fe5-4b7a-b64f-9fcb8dadf608?lever-source=Otta",
+        "job_posted": "18 July 2023 11:42 AM "
+    },
+    {
+        "job_title": "Full Stack Engineer, Vectornator",
+        "job_location": "Remote in EU",
+        "JobLink": "https://apply.workable.com/linearity/j/16961AA1E2/?utm_source=Otta",
+        "job_posted": "18 July 2023 11:42 AM "
+    },
+    {
+        "job_title": "Senior Product Engineer, Plain",
+        "job_location": "Remote in EU, UK",
+        "JobLink": "https://apply.workable.com/plain/j/718127FB1D/?utm_source=Otta",
+        "job_posted": "18 July 2023 11:42 AM "
+    },
+    {
+        "job_title": "HPC Engineer, Hugging Face",
+        "job_location": "Remote in EU, UK",
+        "JobLink": "https://apply.workable.com/huggingface/j/727ACDD1C9/?utm_source=Otta",
+        "job_posted": "18 July 2023 11:42 AM "
+    },
+    {
+        "job_title": "Full Stack Engineer, TheVentureCity",
+        "job_location": "Remote in EU",
+        "JobLink": "https://www.theventure.city/?utm_source=otta.com",
+        "job_posted": "18 July 2023 11:42 AM "
+    },
+    {
+        "job_title": "Full-Stack Tech Lead Manager, Kalepa",
+        "job_location": "Remote in EU, UK",
+        "JobLink": "https://boards.greenhouse.io/kalepa/jobs/4864668004?gh_src=e550302a4us",
+        "job_posted": "18 July 2023 11:43 AM "
+    },
+    {
+        "job_title": "Lead Cloud Platform Engineer, Creative Fabrica",
+        "job_location": "Amsterdam",
+        "JobLink": "https://boards.eu.greenhouse.io/creativefabrica/jobs/4190359101?gh_src=a7e9b972teu",
+        "job_posted": "18 July 2023 11:43 AM "
+    },
+    {
+        "job_title": "Senior PHP Engineer, Bumble Inc.",
+        "job_location": "Barcelona",
+        "JobLink": "https://bumble.wd3.myworkdayjobs.com/en-US/Bumble_Careers/job/Barcelona/Senior-PHP-Engineer_JR0004?utm_source=Otta",
+        "job_posted": "18 July 2023 11:43 AM "
+    },
+    {
+        "job_title": "Head of Solutions Testing, EVBox",
+        "job_location": "Amsterdam",
+        "JobLink": "https://evbox.com/en/about/careers/job?gh_jid=5613534003&utm_source=Otta",
+        "job_posted": "18 July 2023 11:43 AM "
+    },
+    {
+        "job_title": "QA Engineer, Exoticca",
+        "job_location": "Remote in Spain",
+        "JobLink": "https://apply.workable.com/exoticca/j/64542848CE/?utm_source=Otta",
+        "job_posted": "18 July 2023 11:43 AM "
+    },
+    {
+        "job_title": "Quality Assurance Lead, Snowprint Studios",
+        "job_location": "Berlin",
+        "JobLink": "https://career.snowprintstudios.com/jobs/1095871-qa-lead-m-f-d?utm_source=Otta",
+        "job_posted": "18 July 2023 11:44 AM "
+    },
+    {
+        "job_title": "Head of QA, Chess.com",
+        "job_location": "Remote in Canada, EU, UK, US",
+        "JobLink": "https://chesscom.rippling-ats.com/job/618289/head-of-qa?utm_source=Otta",
+        "job_posted": "18 July 2023 11:44 AM "
+    },
+    {
+        "job_title": "QA Engineer, Foleon",
+        "job_location": "Amsterdam",
+        "JobLink": "https://foleon.recruitee.com/o/qa-engineer-5?utm_source=Otta",
+        "job_posted": "18 July 2023 11:44 AM "
+    },
+    {
+        "job_title": "Medior/Senior QA Engineer, Workwize",
+        "job_location": "Remote in Netherlands",
+        "JobLink": "https://workwize.recruitee.com/o/qa-engineer-mediorsenior-hybridremote?utm_source=Otta",
+        "job_posted": "18 July 2023 11:44 AM "
+    },
+    {
+        "job_title": "Senior / Staff / Principal Senior Software Engineer, Alan",
+        "job_location": "Remote in France",
+        "JobLink": "https://jobs.lever.co/alan/2584ab42-2bed-44ea-b643-13e6f6927ccc?lever-source=Otta",
+        "job_posted": "18 July 2023 11:44 AM "
+    },
+    {
+        "job_title": "Senior Full Stack Engineer, Docker",
+        "job_location": "Remote in EU, UK",
+        "JobLink": "https://jobs.ashbyhq.com/docker/3c130525-bb31-47f1-a5c0-b2a21244b163?utm_source=Otta",
+        "job_posted": "18 July 2023 11:44 AM "
+    },
+    {
+        "job_title": "Senior QA Engineer, DeepOpinion",
+        "job_location": "Remote in Germany",
+        "JobLink": "https://deepopinion.jobs.personio.com/job/1163857?utm_source=Otta",
+        "job_posted": "18 July 2023 11:44 AM "
+    },
+    {
+        "job_title": "QA Engineer, Cresta",
+        "job_location": "Berlin",
+        "JobLink": "https://jobs.lever.co/cresta/f737d6ed-91d6-48ab-8a67-2ca9924e99ca?lever-source=Otta",
+        "job_posted": "18 July 2023 11:59 AM "
+    },
+    {
+        "job_title": "Full Stack Developer, Amelia Virtual Care",
+        "job_location": "Remote in Spain",
+        "JobLink": "https://jobs.ameliavirtualcare.com/jobs/3001451-full-stack-developer?utm_source=Otta",
+        "job_posted": "18 July 2023 11:59 AM "
+    },
+    {
+        "job_title": "Software Engineer, Airbnb",
+        "job_location": "Paris",
+        "JobLink": "https://careers.airbnb.com/positions/?gh_jid=5163393&utm_source=Otta",
+        "job_posted": "18 July 2023 11:59 AM "
+    },
+    {
+        "job_title": "Back-End Engineer, Preply",
+        "job_location": "Barcelona",
+        "JobLink": "https://preply.com/en/careers/apply?gh_jid=5669857003&gh_src=6ebaf0b93us",
+        "job_posted": "18 July 2023 11:59 AM "
+    },
+    {
+        "job_title": "Senior Platform Engineer, Cable",
+        "job_location": "Remote in EU, UK",
+        "JobLink": "https://cable.tech/?utm_source=otta.com",
+        "job_posted": "18 July 2023 11:59 AM "
+    },
+    {
+        "job_title": "DevOps Engineer, TravelPerk",
+        "job_location": "Barcelona",
+        "JobLink": "https://www.travelperk.com/job-application/?gh_jid=5167011&gh_src=766740a01us",
+        "job_posted": "18 July 2023 11:59 AM "
+    },
+    {
+        "job_title": "Frontend Software Engineer, Bankable",
+        "job_location": "Remote in Spain",
+        "JobLink": "https://apply.workable.com/bankable/j/99343D0D60/?utm_source=Otta",
+        "job_posted": "18 July 2023 11:59 AM "
+    },
+    {
+        "job_title": "Backend Developer, gridX",
+        "job_location": "Remote in EU",
+        "JobLink": "https://join.com/companies/gridx/8569377-backend-developer-m-f-d?utm_source=Otta",
+        "job_posted": "18 July 2023 12:00 PM "
+    },
+    {
+        "job_title": "Full-Stack Engineer, Bounti",
+        "job_location": "Berlin",
+        "JobLink": "https://www.bounti.co/?utm_source=otta.com",
+        "job_posted": "18 July 2023 12:00 PM "
+    },
+    {
+        "job_title": "DevOps Engineer, Heex Technologies",
+        "job_location": "Paris",
+        "JobLink": "https://heex.welcomekit.co/companies/heex/jobs/devops-engineer_paris?utm_source=Otta",
+        "job_posted": "18 July 2023 12:00 PM "
+    },
+    {
+        "job_title": "Senior Quality Engineer, knack",
+        "job_location": "Remote in Spain",
+        "JobLink": "https://knack.pinpointhq.com/en/postings/9a45c1e8-9b51-4901-981d-9f56a3d8b306?utm_source=Otta",
+        "job_posted": "18 July 2023 12:00 PM "
+    },
+    {
+        "job_title": "QA Engineer, Frontiers",
+        "job_location": "Remote in Germany, Ireland, Spain",
+        "JobLink": "https://frontiersin.wd3.myworkdayjobs.com/en-US/Frontiers/job/Remote---Spain/Senior-UI-UX-Engineer_23REQ0041?utm_source=Otta",
+        "job_posted": "18 July 2023 12:00 PM "
+    },
+    {
+        "job_title": "Quality Assurance Engineer, Corpay One",
+        "job_location": "Remote in EU, UK",
+        "JobLink": "https://jobs.lever.co/corpayone/cdd1faa1-40e4-4555-9e46-0b4a4afb01d0?lever-source=Otta",
+        "job_posted": "18 July 2023 12:01 PM "
+    },
+    {
+        "job_title": "Staff Engineer, Bitly",
+        "job_location": "Remote in Germany",
+        "JobLink": "https://boards.eu.greenhouse.io/bitly46/jobs/4153070101?utm_source=Otta",
+        "job_posted": "18 July 2023 12:01 PM "
+    },
+    {
+        "job_title": "QA Engineer, Pagos Solutions",
+        "job_location": "Remote in Spain",
+        "JobLink": "https://jobs.ashbyhq.com/Pagos/88b08863-0204-462a-9b41-52b91a5af696?utm_source=Otta",
+        "job_posted": "18 July 2023 12:01 PM "
+    },
+    {
+        "job_title": "Senior Software Engineer, Bobsled",
+        "job_location": "Remote in EU, UK, US",
+        "JobLink": "https://boards.greenhouse.io/bobsledinc/jobs/4098494005?gh_jid=4098494005&utm_source=Otta",
+        "job_posted": "18 July 2023 12:01 PM "
+    },
+    {
+        "job_title": "Frontend-Leaning Engineer, Stemma",
+        "job_location": "Remote in Canada, EU, UK, US",
+        "JobLink": "https://jobs.ashbyhq.com/stemma/503c7f2d-389f-4abd-9199-757518abc355?utm_source=Otta",
+        "job_posted": "18 July 2023 12:01 PM "
+    },
+    {
+        "job_title": "Senior Software Engineer, Bound",
+        "job_location": "Remote in EU, UK",
+        "JobLink": "https://jobs.lever.co/bound/7bd7f202-84e9-402e-b8e5-fa2c6949075a?lever-source=Otta",
+        "job_posted": "18 July 2023 12:01 PM "
+    },
+    {
+        "job_title": "Manual QA Engineer, LanguageWire",
+        "job_location": "Remote in Spain",
+        "JobLink": "https://apply.workable.com/languagewire/j/F7DB0B3F4F/?utm_source=Otta",
+        "job_posted": "18 July 2023 12:01 PM "
+    },
+    {
+        "job_title": "QA Engineer, Fabulous",
+        "job_location": "Remote in Canada, EU, UK, US",
+        "JobLink": "https://apply.workable.com/fabulousco/j/5A51196284/?utm_source=Otta",
+        "job_posted": "18 July 2023 12:02 PM "
+    },
+    {
+        "job_title": "Senior Frontend Engineer, Penzilla",
+        "job_location": "Remote in Germany",
+        "JobLink": "https://penzilla-gmbh.jobs.personio.de/job/1082682?utm_source=Otta",
+        "job_posted": "18 July 2023 12:02 PM "
+    },
+    {
+        "job_title": "Senior Backend JavaScript Developer, Sastrify",
+        "job_location": "Remote in EU, UK",
+        "JobLink": "https://apply.workable.com/sastrify/j/8AB042D4C8/?utm_source=Otta",
+        "job_posted": "18 July 2023 12:02 PM "
+    },
+    {
+        "job_title": "Full Stack Developer, ContractHero",
+        "job_location": "Remote in Germany",
+        "JobLink": "https://contracthero-gmbh.jobs.personio.de/job/1130528?utm_source=Otta",
+        "job_posted": "18 July 2023 12:02 PM "
+    },
+    {
+        "job_title": "Senior PHP/Symfony Developer, Thinksurance",
+        "job_location": "Paris",
+        "JobLink": "https://thinksurance-gmbh.jobs.personio.de/job/557699?utm_source=Otta",
+        "job_posted": "18 July 2023 12:02 PM "
+    },
+    {
+        "job_title": "Distributed Systems Engineer, Alcion",
+        "job_location": "Remote in Canada, EU, UK, US",
+        "JobLink": "https://jobs.lever.co/alcion/db98c227-4900-479f-aa8d-06c79fec9b5f?lever-source=Otta",
+        "job_posted": "18 July 2023 12:02 PM "
+    },
+    {
+        "job_title": "Backend Engineer, Griffin",
+        "job_location": "Remote in Germany, Ireland, UK",
+        "JobLink": "https://griffin.sh/jobs?gh_jid=4202613003&gh_src=8e3cb92e3us",
+        "job_posted": "18 July 2023 12:03 PM "
+    },
+    {
+        "job_title": "Senior Software Engineer, Pennylane",
+        "job_location": "Paris",
+        "JobLink": "https://jobs.lever.co/pennylane/ac5fb505-8f1e-46cc-aa8f-bb4471e27186?lever-source=Otta",
+        "job_posted": "18 July 2023 12:03 PM "
+    },
+    {
+        "job_title": "QA Engineer, Adyen",
+        "job_location": "Amsterdam",
+        "JobLink": "https://boards.greenhouse.io/adyen/jobs/5069356?utm_source=Otta",
+        "job_posted": "18 July 2023 12:03 PM "
+    },
+    {
+        "job_title": "Frontend Developer, Cryptohopper",
+        "job_location": "Amsterdam",
+        "JobLink": "https://cryptohopper.homerun.co/front-end-developer/en?utm_source=Otta",
+        "job_posted": "18 July 2023 12:03 PM "
+    },
+    {
+        "job_title": "Site Reliability Engineer, Emburse",
+        "job_location": "Barcelona",
+        "JobLink": "https://jobs.lever.co/emburse/9f746893-6efc-4516-ae46-77c8731d07d0?lever-source=Otta",
+        "job_posted": "18 July 2023 12:03 PM "
+    },
+    {
+        "job_title": "Senior Webflow Developer, Moonfare",
+        "job_location": "Berlin",
+        "JobLink": "https://www.moonfare.com/open-position/?gh_jid=5643438003&utm_source=Otta",
+        "job_posted": "18 July 2023 12:04 PM "
+    },
+    {
+        "job_title": "Senior Frontend Engineer, Katanox",
+        "job_location": "Amsterdam",
+        "JobLink": "https://careers.katanox.com/senior-front-end-engineer/en?utm_source=Otta",
+        "job_posted": "18 July 2023 12:04 PM "
+    },
+    {
+        "job_title": "Member of Technical Staff, Anchorage Digital",
+        "job_location": "Remote in Canada, EU, UK, US",
+        "JobLink": "https://jobs.lever.co/anchorage/20ee48cd-0f73-4f7d-a442-c4e7ddfe52db?lever-source=Otta",
+        "job_posted": "18 July 2023 12:04 PM "
+    },
+    {
+        "job_title": "QA Engineer, Notabene",
+        "job_location": "Remote in Germany",
+        "JobLink": "https://jobs.lever.co/Notabene/89937746-ed54-44ac-b861-42a2b9c28176?lever-source=Otta",
+        "job_posted": "18 July 2023 12:04 PM "
+    },
+    {
+        "job_title": "Senior Frontend Engineer, Staking Rewards",
+        "job_location": "Remote in EU, UK",
+        "JobLink": "https://staking-rewards.breezy.hr/p/27f32eed741201-senior-frontend-engineer?source=Otta",
+        "job_posted": "18 July 2023 12:04 PM "
+    },
+    {
+        "job_title": "QA Engineer, SwissBorg",
+        "job_location": "Remote in EU, UK",
+        "JobLink": "https://jobs.lever.co/swissborg/f06e4ee9-b0d7-4154-bd6e-b04d375a17d2?lever-source=Otta",
+        "job_posted": "18 July 2023 12:04 PM "
+    },
+    {
+        "job_title": "Senior Software Engineer, Highnote",
+        "job_location": "Berlin",
+        "JobLink": "https://boards.greenhouse.io/highnote/jobs/5660288003?utm_source=Otta",
+        "job_posted": "18 July 2023 12:04 PM "
+    },
+    {
+        "job_title": "Senior DevOps Engineer, GoodNotes",
+        "job_location": "Remote in EU, UK",
+        "JobLink": "https://boards.greenhouse.io/goodnotes/jobs/4912271004?gh_src=06eb86a14us",
+        "job_posted": "18 July 2023 12:05 PM "
+    },
+    {
+        "job_title": "Full Stack Developer, Vonage",
+        "job_location": "Remote in Spain",
+        "JobLink": "https://boards.greenhouse.io/vonage/jobs/6722925002?gh_src=3067cf9b2us",
+        "job_posted": "18 July 2023 12:05 PM "
+    },
+    {
+        "job_title": "Lead Full Stack Engineer, Uhubs",
+        "job_location": "Remote in EU, UK",
+        "JobLink": "https://www.uhubs.co.uk/?utm_source=otta.com",
+        "job_posted": "18 July 2023 12:05 PM "
+    },
+    {
+        "job_title": "Senior Frontend Engineer, Fingerprint",
+        "job_location": "Remote in Canada, EU, UK, US",
+        "JobLink": "https://fingerprint.com/careers/jobs/apply/?gh_jid=4927035004&gh_src=3f93dfbe4us",
+        "job_posted": "18 July 2023 12:05 PM "
+    },
+    {
+        "job_title": "Software Development Engineer in Test, Around",
+        "job_location": "Remote in Canada, EU, UK, US",
+        "JobLink": "https://boards.greenhouse.io/around/jobs/5524750003?gh_src=19055c783us",
+        "job_posted": "18 July 2023 12:05 PM "
+    },
+    {
+        "job_title": "Intermediate & Senior Site Reliability Engineer, JustWatch",
+        "job_location": "Remote in Germany",
+        "JobLink": "https://jobs.lever.co/justwatch/7b0269b0-0cc7-4959-a0e6-f02b9309f6bd?lever-source=Otta",
+        "job_posted": "18 July 2023 12:06 PM "
+    },
+    {
+        "job_title": "QA Automation Engineer, Tymit",
+        "job_location": "Remote in Spain",
+        "JobLink": "https://apply.workable.com/tymit/j/C98CD600DB/?utm_source=Otta",
+        "job_posted": "18 July 2023 12:06 PM "
+    },
+    {
+        "job_title": "Full Stack Software Engineer, Birdie",
+        "job_location": "Remote in EU, UK",
+        "JobLink": "https://jobs.ashbyhq.com/birdie/4e208225-5882-4efb-ba79-82953a98609b?utm_source=Otta",
+        "job_posted": "18 July 2023 12:06 PM "
+    },
+    {
+        "job_title": "Senior C# Backend Engineer, DeckRobot",
+        "job_location": "Remote in EU",
+        "JobLink": "https://deckrobot.com/?utm_source=otta.com",
+        "job_posted": "18 July 2023 12:06 PM "
+    },
+    {
+        "job_title": "Senior Software Engineer, Flexport",
+        "job_location": "Amsterdam",
+        "JobLink": "https://boards.greenhouse.io/flexport/jobs/3818408?gh_src=ebc9ba901us",
+        "job_posted": "18 July 2023 12:06 PM "
+    },
+    {
+        "job_title": "Senior Frontend Developer, Candis",
+        "job_location": "Berlin",
+        "JobLink": "https://candisgmbh.recruitee.com/o/senior-frontend-developer-dfm-3?utm_source=Otta",
+        "job_posted": "18 July 2023 12:06 PM "
+    },
+    {
+        "job_title": "Lead Quality Assurance Engineer, Pricemoov",
+        "job_location": "Paris",
+        "JobLink": "https://pricemoov.welcomekit.co/companies/pricemoov/jobs/lead-quality-assurance-qa-engineer_paris?utm_source=Otta",
+        "job_posted": "18 July 2023 12:07 PM "
+    },
+    {
+        "job_title": "Frontend Engineer, Vinted",
+        "job_location": "Berlin",
+        "JobLink": "https://vinted.com/jobs/board?gh_jid=4167584101&utm_source=Otta",
+        "job_posted": "18 July 2023 12:07 PM "
+    },
+    {
+        "job_title": "QA Automation Engineer, Deutsche Bank",
+        "job_location": "Berlin",
+        "JobLink": "https://db.wd3.myworkdayjobs.com/en-US/DBWebsite/job/Berlin-O-Unter-den-Linden-5/QA---Testing-Engineer--m-f-x----Foreign-Exchange-Cash-Management_R0193695-1?utm_source=Otta",
+        "job_posted": "18 July 2023 12:07 PM "
+    },
+    {
+        "job_title": "QA Director, Klang Games",
+        "job_location": "Berlin",
+        "JobLink": "https://boards.eu.greenhouse.io/klanggames/jobs/4162415101?utm_source=Otta",
+        "job_posted": "18 July 2023 12:07 PM "
+    },
+    {
+        "job_title": "QA Engineer, Younited",
+        "job_location": "Paris",
+        "JobLink": "https://jobs.lever.co/younited/10103bd1-613d-4354-ac76-5fc148658b1a?lever-source=Otta",
+        "job_posted": "18 July 2023 12:07 PM "
+    },
+    {
+        "job_title": "Head of Platform Engineering, Parloa",
+        "job_location": "Remote in Germany",
+        "JobLink": "https://www.parloa.com/de/job-listing/?gh_jid=4157456101&utm_source=Otta",
+        "job_posted": "18 July 2023 12:07 PM "
+    },
+    {
+        "job_title": "Software Development Engineer in Test Team Lead, Scratchpay",
+        "job_location": "Remote in Canada, EU, UK",
+        "JobLink": "https://jobs.lever.co/scratchfinancial/5f683463-9295-449c-9c43-b5c9f94dee46?lever-source=Otta",
+        "job_posted": "18 July 2023 12:08 PM "
+    },
+    {
+        "job_title": "Senior Backend Engineer, Enode",
+        "job_location": "Remote in EU",
+        "JobLink": "https://jobs.ashbyhq.com/enode/8f35b17b-dae8-49f1-aab7-df733672d01e?utm_source=Otta",
+        "job_posted": "18 July 2023 12:08 PM "
+    },
+    {
+        "job_title": "Senior QA Test Engineer, myTomorrows",
+        "job_location": "Amsterdam",
+        "JobLink": "https://mytomorrows.recruitee.com/o/senior-qa-test-engineer?utm_source=Otta",
+        "job_posted": "18 July 2023 12:08 PM "
+    },
+    {
+        "job_title": "TypeScript/Go Backend Developer, ZeptoLab",
+        "job_location": "Remote in EU",
+        "JobLink": "https://apply.workable.com/zeptolab/j/05F095F305/?utm_source=Otta",
+        "job_posted": "18 July 2023 03:00 PM "
+    },
+    {
+        "job_title": "DevOps Manager, CERE Network",
+        "job_location": "Remote in EU, UK",
+        "JobLink": "https://jobs.lever.co/cere-network/ea1fbde4-8e26-4479-bd03-457293a7855f?lever-source=Otta",
+        "job_posted": "18 July 2023 03:01 PM "
+    },
+    {
+        "job_title": "Software Developer, Qualifyze",
+        "job_location": "Remote in Spain",
+        "JobLink": "https://qualifyzegmbh.recruitee.com/o/software-developer?utm_source=Otta",
+        "job_posted": "18 July 2023 03:01 PM "
+    },
+    {
+        "job_title": "Senior Full Stack Software Engineer, Cover Genius",
+        "job_location": "Remote in Spain",
+        "JobLink": "https://jobs.lever.co/covergenius/19cd892e-ef2e-46fc-9905-1b75ae89bdff?lever-source=Otta",
+        "job_posted": "18 July 2023 03:01 PM "
+    },
+    {
+        "job_title": "DevOps, Whalar",
+        "job_location": "Remote in Spain",
+        "JobLink": "https://boards.greenhouse.io/whalarinc/jobs/4899790004?utm_source=Otta",
+        "job_posted": "18 July 2023 03:10 PM "
+    },
+    {
+        "job_title": "Full Stack Web Developer, Everbloom",
+        "job_location": "Remote in EU",
+        "JobLink": "https://everbloom.recruitee.com/o/full-stack-web-developer-remote?utm_source=Otta",
+        "job_posted": "18 July 2023 03:10 PM "
+    },
+    {
+        "job_title": "Quality Assurance Engineer, 1NCE",
+        "job_location": "Remote in Germany",
+        "JobLink": "https://1nce.jobs.personio.com/job/948601?utm_source=Otta",
+        "job_posted": "18 July 2023 03:10 PM "
+    },
+    {
+        "job_title": "Software Development Engineer in Test, Cyberhaven",
+        "job_location": "Remote in EU, UK",
+        "JobLink": "https://jobs.ashbyhq.com/cyberhaven/d40de739-f078-4aa1-907a-8ac321fe6348?utm_source=Otta",
+        "job_posted": "18 July 2023 03:10 PM "
+    },
+    {
+        "job_title": "Senior Software QA Engineer, Polygon",
+        "job_location": "Remote in Spain",
+        "JobLink": "https://jobs.lever.co/Polygon/0959df8d-8ba9-493c-ad75-5e137b78385a?lever-source=Otta",
+        "job_posted": "18 July 2023 03:10 PM "
+    },
+    {
+        "job_title": "Staff Backend Engineer, Stream",
+        "job_location": "Remote in EU, UK",
+        "JobLink": "https://boards.greenhouse.io/stream/jobs/5653695003?utm_source=Otta",
+        "job_posted": "18 July 2023 03:10 PM "
+    },
+    {
+        "job_title": "Senior Frontend Developer, Cint",
+        "job_location": "Remote in Spain",
+        "JobLink": "https://www.careers.cint.com/jobs/2904952-senior-frontend-developer?utm_source=Otta",
+        "job_posted": "18 July 2023 03:11 PM "
+    },
+    {
+        "job_title": "Senior Front-End Engineer, Carto",
+        "job_location": "Remote in EU, UK",
+        "JobLink": "https://jobs.lever.co/cartodb/c1bb7e64-f2c0-46fd-b734-cf73c33eb311?lever-source=Otta",
+        "job_posted": "18 July 2023 03:11 PM "
+    },
+    {
+        "job_title": "Senior Backend Engineer, Firstbase",
+        "job_location": "Remote in EU, UK",
+        "JobLink": "https://jobs.ashbyhq.com/firstbase/5f9ac7d2-4fb4-480a-8c1b-e360be61d982?utm_source=Otta",
+        "job_posted": "18 July 2023 03:11 PM "
+    },
+    {
+        "job_title": "Senior/Staff Frontend Engineer, Close",
+        "job_location": "Remote in EU, UK",
+        "JobLink": "https://jobs.lever.co/close.io/10a1e32b-1a59-48dc-b8f4-e6f0dfae4e20?lever-source=Otta",
+        "job_posted": "18 July 2023 03:11 PM "
+    },
+    {
+        "job_title": "Backend Engineer, Kuda",
+        "job_location": "Berlin",
+        "JobLink": "https://apply.workable.com/kuda/j/4063D590AF/?utm_source=Otta",
+        "job_posted": "18 July 2023 03:11 PM "
     },
     {
         "job_title": "Staff Frontend Engineer, PayFit",
         "job_location": "Remote in France, Spain",
         "JobLink": "https://jobs.lever.co/payfit/b63bc829-5d3f-4a0c-a3f3-7c9907ad2546?lever-source=Otta",
-        "JobPosted": "17 July 2023"
+        "job_posted": "18 July 2023 03:11 PM "
     },
     {
-        "job_title": "Senior Backend Engineer, Upvest",
-        "job_location": "Remote in Germany",
-        "JobLink": "https://careers.upvest.co/jobs/1860849-senior-backend-engineer-trading-f-m-d?utm_source=Otta",
-        "JobPosted": "17 July 2023"
+        "job_title": "Backend Engineer, lemon.markets",
+        "job_location": "Berlin",
+        "JobLink": "https://jobs.lemon.markets/o/backend-engineer-fmx?utm_source=Otta",
+        "job_posted": "18 July 2023 03:12 PM "
     },
     {
-        "job_title": "Back End Developer, Stenn Technologies",
-        "job_location": "Remote in EU, UK, US",
-        "JobLink": "https://boards.eu.greenhouse.io/stenn/jobs/4168537101?utm_source=Otta",
-        "JobPosted": "17 July 2023"
-    },
-    {
-        "job_title": "Senior Full Stack Engineer, MoonPay",
+        "job_title": "Site Reliability Engineer, MoonPay",
         "job_location": "Remote in EU, UK",
-        "JobLink": "https://boards.greenhouse.io/moonpay/jobs/5605585003?utm_source=Otta",
-        "JobPosted": "17 July 2023"
+        "JobLink": "https://boards.greenhouse.io/moonpay/jobs/5662708003?utm_source=Otta",
+        "job_posted": "18 July 2023 03:12 PM "
     },
     {
-        "job_title": "Experienced Ruby Product Engineer, Silverfin",
-        "job_location": "Remote in EU, UK",
-        "JobLink": "https://jobs.eu.lever.co/silverfin/1253d7e8-e5c5-4b8c-9fa3-64fc338236c9?lever-source=Otta",
-        "JobPosted": "17 July 2023"
-    },
-    {
-        "job_title": "Senior Software Engineer, Vitt",
-        "job_location": "Remote in Germany, UK",
-        "JobLink": "https://jobs.smartrecruiters.com/Vitt1/743999807332228-senior-software-engineer?utm_source=Otta",
-        "JobPosted": "17 July 2023"
-    },
-    {
-        "job_title": "Senior Software Engineer, Docker",
-        "job_location": "Remote in EU, UK",
-        "JobLink": "https://jobs.ashbyhq.com/docker/6f8b62a1-ca58-4ac2-90a0-1c3e18a44524?utm_source=Otta",
-        "JobPosted": "17 July 2023"
-    },
-    {
-        "job_title": "Frontend Engineer, Pagoda",
+        "job_title": "Senior Rust Engineer, Volume",
         "job_location": "Remote in Canada, EU, UK, US",
-        "JobLink": "https://boards.greenhouse.io/pagoda/jobs/6826342002?gh_jid=6826342002&utm_source=Otta",
-        "JobPosted": "17 July 2023"
+        "JobLink": "https://jobs.lever.co/volume-finance/4d437ee2-8af0-409a-98ec-619c84f24ddd?lever-source=Otta",
+        "job_posted": "18 July 2023 03:12 PM "
     },
     {
-        "job_title": "Software Engineer, Waldo",
-        "job_location": "Remote in France, US",
-        "JobLink": "https://boards.greenhouse.io/waldo/jobs/4036587004?utm_source=Otta",
-        "JobPosted": "17 July 2023"
-    },
-    {
-        "job_title": "Senior Software Engineer, Tucows",
-        "job_location": "Remote in Canada, EU, UK, US",
-        "JobLink": "https://tucows.com/careers/jobs?%3Fgh_jid=5660020003&utm_source=Otta",
-        "JobPosted": "17 July 2023"
-    },
-    {
-        "job_title": "Distributed Systems Engineer, Status",
-        "job_location": "Remote in Canada, EU, UK, US",
-        "JobLink": "https://jobs.status.im/?gh_jid=4922787&utm_source=Otta",
-        "JobPosted": "17 July 2023"
-    },
-    {
-        "job_title": "Senior Software Engineer, Sinch",
-        "job_location": "Amsterdam",
-        "JobLink": "https://apply.workable.com/sinch/j/72E3F53C5C/?utm_source=Otta",
-        "JobPosted": "17 July 2023"
-    },
-    {
-        "job_title": "Principal Backend Software Engineer, Cabify",
+        "job_title": "Software Engineer, NoviCap",
         "job_location": "Remote in Spain",
-        "JobLink": "https://boards.greenhouse.io/cabify/jobs/6697701002?utm_source=Otta",
-        "JobPosted": "17 July 2023"
+        "JobLink": "https://novicap.teamtailor.com/jobs/1031517-software-engineer?utm_source=Otta",
+        "job_posted": "18 July 2023 03:12 PM "
     },
     {
-        "job_title": "Senior Fullstack Engineer, Bitly",
-        "job_location": "Remote in EU",
-        "JobLink": "https://boards.eu.greenhouse.io/bitly46/jobs/4135718101?utm_source=Otta",
-        "JobPosted": "17 July 2023"
+        "job_title": "Frontend Engineer, Finmid",
+        "job_location": "Remote in Germany",
+        "JobLink": "https://finmid.crew.work/jobs/61ba345186b34db62dd19cd0?utm_source=Otta",
+        "job_posted": "18 July 2023 03:12 PM "
     },
     {
-        "job_title": "Principal Software Engineer, Pulumi",
-        "job_location": "Remote in EU, UK, US",
-        "JobLink": "https://boards.greenhouse.io/pulumicorporation/jobs/5622790003?utm_source=Otta",
-        "JobPosted": "17 July 2023"
+        "job_title": "Senior DevOps Engineer, Bitpanda",
+        "job_location": "Barcelona",
+        "JobLink": "https://boards.greenhouse.io/bitpanda/jobs/4148533101?utm_source=Otta",
+        "job_posted": "18 July 2023 03:12 PM "
     },
     {
-        "job_title": "Staff/Senior Python Engineer, InRange",
-        "job_location": "Remote in EU, UK",
-        "JobLink": "https://jobs.ashbyhq.com/inrange/35ce1198-e78d-490e-a854-8160f8967d4a?utm_source=Otta",
-        "JobPosted": "17 July 2023"
+        "job_title": "Senior Backend Java Engineer, Circula",
+        "job_location": "Remote in Germany",
+        "JobLink": "https://circula.jobs.personio.de/job/579241?utm_source=Otta",
+        "job_posted": "18 July 2023 03:13 PM "
     },
     {
-        "job_title": "Senior Staff Software Engineer, Mozilla",
-        "job_location": "Remote in Canada, EU, UK, US",
-        "JobLink": "https://boards.greenhouse.io/mozilla/jobs/5030301?gh_src=adb5cbc61us",
-        "JobPosted": "17 July 2023"
-    },
-    {
-        "job_title": "Golang Engineer, Saga.xyz",
-        "job_location": "Remote in Canada, France, UK, US",
-        "JobLink": "https://jobs.lever.co/saga-xyz/362ee528-0276-4cf9-b09c-994ebb3b7b1d?lever-source=Otta",
-        "JobPosted": "17 July 2023"
-    },
-    {
-        "job_title": "Senior Fullstack Engineer, Choco",
+        "job_title": "Senior Backend Engineer, Banxware",
         "job_location": "Berlin",
-        "JobLink": "https://app.careerpuck.com/job-board/choco/job/4545776003?gh_jid=4545776003&gh_src=dd5306693us",
-        "JobPosted": "17 July 2023"
+        "JobLink": "https://banxware.jobs.personio.com/job/1131672?utm_source=Otta",
+        "job_posted": "18 July 2023 03:13 PM "
     },
     {
-        "job_title": "Senior Software Engineer, MessageBird",
-        "job_location": "Remote in EU, UK",
-        "JobLink": "https://jobs.ashbyhq.com/messagebird/e9238bb9-b7e9-40df-a590-6a48dbadd9f5?utm_source=Otta",
-        "JobPosted": "17 July 2023"
-    },
-    {
-        "job_title": "Frontend Engineer, sismo",
-        "job_location": "Remote in EU, UK",
-        "JobLink": "https://apply.workable.com/sismo-1/j/85B9E8AA7E/?utm_source=Otta",
-        "JobPosted": "17 July 2023"
-    },
-    {
-        "job_title": "Senior Backend Engineer, Argent",
-        "job_location": "Remote in EU",
-        "JobLink": "https://boards.eu.greenhouse.io/argent/jobs/4187985101?gh_src=4fcea242teu",
-        "JobPosted": "17 July 2023"
-    },
-    {
-        "job_title": "Senior Backend Engineer, Borg",
-        "job_location": "Remote in Canada, EU, UK, US",
-        "JobLink": "https://apply.workable.com/borg/j/A8D4910899/?utm_source=Otta",
-        "JobPosted": "17 July 2023"
-    },
-    {
-        "job_title": "Front-End Software Engineer, Ledger",
+        "job_title": "Senior Software Engineer, Teads",
         "job_location": "Paris",
-        "JobLink": "https://jobs.lever.co/ledger/a2233e2e-4574-457b-9a6c-58d58559983b?lever-source=Otta",
-        "JobPosted": "17 July 2023"
+        "JobLink": "https://boards.greenhouse.io/teads/jobs/4775055?gh_jid=4775055&utm_source=Otta",
+        "job_posted": "18 July 2023 03:13 PM "
     },
     {
-        "job_title": "Lead API Architect, Fingerprint",
-        "job_location": "Remote in Canada, EU, UK, US",
-        "JobLink": "https://fingerprint.com/careers/jobs/apply/?gh_jid=4756855004&gh_src=3f93dfbe4us",
-        "JobPosted": "17 July 2023"
+        "job_title": "Staff Software Engineer, Buynomics",
+        "job_location": "Barcelona",
+        "JobLink": "https://boards.eu.greenhouse.io/buynomics/jobs/4176439101?utm_source=Otta",
+        "job_posted": "18 July 2023 03:13 PM "
     },
     {
-        "job_title": "Full-Stack Engineer, Frontdoor Labs",
-        "job_location": "Remote in Canada, EU, UK, US",
-        "JobLink": "https://www.frontdoor.xyz/?utm_source=otta.com",
-        "JobPosted": "17 July 2023"
+        "job_title": "Full Stack Developer, Cocunat",
+        "job_location": "Barcelona",
+        "JobLink": "https://cocunat.jobs.personio.de/job/1146088?utm_source=Otta",
+        "job_posted": "18 July 2023 03:13 PM "
     },
     {
-        "job_title": "Staff Engineer, Picnic",
+        "job_title": "Senior .Net Developer, Wonderkind",
         "job_location": "Amsterdam",
-        "JobLink": "https://picnic.app/careers/jobs/2713009/technology--amp--engineering/amsterdam-north-holland-netherlands/staff-engineer--java-?utm_source=Otta",
-        "JobPosted": "17 July 2023"
+        "JobLink": "https://wonderkind.recruitee.com/o/senior-net-developer?utm_source=Otta",
+        "job_posted": "18 July 2023 03:13 PM "
     },
     {
-        "job_title": "Senior FullStack Developer, Descartes Underwriting",
-        "job_location": "Paris",
-        "JobLink": "https://careers.descartesunderwriting.com/jobs/2958087-senior-fullstack-developer-app-javascript-python-cdi?utm_source=Otta",
-        "JobPosted": "17 July 2023"
-    },
-    {
-        "job_title": "Senior Engineering Professional, Just Eat",
+        "job_title": "Site Reliability Engineer, Morressier",
         "job_location": "Berlin",
-        "JobLink": "https://wd3.myworkdaysite.com/en-US/recruiting/takeaway/JET-ECS-R/job/Berlin-Office/Senior-Professional---Engineering_R_032222?utm_source=Otta",
-        "JobPosted": "17 July 2023"
+        "JobLink": "https://careers.morressier.com/jobs/2959411-security-focused-site-reliability-engineer?utm_source=Otta",
+        "job_posted": "18 July 2023 03:14 PM "
+    },
+    {
+        "job_title": "Senior Full Stack Software Developer, Workist",
+        "job_location": "Berlin",
+        "JobLink": "https://workist-gmbh.jobs.personio.de/job/304133?utm_source=Otta",
+        "job_posted": "18 July 2023 03:14 PM "
+    },
+    {
+        "job_title": "Senior Software Engineer, MongoDB",
+        "job_location": "Barcelona",
+        "JobLink": "https://www.mongodb.com/careers/job/?gh_jid=4954213&utm_source=Otta",
+        "job_posted": "18 July 2023 03:14 PM "
+    },
+    {
+        "job_title": "Software Engineer Team Lead, Deed",
+        "job_location": "Berlin",
+        "JobLink": "https://jobs.joindeed.com/o/software-engineer-team-lead?utm_source=Otta",
+        "job_posted": "18 July 2023 03:14 PM "
+    },
+    {
+        "job_title": "Backend Engineer, Remote",
+        "job_location": "Remote in Canada, EU, UK, US",
+        "JobLink": "https://boards.greenhouse.io/remotecom/jobs/5626605003?utm_source=Otta",
+        "job_posted": "18 July 2023 03:14 PM "
+    },
+    {
+        "job_title": "Senior PHP Developer, Global Savings Group",
+        "job_location": "Paris",
+        "JobLink": "https://www.global-savings-group.com/careers-application/?gh_jid=4818389&utm_source=Otta",
+        "job_posted": "18 July 2023 03:14 PM "
+    },
+    {
+        "job_title": "QA Engineer, Dentolo",
+        "job_location": "Berlin",
+        "JobLink": "https://apply.workable.com/dentolo/j/B94F9B6A5C/?utm_source=Otta",
+        "job_posted": "18 July 2023 03:21 PM "
+    },
+    {
+        "job_title": "Cloud Engineer, TecAlliance",
+        "job_location": "Remote in Germany, Netherlands",
+        "JobLink": "https://career.tecalliance.net/jobs/1854982-cloud-engineer-m-f-d-sysops-devops?utm_source=Otta",
+        "job_posted": "18 July 2023 03:22 PM "
+    },
+    {
+        "job_title": "Lead Platform Engineer, Personio",
+        "job_location": "Remote in Germany, Spain, Netherlands, UK",
+        "JobLink": "https://personio.jobs.personio.de/job/284166?utm_source=Otta",
+        "job_posted": "18 July 2023 03:22 PM "
+    },
+    {
+        "job_title": "Backend Engineer, Feeld",
+        "job_location": "Remote in Netherlands",
+        "JobLink": "https://apply.workable.com/feeldco/j/002EDE3738/?utm_source=Otta",
+        "job_posted": "18 July 2023 03:22 PM "
+    },
+    {
+        "job_title": "Web Designer, B12",
+        "job_location": "Remote in Canada, EU, UK, US",
+        "JobLink": "https://boards.greenhouse.io/b12/jobs/2259130?utm_source=Otta",
+        "job_posted": "18 July 2023 03:22 PM "
+    },
+    {
+        "job_title": "Graph Database Engineer, Indykite",
+        "job_location": "Remote in Canada, EU, UK, US",
+        "JobLink": "https://indykite.rippling-ats.com/job/479002/graph-database-engineer?utm_source=Otta",
+        "job_posted": "18 July 2023 03:22 PM "
+    },
+    {
+        "job_title": "Senior Test Automation Engineer, GOALS",
+        "job_location": "Remote in EU, UK",
+        "JobLink": "https://tt.playgoals.com/jobs/2475054-senior-test-automation-engineer-unreal-engine?utm_source=Otta",
+        "job_posted": "18 July 2023 03:22 PM "
+    },
+    {
+        "job_title": "Senior Database Reliability Engineer, ClickUp",
+        "job_location": "Remote in EU, UK",
+        "JobLink": "https://clickup.com/careers?gh_jid=4913633004&utm_source=Otta",
+        "job_posted": "18 July 2023 03:23 PM "
+    },
+    {
+        "job_title": "Software Engineer, WorkOS",
+        "job_location": "Remote in EU, US",
+        "JobLink": "https://jobs.lever.co/workos/927a943c-ee9a-4c69-9684-af560552ae2a?lever-source=Otta",
+        "job_posted": "18 July 2023 03:23 PM "
+    },
+    {
+        "job_title": "Backend Engineer, air up",
+        "job_location": "Remote in Germany, UK",
+        "JobLink": "https://boards.eu.greenhouse.io/airup/jobs/4157069101?utm_source=Otta",
+        "job_posted": "18 July 2023 03:23 PM "
+    },
+    {
+        "job_title": "Rust Software Engineer, Open Cosmos",
+        "job_location": "Remote in Spain",
+        "JobLink": "https://opencosmos.bamboohr.com/careers/155?utm_source=Otta",
+        "job_posted": "18 July 2023 03:23 PM "
     },
     {
         "job_title": "Linux Communication Engineer, Fluence Energy",
         "job_location": "Amsterdam",
         "JobLink": "https://jobs.lever.co/fluence/028bd5d7-135f-46f5-aa19-f331ddb1a82e?lever-source=Otta",
-        "JobPosted": "17 July 2023"
+        "job_posted": "18 July 2023 03:23 PM "
     },
     {
-        "job_title": "Senior Backend Software Engineer, InstaDeep",
-        "job_location": "Paris",
-        "JobLink": "https://instadeep.bamboohr.com/careers/319?utm_source=Otta",
-        "JobPosted": "17 July 2023"
+        "job_title": "DevOps Engineer, Mindee",
+        "job_location": "Remote in France",
+        "JobLink": "https://jobs.ashbyhq.com/mindee.com/ec19c7db-aed2-46e9-865d-e93aac7f2098?utm_source=Otta",
+        "job_posted": "18 July 2023 03:23 PM "
     },
     {
-        "job_title": "Senior DataOps Engineer, Signa Sports United",
+        "job_title": "Software Engineer, Firebolt",
+        "job_location": "Remote in EU",
+        "JobLink": "https://www.firebolt.io/career?id=D1.83E&utm_source=Otta",
+        "job_posted": "18 July 2023 03:24 PM "
+    },
+    {
+        "job_title": "Senior Software Engineer, John Snow Labs",
+        "job_location": "Remote in Canada, EU, UK, US",
+        "JobLink": "https://jobs.smartrecruiters.com/JohnSnowLabs/743999872281393-senior-software-engineer-for-a-python-open-source-library?utm_source=Otta",
+        "job_posted": "18 July 2023 03:24 PM "
+    },
+    {
+        "job_title": "Lead DevOps Engineer, Intenseye",
         "job_location": "Berlin",
-        "JobLink": "https://jobs.smartrecruiters.com/SIGNASportsUnited/743999905232414-senior-dataops-engineer-m-f-d-?utm_source=Otta",
-        "JobPosted": "17 July 2023"
+        "JobLink": "https://jobs.lever.co/intenseye/36e874da-2a36-4cca-908e-8388070b1cfb?lever-source=Otta",
+        "job_posted": "18 July 2023 03:24 PM "
     },
     {
-        "job_title": "Senior Backend Engineer, Brenger",
-        "job_location": "Amsterdam",
-        "JobLink": "https://careers.brenger.nl/o/senior-backend-engineer-amsterdam?utm_source=Otta",
-        "JobPosted": "17 July 2023"
+        "job_title": "Senior Full Stack Engineer, Kpler",
+        "job_location": "Paris",
+        "JobLink": "https://jobs.lever.co/kpler/744f7708-0fae-4c65-a45f-9940b771ddb3?lever-source=Otta",
+        "job_posted": "18 July 2023 03:24 PM "
     },
     {
-        "job_title": "Site Reliability Engineer, Intigriti",
-        "job_location": "Amsterdam",
-        "JobLink": "https://intigriti.jobs.personio.com/job/1079187?utm_source=Otta",
-        "JobPosted": "17 July 2023"
+        "job_title": "Senior Golang Backend Engineer, Seedtag",
+        "job_location": "Remote in Spain",
+        "JobLink": "https://seedtag.breezy.hr/p/405c034f707301-senior-golang-backend-engineer-adexchange?source=Otta",
+        "job_posted": "18 July 2023 03:24 PM "
     },
     {
-        "job_title": "Senior Backend Developer, Temper",
-        "job_location": "Amsterdam",
-        "JobLink": "https://temper2.recruitee.com/o/senior-backend-developer-php?utm_source=Otta",
-        "JobPosted": "17 July 2023"
+        "job_title": "Senior Software Engineer, Algolia",
+        "job_location": "Paris",
+        "JobLink": "https://boards.greenhouse.io/algolia/jobs/4894003004?utm_source=Otta",
+        "job_posted": "18 July 2023 03:24 PM "
     },
     {
-        "job_title": "Senior Java Software Engineer, Aetion",
+        "job_title": "Agent Test Automation Engineer, Halcyon",
+        "job_location": "Remote in Canada, EU, UK, US",
+        "JobLink": "https://boards.greenhouse.io/halcyon/jobs/4916541004?utm_source=Otta",
+        "job_posted": "18 July 2023 03:25 PM "
+    },
+    {
+        "job_title": "Quality Assurance Engineer, Sinequa",
+        "job_location": "Paris",
+        "JobLink": "https://www.sinequa.com/careers-emea/q-a-engineer/?utm_source=Otta",
+        "job_posted": "18 July 2023 03:25 PM "
+    },
+    {
+        "job_title": "Software Development Engineer, Amazon",
         "job_location": "Barcelona",
-        "JobLink": "https://boards.greenhouse.io/aetion/jobs/4942680?utm_source=Otta",
-        "JobPosted": "17 July 2023"
+        "JobLink": "https://amazon.jobs/en/jobs/2385932/software-development-engineer-amazon-payroll-tech?utm_source=Otta",
+        "job_posted": "18 July 2023 03:25 PM "
+    },
+    {
+        "job_title": "Medior Front-End Developer, ParkBee",
+        "job_location": "Amsterdam",
+        "JobLink": "https://careers.parkbee.com/jobs/2927589-medior-front-end-developer?utm_source=Otta",
+        "job_posted": "18 July 2023 03:25 PM "
+    },
+    {
+        "job_title": "Frontend Software Engineer, trawa",
+        "job_location": "Berlin",
+        "JobLink": "https://trawa.jobs.personio.de/job/1004014?utm_source=Otta",
+        "job_posted": "18 July 2023 03:25 PM "
+    },
+    {
+        "job_title": "Fullstack JS Engineer, Voggt",
+        "job_location": "Paris",
+        "JobLink": "https://voggt.crew.work/jobs/61bb0787cb653cb76441f3ac?utm_source=Otta",
+        "job_posted": "18 July 2023 03:25 PM "
+    },
+    {
+        "job_title": "Developer Productivity Engineer, Gradle",
+        "job_location": "Remote in EU, UK",
+        "JobLink": "https://boards.greenhouse.io/gradle/jobs/3117382?utm_source=Otta",
+        "job_posted": "18 July 2023 03:26 PM "
+    },
+    {
+        "job_title": "Senior Automation QA Engineer, remberg",
+        "job_location": "Remote in Germany",
+        "JobLink": "https://remberg.breezy.hr/p/2fe2dec4506c01-senior-automation-qa-engineer-f-m-d?source=Otta",
+        "job_posted": "18 July 2023 03:26 PM "
+    },
+    {
+        "job_title": "Systems / DevOps Engineer, Bonial International",
+        "job_location": "Berlin",
+        "JobLink": "https://jobs.lever.co/bonial-2/d3e9cb0b-857c-4d4d-ba07-6793028e4f06?lever-source=Otta",
+        "job_posted": "18 July 2023 03:26 PM "
+    },
+    {
+        "job_title": "Product Engineer, Mui",
+        "job_location": "Remote in EU",
+        "JobLink": "https://jobs.ashbyhq.com/MUI/e641bac3-5538-4ec8-8d73-eaa1a03704d6?utm_source=Otta",
+        "job_posted": "18 July 2023 03:26 PM "
+    },
+    {
+        "job_title": "Senior Infrastructure Engineer, HackerOne",
+        "job_location": "Remote in Netherlands, UK",
+        "JobLink": "https://jobs.lever.co/hackerone/7267bc9f-e9fd-4b52-94bd-bbe765dc99a2?lever-source=Otta",
+        "job_posted": "18 July 2023 03:26 PM "
+    },
+    {
+        "job_title": "Senior Frontend Software Engineer, Blacklane",
+        "job_location": "Barcelona",
+        "JobLink": "https://boards.greenhouse.io/blacklane/jobs/6822536002?utm_source=Otta",
+        "job_posted": "18 July 2023 03:26 PM "
+    },
+    {
+        "job_title": "Senior Full Stack Engineer, WeRoad",
+        "job_location": "Remote in EU",
+        "JobLink": "https://weroad.hirehive.com/job/114965/freelance-piva-senior-full-stack-nodejstypescript-vuenuxt-engineer-european-remote?utm_source=Otta",
+        "job_posted": "18 July 2023 03:43 PM "
+    },
+    {
+        "job_title": "DevOps Engineer, BizAway",
+        "job_location": "Remote in Spain",
+        "JobLink": "http://jobs.bizaway.com/apply/Okq3AkwFqC/DevOps-Engineer-Spain?utm_source=Otta",
+        "job_posted": "18 July 2023 03:43 PM "
+    },
+    {
+        "job_title": "Full Stack Developer, Audigent",
+        "job_location": "Remote in EU, UK",
+        "JobLink": "https://boards.greenhouse.io/audigent/jobs/4830428004?utm_source=Otta",
+        "job_posted": "18 July 2023 03:43 PM "
+    },
+    {
+        "job_title": "PHP Developer, WP-Media",
+        "job_location": "Remote in Canada, EU, UK, US",
+        "JobLink": "https://apply.workable.com/wp-media/j/F151D08C96/?utm_source=Otta",
+        "job_posted": "18 July 2023 03:43 PM "
+    },
+    {
+        "job_title": "Solidity Developer, Shard Labs",
+        "job_location": "Remote in Canada, EU, UK, US",
+        "JobLink": "https://shardlabs.bamboohr.com/careers/26?utm_source=Otta",
+        "job_posted": "18 July 2023 03:43 PM "
+    },
+    {
+        "job_title": "Senior Full Stack Engineer, Dotfile",
+        "job_location": "Remote in France",
+        "JobLink": "https://dotfile.crew.work/jobs/6318a94e385feff3c6696106?utm_source=Otta",
+        "job_posted": "18 July 2023 03:43 PM "
+    },
+    {
+        "job_title": "Lead Frontend Software Engineer, Onna",
+        "job_location": "Remote in Spain",
+        "JobLink": "https://boards.greenhouse.io/onna/jobs/6833131002?utm_source=Otta",
+        "job_posted": "18 July 2023 03:44 PM "
+    },
+    {
+        "job_title": "Senior Systems Engineer, Dailymotion",
+        "job_location": "Remote in France",
+        "JobLink": "https://jobs.smartrecruiters.com/Dailymotion/743999806466679-senior-systems-engineer-storage-all-genders-?utm_source=Otta",
+        "job_posted": "18 July 2023 03:44 PM "
+    },
+    {
+        "job_title": "Frontend Engineer, Eloomi",
+        "job_location": "Remote in EU",
+        "JobLink": "https://careers.eloomi.com/jobs/2197604-frontend-engineer?utm_source=Otta",
+        "job_posted": "18 July 2023 03:44 PM "
+    },
+    {
+        "job_title": "DevOps Engineer, Speed Kit",
+        "job_location": "Remote in Germany",
+        "JobLink": "https://join.com/companies/baqend/8540533-devops-engineer-all-genders-remote-or-hamburg?utm_source=Otta",
+        "job_posted": "18 July 2023 03:44 PM "
+    },
+    {
+        "job_title": "Senior PHP FullStack Software Engineer, Launchmetrics",
+        "job_location": "Remote in EU",
+        "JobLink": "https://careers.launchmetrics.com/jobs/2058352-senior-php-fullstack-software-engineer?utm_source=Otta",
+        "job_posted": "18 July 2023 03:44 PM "
+    },
+    {
+        "job_title": "Senior Backend Software Engineer, DoubleVerify",
+        "job_location": "Remote in Germany",
+        "JobLink": "https://boards.greenhouse.io/doubleverify/jobs/6732316002?utm_source=Otta",
+        "job_posted": "18 July 2023 03:45 PM "
+    },
+    {
+        "job_title": "Front-end Developer, TileDB",
+        "job_location": "Remote in EU, US",
+        "JobLink": "https://apply.workable.com/tiledb/j/ECB5834229/?utm_source=Otta",
+        "job_posted": "18 July 2023 03:45 PM "
+    },
+    {
+        "job_title": "Senior Full Stack Software Engineer, Polar Analytics",
+        "job_location": "Remote in France, UK",
+        "JobLink": "https://jobs.ashbyhq.com/polaranalytics/671fbf44-3b1c-4f73-8e36-8b9f51425a9d?utm_source=Otta",
+        "job_posted": "18 July 2023 03:45 PM "
+    },
+    {
+        "job_title": "Back-End Developer, GRESB",
+        "job_location": "Berlin",
+        "JobLink": "https://apply.workable.com/gresb/j/C564CD9699/?utm_source=Otta",
+        "job_posted": "18 July 2023 03:45 PM "
+    },
+    {
+        "job_title": "Senior Software Engineer, Fivetran",
+        "job_location": "Amsterdam",
+        "JobLink": "https://www.fivetran.com/careers/job?gh_jid=5666470003&utm_source=Otta",
+        "job_posted": "18 July 2023 03:45 PM "
+    },
+    {
+        "job_title": "Senior Java Developer, GraphAware",
+        "job_location": "Remote in EU",
+        "JobLink": "https://graphaware.breezy.hr/p/cebf738c6f23-senior-java-developer?source=Otta",
+        "job_posted": "18 July 2023 03:45 PM "
+    },
+    {
+        "job_title": "Frontend Software Engineer, Metabase",
+        "job_location": "Remote in Canada, EU, UK, US",
+        "JobLink": "https://jobs.lever.co/metabase/8f02d3fa-edf4-4433-a6d1-4f9e517ac8f9?lever-source=Otta",
+        "job_posted": "18 July 2023 03:45 PM "
+    },
+    {
+        "job_title": "Kubernetes Site Reliability Engineer, flanksource",
+        "job_location": "Remote in Canada, EU, UK, US",
+        "JobLink": "https://flanksource1.recruitee.com/o/kubernetes-site-reliability-engineer?utm_source=Otta",
+        "job_posted": "18 July 2023 03:46 PM "
+    },
+    {
+        "job_title": "Mid Backend Engineer, Adjust",
+        "job_location": "Berlin",
+        "JobLink": "https://www.adjust.com/company/careers/jobs/apply?jobid=6472819002%3Fgh_jid%3D6472819002&utm_source=Otta",
+        "job_posted": "18 July 2023 03:46 PM "
+    },
+    {
+        "job_title": "Senior Software Infrastructure Developer, Liberty Global",
+        "job_location": "Amsterdam",
+        "JobLink": "https://libertyglobal.wd3.myworkdayjobs.com/en-US/Liberty_Global_Careers/job/Schiphol-Rijk/Senior-Software-Infrastructure-Developer_REQ_00033387-1?utm_source=Otta",
+        "job_posted": "18 July 2023 03:46 PM "
+    },
+    {
+        "job_title": "Python / Odoo Developer, Everphone",
+        "job_location": "Berlin",
+        "JobLink": "https://boards.greenhouse.io/everphone/jobs/5661470003?utm_source=Otta",
+        "job_posted": "18 July 2023 03:46 PM "
+    },
+    {
+        "job_title": "Expert Frontend Engineer, Zivver",
+        "job_location": "Amsterdam",
+        "JobLink": "https://workat.zivver.eu/o/expert-engineer-frontend?utm_source=Otta",
+        "job_posted": "18 July 2023 03:46 PM "
+    },
+    {
+        "job_title": "Front End Engineer, PASQAL",
+        "job_location": "Paris",
+        "JobLink": "https://pasqal.teamtailor.com/jobs/2766243-front-end-engineer-w-m?utm_source=Otta",
+        "job_posted": "18 July 2023 03:47 PM "
+    },
+    {
+        "job_title": "Platform Engineer, Dott",
+        "job_location": "Paris",
+        "JobLink": "https://jobs.lever.co/dott/df24e2ae-e9c0-45d8-8514-49f89f507aaa?lever-source=Otta",
+        "job_posted": "18 July 2023 03:47 PM "
+    },
+    {
+        "job_title": "Site Reliability Engineer, Giant Swarm",
+        "job_location": "Remote in EU, UK",
+        "JobLink": "https://giant-swarm.jobs.personio.de/job/180887?utm_source=Otta",
+        "job_posted": "18 July 2023 03:47 PM "
+    },
+    {
+        "job_title": "Senior Python Fullstack Developer, Deepki",
+        "job_location": "Paris",
+        "JobLink": "https://careers.deepki.com/jobs/1600248-python-fullstack-developer-senior-f-m-nb?utm_source=Otta",
+        "job_posted": "18 July 2023 03:47 PM "
+    },
+    {
+        "job_title": "DevOps Evangelist, Eyeo",
+        "job_location": "Remote in EU",
+        "JobLink": "https://boards.greenhouse.io/eyeo/jobs/4917378?utm_source=Otta",
+        "job_posted": "18 July 2023 03:47 PM "
+    },
+    {
+        "job_title": "Senior Ruby Backend Engineer, Aklamio",
+        "job_location": "Berlin",
+        "JobLink": "https://boards.greenhouse.io/aklamio/jobs/5589362003?utm_source=Otta",
+        "job_posted": "18 July 2023 03:47 PM "
+    },
+    {
+        "job_title": "Sr Product Engineer, Framer",
+        "job_location": "Remote in Netherlands",
+        "JobLink": "https://framer.breezy.hr/p/992fff85a47c01-sr-product-engineer?source=Otta",
+        "job_posted": "18 July 2023 03:47 PM "
+    },
+    {
+        "job_title": "Senior Backend Software Engineer, Whisbi",
+        "job_location": "Remote in Spain",
+        "JobLink": "https://careers.whisbi.com/jobs/1555654-senior-backend-software-engineer-node-js?utm_source=Otta",
+        "job_posted": "18 July 2023 03:54 PM "
+    },
+    {
+        "job_title": "AWS Cloud Engineer, Awin",
+        "job_location": "Remote in France, Germany, Spain, Netherlands, UK",
+        "JobLink": "https://www.awin.com/gb/careers/vacancies?gh_jid=5523734003&utm_source=Otta",
+        "job_posted": "18 July 2023 03:54 PM "
+    },
+    {
+        "job_title": "Senior Backend Engineer, Lavanda",
+        "job_location": "Remote in EU, UK",
+        "JobLink": "https://lavanda.bamboohr.com/careers/69?utm_source=Otta",
+        "job_posted": "18 July 2023 03:54 PM "
+    },
+    {
+        "job_title": "Frontend Web Developer, Oneleaf",
+        "job_location": "Remote in France",
+        "JobLink": "https://oneleaf.crew.work/jobs/630e27645095f23d6496068e?utm_source=Otta",
+        "job_posted": "18 July 2023 03:54 PM "
+    },
+    {
+        "job_title": "Senior Software Engineer, SmartRecruiters",
+        "job_location": "Remote in Germany",
+        "JobLink": "https://jobs.smartrecruiters.com/smartrecruiters/743999916554123-senior-software-engineer-python-data?utm_source=Otta",
+        "job_posted": "18 July 2023 03:54 PM "
+    },
+    {
+        "job_title": "Site Reliability Engineer, Quix",
+        "job_location": "Remote in EU, UK",
+        "JobLink": "https://quix.recruitee.com/o/site-reliability-engineer-1?utm_source=Otta",
+        "job_posted": "18 July 2023 03:55 PM "
+    },
+    {
+        "job_title": "Industrial Control/Automation Engineer, Signaloid",
+        "job_location": "Remote in EU, UK",
+        "JobLink": "https://apply.workable.com/signaloid/j/6001765CC5/?utm_source=Otta",
+        "job_posted": "18 July 2023 03:55 PM "
+    },
+    {
+        "job_title": "Senior Go Backend Engineer, refurbed",
+        "job_location": "Remote in Germany",
+        "JobLink": "https://www.refurbed.de/jobs/?gh_jid=4126816101&utm_source=Otta",
+        "job_posted": "18 July 2023 03:55 PM "
+    },
+    {
+        "job_title": "Senior Backend Engineer, Omni Creator Products",
+        "job_location": "Remote in Canada, EU, UK, US",
+        "JobLink": "https://jobs.ashbyhq.com/ocp/a5ce36eb-d9b8-428e-878d-f5a3eb2e3d1a?utm_source=Otta",
+        "job_posted": "18 July 2023 03:55 PM "
+    },
+    {
+        "job_title": "Senior/Mid Backend Developer, Mercaux",
+        "job_location": "Remote in Spain",
+        "JobLink": "https://mercaux.bamboohr.com/careers/68?utm_source=Otta",
+        "job_posted": "18 July 2023 03:55 PM "
+    },
+    {
+        "job_title": "Staff Software Engineer, Paddle",
+        "job_location": "Remote in EU, UK",
+        "JobLink": "https://jobs.ashbyhq.com/paddle/b25bc810-fae7-48f8-be8b-46e3daf5c0bc?utm_source=Otta",
+        "job_posted": "18 July 2023 03:56 PM "
+    },
+    {
+        "job_title": "Backend Software Engineer, Payflows",
+        "job_location": "Paris",
+        "JobLink": "https://payflows.crew.work/jobs/62ea9ba4c878738030fcd0cc?utm_source=Otta",
+        "job_posted": "18 July 2023 03:56 PM "
+    },
+    {
+        "job_title": "Senior Frontend Developer, CLARK",
+        "job_location": "Berlin",
+        "JobLink": "https://boards.greenhouse.io/clark71/jobs/6720908002?utm_source=Otta",
+        "job_posted": "18 July 2023 03:56 PM "
+    },
+    {
+        "job_title": "Staff Backend Software Engineer, Empower Finance",
+        "job_location": "Remote in Canada, EU, UK, US",
+        "JobLink": "https://jobs.lever.co/empower.me/6dd71f69-a5de-4cf1-861d-4b3dd01a8bb0?lever-source=Otta",
+        "job_posted": "18 July 2023 03:56 PM "
+    },
+    {
+        "job_title": "Senior Principal Backend Engineer, Binance",
+        "job_location": "Remote in Canada, EU, UK, US",
+        "JobLink": "https://jobs.lever.co/binance/197b7250-2302-4335-a334-86b59bab928d?lever-source=Otta",
+        "job_posted": "18 July 2023 03:56 PM "
+    },
+    {
+        "job_title": "Senior Platform Engineer, Signicat",
+        "job_location": "Remote in Spain",
+        "JobLink": "https://signicat.teamtailor.com/jobs/2485213-senior-platform-engineer-spain?utm_source=Otta",
+        "job_posted": "18 July 2023 03:56 PM "
+    },
+    {
+        "job_title": "C++ Software Engineer, Quasar Labs",
+        "job_location": "Remote in France",
+        "JobLink": "https://apply.workable.com/quasar/j/9CE37AFBA9/?utm_source=Otta",
+        "job_posted": "18 July 2023 03:56 PM "
+    },
+    {
+        "job_title": "Backend Engineer, symmetrical.ai",
+        "job_location": "Remote in EU, UK",
+        "JobLink": "https://apply.workable.com/symmetricalai/j/2FEDB549BC/?utm_source=Otta",
+        "job_posted": "18 July 2023 03:57 PM "
+    },
+    {
+        "job_title": "Senior Software Engineer, Matter Labs",
+        "job_location": "Remote in EU, UK",
+        "JobLink": "https://jobs.eu.lever.co/matterlabs/250c47c2-534b-4f55-b1e9-af6f72555581?lever-source=Otta",
+        "job_posted": "18 July 2023 03:57 PM "
+    },
+    {
+        "job_title": "Senior Full Stack Engineer, Big Time Studios",
+        "job_location": "Remote in Canada, EU, UK, US",
+        "JobLink": "https://jobs.lever.co/bigtime/56bccb50-26a2-4bf4-be83-f7eacfa3394d?lever-source=Otta",
+        "job_posted": "18 July 2023 03:57 PM "
+    },
+    {
+        "job_title": "Senior Full Stack Developer, Sensorberg",
+        "job_location": "Berlin",
+        "JobLink": "https://sensorberg.jobs.personio.de/job/886787?utm_source=Otta",
+        "job_posted": "18 July 2023 03:57 PM "
+    },
+    {
+        "job_title": "Senior Backend Developer, Papernest",
+        "job_location": "Barcelona",
+        "JobLink": "https://careers.papernest.com/jobs/2660450-senior-backend-developer-m-f-barcelona?utm_source=Otta",
+        "job_posted": "18 July 2023 03:57 PM "
+    },
+    {
+        "job_title": "Senior Fullstack Engineer, Hexa",
+        "job_location": "Paris",
+        "JobLink": "https://hexa.crew.work/jobs/64908257d3fb71540c881982?utm_source=Otta",
+        "job_posted": "18 July 2023 03:58 PM "
+    },
+    {
+        "job_title": "Software Developer Engineer in Test, GoPro",
+        "job_location": "Paris",
+        "JobLink": "https://jobs.gopro.com/jobs/?gh_jid=4818489%3Fgh_jid%3D4818489&utm_source=Otta",
+        "job_posted": "18 July 2023 03:58 PM "
+    },
+    {
+        "job_title": "Full Stack Software Engineer, Leapsome",
+        "job_location": "Berlin",
+        "JobLink": "https://jobs.ashbyhq.com/Leapsome/a93672d1-93a4-45f2-9e94-9da7dbbea238?utm_source=Otta",
+        "job_posted": "18 July 2023 03:58 PM "
+    },
+    {
+        "job_title": "Senior DevOps Engineer, ecoligo",
+        "job_location": "Berlin",
+        "JobLink": "https://apply.workable.com/ecoligo/j/DBF2245E1A/?utm_source=Otta",
+        "job_posted": "18 July 2023 03:58 PM "
+    },
+    {
+        "job_title": "Software Engineer, Vonwood",
+        "job_location": "Amsterdam",
+        "JobLink": "https://vonwood.recruitee.com/o/software-engineer?utm_source=Otta",
+        "job_posted": "18 July 2023 03:58 PM "
+    },
+    {
+        "job_title": "Senior Backend Engineer, Forto",
+        "job_location": "Berlin",
+        "JobLink": "https://careers.forto.com/job-board/?gh_jid=4185591101&utm_source=Otta",
+        "job_posted": "18 July 2023 03:58 PM "
+    },
+    {
+        "job_title": "Senior Front-end Developer, Marley Spoon",
+        "job_location": "Berlin",
+        "JobLink": "https://apply.workable.com/marleyspoon/j/9E096EE775/?utm_source=Otta",
+        "job_posted": "18 July 2023 03:58 PM "
+    },
+    {
+        "job_title": "Cloud Services Engineer, IRECKONU",
+        "job_location": "Amsterdam",
+        "JobLink": "https://apply.workable.com/ireckonu/j/B24193CAC3/?utm_source=Otta",
+        "job_posted": "18 July 2023 03:59 PM "
+    },
+    {
+        "job_title": "Senior Backend Programmer, Coherence",
+        "job_location": "Remote in EU, UK",
+        "JobLink": "https://apply.workable.com/coherence/j/D5CB262C66/?utm_source=Otta",
+        "job_posted": "18 July 2023 04:05 PM "
+    },
+    {
+        "job_title": "Frontend / Fullstack Engineer, Geckoboard",
+        "job_location": "Remote in EU, UK",
+        "JobLink": "https://geckoboard.homerun.co/frontend-full-stack-engineer/en?utm_source=Otta",
+        "job_posted": "18 July 2023 04:05 PM "
+    },
+    {
+        "job_title": "International Lead DevOPS Engineer, WebFX",
+        "job_location": "Remote in Canada, EU, UK, US",
+        "JobLink": "https://jobs.lever.co/webfx/28349755-7b3e-44eb-b3d5-92c1c185cec4?lever-source=Otta",
+        "job_posted": "18 July 2023 04:05 PM "
+    },
+    {
+        "job_title": "Senior Software Engineer, Keelvar",
+        "job_location": "Remote in Germany, Ireland, UK",
+        "JobLink": "https://keelvar.jobs.personio.com/job/1081285?utm_source=Otta",
+        "job_posted": "18 July 2023 04:06 PM "
+    },
+    {
+        "job_title": "Senior Software Testing Engineer, Owkin",
+        "job_location": "Remote in France",
+        "JobLink": "https://boards.greenhouse.io/owkin/jobs/4174778101?utm_source=Otta",
+        "job_posted": "18 July 2023 04:06 PM "
+    },
+    {
+        "job_title": "Backend Software Engineer, SandboxAQ",
+        "job_location": "Remote in Canada, EU, UK, US",
+        "JobLink": "https://www.sandboxaq.com/careers-list?gh_jid=4859801004&utm_source=Otta",
+        "job_posted": "18 July 2023 04:06 PM "
+    },
+    {
+        "job_title": "Senior Frontend Engineer, Zora labs",
+        "job_location": "Remote in Canada, EU, UK, US",
+        "JobLink": "https://boards.greenhouse.io/zora/jobs/4812627004?utm_source=Otta",
+        "job_posted": "18 July 2023 04:06 PM "
+    },
+    {
+        "job_title": "Backend Programmer, Build A Rocket Boy",
+        "job_location": "Remote in France, UK",
+        "JobLink": "https://www.buildarocketboy.com/join-us/departments?gh_jid=5551668003&utm_source=Otta",
+        "job_posted": "18 July 2023 04:06 PM "
+    },
+    {
+        "job_title": "Senior Full Stack & Frontend Engineer, Ada Health",
+        "job_location": "Remote in EU, UK",
+        "JobLink": "https://ada.com/careers/job/6757911002/?gh_jid=6757911002&utm_source=Otta",
+        "job_posted": "18 July 2023 04:06 PM "
+    },
+    {
+        "job_title": "Senior Front End Developer, Guestline",
+        "job_location": "Remote in Germany, UK",
+        "JobLink": "https://guestline.bamboohr.com/careers/179?utm_source=Otta",
+        "job_posted": "18 July 2023 04:06 PM "
+    },
+    {
+        "job_title": "Mid Full-Stack Developer, Flowers Software",
+        "job_location": "Remote in Germany",
+        "JobLink": "https://flowers-software-gmbh.jobs.personio.de/job/1104414?utm_source=Otta",
+        "job_posted": "18 July 2023 04:07 PM "
+    },
+    {
+        "job_title": "Back-End Developer, Neobrain",
+        "job_location": "Remote in France",
+        "JobLink": "https://carriere.neobrain.io/jobs/2646277-back-end-developer-golang-m-f?utm_source=Otta",
+        "job_posted": "18 July 2023 04:07 PM "
+    },
+    {
+        "job_title": "Forward Deployed Software Engineer, Kheiron Medical",
+        "job_location": "Remote in Netherlands, UK, US",
+        "JobLink": "https://boards.eu.greenhouse.io/kheironmedicaltechnologies/jobs/4173637101?utm_source=Otta",
+        "job_posted": "18 July 2023 04:07 PM "
+    },
+    {
+        "job_title": "Senior JavaScript Developer, Caspar Health",
+        "job_location": "Berlin",
+        "JobLink": "https://goreha.jobs.personio.de/job/1004692?utm_source=Otta",
+        "job_posted": "18 July 2023 04:07 PM "
+    },
+    {
+        "job_title": "Senior Back End Software Engineer, Hubtype",
+        "job_location": "Remote in Spain",
+        "JobLink": "https://apply.workable.com/hubtype/j/C72BEAA5A9/?utm_source=Otta",
+        "job_posted": "18 July 2023 04:07 PM "
+    },
+    {
+        "job_title": "Senior Backend Developer, simpleshow",
+        "job_location": "Remote in Germany",
+        "JobLink": "https://jobs.simpleshow.com/jobs/2903322-senior-backend-developer-m-f-d?utm_source=Otta",
+        "job_posted": "18 July 2023 04:07 PM "
+    },
+    {
+        "job_title": "Senior Frontend Developer, Aignostics",
+        "job_location": "Berlin",
+        "JobLink": "https://aignostics.jobs.personio.de/job/321976?utm_source=Otta",
+        "job_posted": "18 July 2023 04:08 PM "
+    },
+    {
+        "job_title": "Senior Software Engineer, super.AI",
+        "job_location": "Berlin",
+        "JobLink": "https://super-ai.jobs.personio.de/job/638916?utm_source=Otta",
+        "job_posted": "18 July 2023 04:08 PM "
+    },
+    {
+        "job_title": "Senior Backend Engineer, Mercanis",
+        "job_location": "Berlin",
+        "JobLink": "https://mercanis.jobs.personio.de/job/1171091?utm_source=Otta",
+        "job_posted": "18 July 2023 04:08 PM "
+    },
+    {
+        "job_title": "Senior Frontend Engineer, Akur8",
+        "job_location": "Paris",
+        "JobLink": "https://apply.workable.com/akur8/j/6DEFE4CE62/?utm_source=Otta",
+        "job_posted": "18 July 2023 04:08 PM "
+    },
+    {
+        "job_title": "DevOps Engineer, Brevo",
+        "job_location": "Berlin",
+        "JobLink": "https://jobs.lever.co/brevo/b677cf94-4d5b-4ac7-8758-77e027ab739e?lever-source=Otta",
+        "job_posted": "18 July 2023 04:08 PM "
+    },
+    {
+        "job_title": "Web/Interface Developer, BABLE Smart Cities",
+        "job_location": "Barcelona",
+        "JobLink": "https://bable.jobs.personio.com/job/1091516?utm_source=Otta",
+        "job_posted": "18 July 2023 04:09 PM "
+    },
+    {
+        "job_title": "Backend Software Engineer, EMnify",
+        "job_location": "Berlin",
+        "JobLink": "https://www.emnify-jobs.com/emnify/?gh_jid=4048652101&utm_source=Otta",
+        "job_posted": "18 July 2023 04:09 PM "
+    },
+    {
+        "job_title": "React Native Developer, LiveEO",
+        "job_location": "Berlin",
+        "JobLink": "https://liveeo-gmbh.jobs.personio.de/job/712071?utm_source=Otta",
+        "job_posted": "18 July 2023 04:09 PM "
+    },
+    {
+        "job_title": "Senior Full Stack Engineer, Keywords Studios",
+        "job_location": "Remote in Spain",
+        "JobLink": "https://apply.workable.com/keywords-intl1/j/E17167A58B/?utm_source=Otta",
+        "job_posted": "18 July 2023 04:09 PM "
+    },
+    {
+        "job_title": "Principal Site Reliability Engineer, GoDaddy",
+        "job_location": "Remote in EU, UK",
+        "JobLink": "https://boards.greenhouse.io/godaddy/jobs/5614906003?gh_jid=5614906003&utm_source=Otta",
+        "job_posted": "18 July 2023 04:09 PM "
+    },
+    {
+        "job_title": "Senior Site Reliability Engineer, FareHarbor",
+        "job_location": "Amsterdam",
+        "JobLink": "https://fareharbor.com/careers/jobs/?gh_jid=6593828002&utm_source=Otta",
+        "job_posted": "18 July 2023 04:09 PM "
+    },
+    {
+        "job_title": "Senior Backend Engineer, Rainforest QA",
+        "job_location": "Remote in Canada, EU, UK, US",
+        "JobLink": "https://jobs.lever.co/rainforest/0a0a67a0-3ac0-4fcc-acb7-a5029de861d4?lever-source=Otta",
+        "job_posted": "18 July 2023 04:09 PM "
+    },
+    {
+        "job_title": "Backend Engineer, MVP Match",
+        "job_location": "Remote in Germany",
+        "JobLink": "https://mvpmatch.recruitee.com/o/backend-engineer-hamburg?utm_source=Otta",
+        "job_posted": "18 July 2023 04:10 PM "
+    },
+    {
+        "job_title": "Senior Frontend Software Engineer, Too Good To Go",
+        "job_location": "Paris",
+        "JobLink": "https://boards.greenhouse.io/toogoodtogo/jobs/5608208003?utm_source=Otta",
+        "job_posted": "18 July 2023 04:10 PM "
     }
 ]
