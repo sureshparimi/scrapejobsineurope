@@ -54,33 +54,7 @@ jobs:
         run: |
           git config --global user.name "Suresh Parimi"
           git config --global user.email "reachparimi@gmail.com"
-
-  combine-data:
-    needs: [ottacom, relocatewithus]
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Checking out repo
-        uses: actions/checkout@v3
-
-      - name: Set up Python
-        uses: actions/setup-python@v2
-        with:
-          python-version: '3.9'
-
-      - name: Install dependencies
-        run: |
-          pip install jsonlines
-
-      - name: Combine data from ottacomdata.json and relocatewithusjobs.json
-        run: |
-          cat masterdatabase.json > existingjobs.json
-          cat relocatewithusjobs.json > newjobs.json
-          jq -s add existingjobs.json newjobs.json > alljobs.json
-
-      - name: Remove records with null values
-        run: jq 'map(select(.position and .location and .description))' alljobs.json > filteredjobs.json
-
+          
       - name: Generate individual README files for each job
         run: |
           mkdir -p jobs
