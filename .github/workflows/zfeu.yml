@@ -7,7 +7,7 @@ on:
     - cron: '0 */4 * * *'
 
 jobs:
-  ottacom:
+  scrape-jobs:
     runs-on: ubuntu-latest
 
     steps:
@@ -31,32 +31,8 @@ jobs:
           git config --global user.name "Suresh Parimi"
           git config --global user.email "reachparimi@gmail.com"
 
-  relocatewithus:
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Checking out repo
-        uses: actions/checkout@v3
-
-      - name: Set up Python
-        uses: actions/setup-python@v2
-        with:
-          python-version: '3.9'
-
-      - name: Install dependencies
-        run: |
-          pip install requests beautifulsoup4 pandas selenium
-
-      - name: Run the scraping script
-        run: python relocatewithus.py || echo "Script failed, continuing workflow"
-
-      - name: Set Git user credentials
-        run: |
-          git config --global user.name "Suresh Parimi"
-          git config --global user.email "reachparimi@gmail.com"
-
   combine-data:
-    needs: [ottacom, relocatewithus]
+    needs: scrape-jobs
     runs-on: ubuntu-latest
 
     steps:
@@ -72,31 +48,18 @@ jobs:
         run: |
           pip install jsonlines
 
-      - name: Combine data from ottacomdata.json and relocatewithusjobs.json
-        run: |
-          cat ottacomdata.json > existingjobs.json
-          cat relocatewithusjobs.json > newjobs.json
-          jq -s add existingjobs.json newjobs.json > alljobs.json
-
       - name: Remove records with null values
-        run: jq 'map(select(.position and .location and .description))' alljobs.json > filteredjobs.json
+        run: jq 'map(select(.job_title and .job_location and .JobLink and .job_posted))' masterdatabase.json > filteredjobs.json
 
       - name: Generate individual README files for each job
         run: |
           mkdir -p jobs
-          echo "# Jobs from ottacomdata.json" > jobs/ottacom.md
-          echo "| Job Title | Job Location | Job Link | Job Posted |" >> jobs/ottacom.md
-          echo "| --- | --- | --- | --- |" >> jobs/ottacom.md
+          echo "# Jobs from masterdatabase.json" > jobs/latest-jobs.md
+          echo "| Job Title | Job Location | Job Link | Job Posted |" >> jobs/latest-jobs.md
+          echo "| --- | --- | --- | --- |" >> jobs/latest-jobs.md
           while IFS="|" read -r job_title job_location job_link job_posted; do
-            echo "| $job_title | $job_location | [Apply]($job_link) | $job_posted |" >> jobs/ottacom.md
-          done < <(jq -r '.[] | "\(.position)|\(.location)|\(.description)|\(.post_date // (now | strftime("%e %B %Y %l:%M %p %Z")))"' existingjobs.json)
-
-          echo "# Jobs from relocatewithusjobs.json" > jobs/relocatewithus.md
-          echo "| Job Title | Job Location | Job Link | Job Posted |" >> jobs/relocatewithus.md
-          echo "| --- | --- | --- | --- |" >> jobs/relocatewithus.md
-          while IFS="|" read -r job_title job_location job_link job_posted; do
-            echo "| $job_title | $job_location | [Apply]($job_link) | $job_posted |" >> jobs/relocatewithus.md
-          done < <(jq -r '.[] | "\(.position)|\(.location)|\(.description)|\(.post_date // (now | strftime("%e %B %Y %l:%M %p %Z")))"' newjobs.json)
+            echo "| $job_title | $job_location | [Apply]($job_link) | $job_posted |" >> jobs/latest-jobs.md
+          done < <(jq -r '.[] | "\(.job_title)|\(.job_location)|\(.JobLink)|\(.job_posted)"' filteredjobs.json)
 
       - name: Update main README.md with links to job files
         run: |
@@ -106,8 +69,7 @@ jobs:
           echo "" >> README.md
           echo "## Job Listings" >> README.md
           echo "" >> README.md
-          echo "- [Jobs from ottacomdata](jobs/ottacom.md)" >> README.md
-          echo "- [Jobs from relocatewithusjobs](jobs/relocatewithus.md)" >> README.md
+          echo "- [Latest Jobs](jobs/latest-jobs.md)" >> README.md
 
       - name: Set Git user credentials
         run: |
