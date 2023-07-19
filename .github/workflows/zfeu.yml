@@ -68,55 +68,7 @@ jobs:
           git commit -m "Archived jobs: ${timestamp}" || exit 0
           git push
 
-  generate_archived_jobs:
-    runs-on: ubuntu-latest
-    needs: archive
-    steps:
-      # Step 1: Check out the repository
-      - name: Checking out repo
-        uses: actions/checkout@v3
-
-      # Step 2: Create the archived jobs
-      - name: Create archived jobs
-        run: |
-          # Read the alljobs.json file and extract the keys as table of contents
-          keys=$(jq -r 'keys | join(" | ")' alljobs.json)
-
-          # Create the second readme.md file with archived jobs
-          echo "# archived jobs " > archived_jobs.md
-          echo "" >> archived_jobs.md
-          echo "| $keys |" >> archived_jobs.md
-          echo "| ---$keys--- |" >> archived_jobs.md
-
-      # Step 3: Print the JSON content in table format
-      - name: Print JSON content in table format
-        run: |
-          echo "" >> archived_jobs.md
-          echo "# JSON Content" >> archived_jobs.md
-          echo "" >> archived_jobs.md
-          echo "| Key | Value |" >> archived_jobs.md
-          echo "| --- | --- |" >> archived_jobs.md
-          jq -r 'to_entries | .[] | "\(.key) | \(.value) |"' alljobs.json >> archived_jobs.md
-
-      # Step 4: Set Git user credentials
-      - name: Set Git user credentials
-        run: |
-          git config --global user.name "Suresh Parimi"
-          git config --global user.email "reachparimi@gmail.com"
-
-      # Step 5: Pull changes from the remote repository
-      - name: Pull changes from remote repository
-        run: git pull origin main
-
-      # Step 6: Commit and push the changes to archived_jobs.md
-      - name: Commit and push if it changed
-        run: |
-          git add archived_jobs.md
-          timestamp=$(date -u)
-          git commit -m "Generate archived jobs: ${timestamp}" || exit 0
-          git push
-
-      # Step 7: Update the main readme.md with the link to archived_jobs.md
+      # Step 6: Update the main readme.md with the link to archived_jobs.md
       - name: Update main readme.md with link to archived_jobs.md
         run: |
           echo "" >> README.md
@@ -124,7 +76,7 @@ jobs:
           echo "" >> README.md
           echo "Click [here](archived_jobs.md) to view the Archived Jobs." >> README.md
 
-      # Step 8: Commit and push the changes to the main readme.md
+      # Step 7: Commit and push the changes to the main readme.md
       - name: Commit and push if it changed
         run: |
           git add README.md
