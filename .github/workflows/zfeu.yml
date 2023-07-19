@@ -56,3 +56,43 @@ jobs:
           timestamp=$(date -u)
           git commit -m "Latest jobs: ${timestamp}" || exit 0
           git push
+
+  archive:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checking out repo
+        uses: actions/checkout@v3
+
+      - name: Set Git user credentials
+        run: |
+          git config --global user.name "Suresh Parimi"
+          git config --global user.email "reachparimi@gmail.com"
+
+      - name: Parse alljobs.json into archivedjobs.md
+        id: parse-alljobs
+        run: |
+          echo "# Archived Jobs" > archivedjobs.md
+          echo "" >> archivedjobs.md
+          echo "| Job Title | Job Location | Job Link | Job Posted |" >> archivedjobs.md
+          echo "| --- | --- | --- | --- |" >> archivedjobs.md
+          while IFS="|" read -r job_title job_location job_link job_posted; do
+            echo "| $job_title | $job_location | [Apply]($job_link) | $job_posted |" >> archivedjobs.md
+          done < <(jq -r '.[] | "\(.job_title)|\(.job_location)|\(.JobLink)|\(.JobPosted // (now | strftime("%e %B %Y %l:%M %p %Z")))"' alljobs.json) || echo "JSON parsing failed"
+
+      - name: Commit and push
+        run: |
+          git add archivedjobs.md
+          timestamp=$(date -u)
+          git commit -m "Archived jobs: ${timestamp}" || exit 0
+          git push
+
+      - name: Update README.md with archivedjobs.md link
+        run: |
+          echo "" >> README.md
+          echo "## Archived Jobs" >> README.md
+          echo "" >> README.md
+          echo "You can find the archived job listings [here](archivedjobs.md)." >> README.md
+          echo "" >> README.md
+          git add README.md
+          git commit -m "Update README.md with archivedjobs.md link" || exit 0
+          git push
