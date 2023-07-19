@@ -1,4 +1,4 @@
-name: Scrape latest jobs
+name: Scrape and Archive Jobs
 
 on:
   push:
@@ -7,17 +7,20 @@ on:
     - cron: '0 */4 * * *'
 
 jobs:
-  scrape:
+  ottacomjobs:
     runs-on: ubuntu-latest
     steps:
+      # Step 1: Check out the repository
       - name: Checking out repo
         uses: actions/checkout@v3
 
+      # Step 2: Set up Python
       - name: Setting up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v2
         with:
           python-version: '3.9'
 
+      # Step 3: Install necessary packages
       - name: Installing necessary packages
         run: |
           apt list --installed
@@ -26,73 +29,67 @@ jobs:
           sudo apt-get install xvfb
           pip install requests beautifulsoup4 pandas webdriver-manager selenium
 
+      # Step 4: Run the scraping script
       - name: Run the scraping script
         run: python scratchpad.py || echo "Script failed, continuing workflow"
 
-      - name: Parse masterdatabase.json into table
-        id: parse-json
-        run: |
-          echo "# Latest Jobs" > README.md
-          echo "" >> README.md
-          echo "This page is updated at $(TZ='Europe/Paris' date +'%B %d, %Y %H:%M:%S')" >> README.md
-          echo "" >> README.md
-          echo "| Job Title | Job Location | Job Link | Job Posted |" >> README.md
-          echo "| --- | --- | --- | --- |" >> README.md
-          while IFS="|" read -r job_title job_location job_link job_posted; do
-            echo "| $job_title | $job_location | [Apply]($job_link) | $job_posted |" >> README.md
-          done < <(jq -r '.[] | "\(.job_title)|\(.job_location)|\(.JobLink)|\(.JobPosted // (now | strftime("%e %B %Y %l:%M %p %Z")))"' masterdatabase.json) || echo "JSON parsing failed"
-
-      - name: Set Git user credentials
-        run: |
-          git config --global user.name "Suresh Parimi"
-          git config --global user.email "reachparimi@gmail.com"
-
-      - name: Pull changes from remote repository
-        run: git pull
-
-      - name: Commit and push if it changed
-        run: |
-          git add README.md
-          timestamp=$(date -u)
-          git commit -m "Latest jobs: ${timestamp}" || exit 0
-          git push
-
   archive:
     runs-on: ubuntu-latest
+    needs: ottacomjobs
     steps:
+      # Step 1: Check out the repository
       - name: Checking out repo
         uses: actions/checkout@v3
 
-      - name: Set Git user credentials
+      # Step 2: Parse masterdatabase.json into table
+      - name: Parse masterdatabase.json into table
+        id: parse-json
         run: |
-          git config --global user.name "Suresh Parimi"
-          git config --global user.email "reachparimi@gmail.com"
+          jq -c 'select(.job_title != null and .job_location != null and .JobLink != null and .JobPosted != null)' masterdatabase.json > temp.json
+          mv temp.json masterdatabase.json
 
-      - name: Parse alljobs.json into archivedjobs.md
-        id: parse-alljobs
+      # Step 3: Create the archivedjobs.md file
+      - name: Create archivedjobs.md
         run: |
           echo "# Archived Jobs" > archivedjobs.md
           echo "" >> archivedjobs.md
           echo "| Job Title | Job Location | Job Link | Job Posted |" >> archivedjobs.md
           echo "| --- | --- | --- | --- |" >> archivedjobs.md
-          while IFS="|" read -r job_title job_location job_link job_posted; do
-            echo "| $job_title | $job_location | [Apply]($job_link) | $job_posted |" >> archivedjobs.md
-          done < <(jq -r '.[] | "\(.job_title)|\(.job_location)|\(.JobLink)|\(.JobPosted // (now | strftime("%e %B %Y %l:%M %p %Z")))"' alljobs.json) || echo "JSON parsing failed"
+          jq -r '.[] | "\(.job_title)|\(.job_location)|\(.JobLink)|\(.JobPosted)"' masterdatabase.json | sed 's/null//g' >> archivedjobs.md
 
-      - name: Commit and push
+      # Step 4: Set Git user credentials
+      - name: Set Git user credentials
+        run: |
+          git config --global user.name "Suresh Parimi"
+          git config --global user.email "reachparimi@gmail.com"
+
+      # Step 5: Pull changes from the remote repository
+      - name: Pull changes from remote repository
+        run: git pull
+
+      # Step 6: Commit and push the changes to archivedjobs.md
+      - name: Commit and push if it changed
         run: |
           git add archivedjobs.md
           timestamp=$(date -u)
           git commit -m "Archived jobs: ${timestamp}" || exit 0
           git push
 
-      - name: Update README.md with archivedjobs.md link
+  copy_data:
+    runs-on: ubuntu-latest
+    needs: archive
+    steps:
+      # Step 1: Check out the repository
+      - name: Checking out repo
+        uses: actions/checkout@v3
+
+      # Step 2: Copy masterdatabase.json to alljobs.json
+      - name: Copy masterdatabase.json to alljobs.json
         run: |
-          echo "" >> README.md
-          echo "## Archived Jobs" >> README.md
-          echo "" >> README.md
-          echo "You can find the archived job listings [here](archivedjobs.md)." >> README.md
-          echo "" >> README.md
-          git add README.md
-          git commit -m "Update README.md with archivedjobs.md link" || exit 0
+          cp masterdatabase.json alljobs.json
+          # Validate and fix the format of alljobs.json
+          jq empty alljobs.json || jq -s '.' alljobs.json > temp.json && mv temp.json alljobs.json
+
+          git add alljobs.json
+          git commit -m "Copy masterdatabase.json to alljobs.json" || exit 0
           git push
