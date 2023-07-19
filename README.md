@@ -210,3 +210,8 @@ This page is updated at July 19, 2023 16:59:47
 | Senior PHP Developer, ManyChat | Barcelona | [Apply](https://boards.greenhouse.io/manychat/jobs/6764046002?gh_jid=6764046002&utm_source=Otta) | 19 July 2023  2:59 PM UTC |
 | Quality Engineer, PlayPlay | Paris | [Apply](https://jobs.lever.co/playplay/73c7e7b0-af8b-4e29-9114-9b0c5ac01112?lever-source=Otta) | 19 July 2023  2:59 PM UTC |
 | Senior Full Stack Software Engineer, Scaler | Amsterdam | [Apply](https://jobs.ashbyhq.com/scaler/f782ee8e-db22-469d-980e-84a1ed240970?utm_source=Otta) | 19 July 2023  2:59 PM UTC |
+
+## Archived Jobs
+
+You can find the archived job listings [here](archivedjobs.md).
+
