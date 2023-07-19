@@ -218,3 +218,7 @@ This page is updated at July 19, 2023 16:59:47
 
 You can find the archived job listings [here](archivedjobs.md).
 
+
+# Archived Jobs
+
+Click [here](archived_jobs.md) to view the Archived Jobs.
