@@ -1,5 +1,3 @@
-# Archived Jobs
-
 | Job Title | Job Location | Job Link |
 | --- | --- | --- |
 Senior Full Stack Software Engineer, Ride Capital|Berlin|[Apply](https://ride.jobs.personio.de/job/1170042)
