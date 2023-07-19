@@ -4,7 +4,7 @@ on:
   push:
   workflow_dispatch:
   schedule:
-    - cron: '0 */2 * * *'
+    - cron: '0 */4 * * *'
 
 jobs:
   scrape:
@@ -77,9 +77,8 @@ jobs:
       # Step 2: Update main readme.md with archived jobs section
       - name: Update main readme.md with archived jobs section
         run: |
-          echo -e "## Archived Jobs\n\nYou can find the archived job listings here:\n\n[Archived Jobs](archivedjobs.md)" > README.md
-          tail -n +3 README.md >> README.md.tmp
-          mv README.md.tmp README.md
+          # Insert the "Archived Jobs" section after the lastest jobs section
+          sed -i '/^## Jobs posted in the past one week/a\## Archived Jobs\n\nYou can find the archived job listings here:\n\n[Archived Jobs](archivedjobs.md)' README.md
 
       # Step 3: Set Git user credentials
       - name: Set Git user credentials
