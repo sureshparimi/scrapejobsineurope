@@ -58,7 +58,7 @@ jobs:
 
       # Step 4: Pull changes from the remote repository
       - name: Pull changes from remote repository
-        run: git pull
+        run: git pull origin main
 
       # Step 5: Commit and push the changes to archivedjobs.md
       - name: Commit and push if it changed
@@ -104,7 +104,11 @@ jobs:
           git config --global user.name "Suresh Parimi"
           git config --global user.email "reachparimi@gmail.com"
 
-      # Step 5: Commit and push the changes to table_of_contents.md
+      # Step 5: Pull changes from the remote repository
+      - name: Pull changes from remote repository
+        run: git pull origin main
+
+      # Step 6: Commit and push the changes to archived_jobs.md
       - name: Commit and push if it changed
         run: |
           git add archived_jobs.md
@@ -112,7 +116,7 @@ jobs:
           git commit -m "Generate archived jobs: ${timestamp}" || exit 0
           git push
 
-      # Step 6: Update the main readme.md with the link to table_of_contents.md
+      # Step 7: Update the main readme.md with the link to archived_jobs.md
       - name: Update main readme.md with link to archived_jobs.md
         run: |
           echo "" >> README.md
@@ -120,7 +124,7 @@ jobs:
           echo "" >> README.md
           echo "Click [here](archived_jobs.md) to view the Archived Jobs." >> README.md
 
-      # Step 7: Commit and push the changes to the main readme.md
+      # Step 8: Commit and push the changes to the main readme.md
       - name: Commit and push if it changed
         run: |
           git add README.md
@@ -155,7 +159,7 @@ jobs:
 
       # Step 5: Pull changes from the remote repository
       - name: Pull changes from remote repository
-        run: git pull
+        run: git pull origin main
 
       # Step 6: Commit and push the changes to alljobs.json
       - name: Commit and push if it changed
