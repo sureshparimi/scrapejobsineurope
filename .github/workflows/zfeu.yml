@@ -68,7 +68,51 @@ jobs:
           git commit -m "Archived jobs: ${timestamp}" || exit 0
           git push
 
-      # Step 6: Update the main readme.md with the link to archived_jobs.md
+  append_data_to_alljobs:
+    runs-on: ubuntu-latest
+    needs: scrape
+    steps:
+      # Step 1: Check out the repository
+      - name: Checking out repo
+        uses: actions/checkout@v3
+
+      # Step 2: Check if masterdatabase.json has changes
+      - name: Check for changes in masterdatabase.json
+        id: check_changes
+        run: |
+          git diff --exit-code masterdatabase.json
+          if [ $? -eq 1 ]; then
+            echo "Masterdatabase.json has changes"
+            data=$(jq -c '.' masterdatabase.json)
+            echo "[$data]" > alljobs.json
+          else
+            echo "Masterdatabase.json has no changes"
+          fi
+
+      # Step 3: Set Git user credentials
+      - name: Set Git user credentials
+        run: |
+          git config --global user.name "Suresh Parimi"
+          git config --global user.email "reachparimi@gmail.com"
+
+      # Step 4: Pull changes from the remote repository
+      - name: Pull changes from remote repository
+        run: git pull origin main
+
+      # Step 5: Remove existing links to archived jobs from README.md
+      - name: Remove existing links to archived jobs
+        run: |
+          sed -i '/Click \[here\](archived_jobs.md) to view the Archived Jobs\./d' README.md
+
+      # Step 6: Commit and push the changes to README.md
+      - name: Commit and push if it changed
+        run: |
+          git add README.md
+          timestamp=$(date -u)
+          git commit -m "Remove existing links to archived jobs: ${timestamp}" || exit 0
+          git push
+
+      # Step 7: Update the main readme.md with the link to archived_jobs.md
       - name: Update main readme.md with link to archived_jobs.md
         run: |
           echo "" >> README.md
@@ -76,12 +120,60 @@ jobs:
           echo "" >> README.md
           echo "Click [here](archived_jobs.md) to view the Archived Jobs." >> README.md
 
-      # Step 7: Commit and push the changes to the main readme.md
+      # Step 8: Commit and push the changes to the main readme.md
       - name: Commit and push if it changed
         run: |
           git add README.md
           timestamp=$(date -u)
           git commit -m "Add link to Archived jobs: ${timestamp}" || exit 0
+          git push
+
+  generate_archived_jobs:
+    runs-on: ubuntu-latest
+    needs: archive
+    steps:
+      # Step 1: Check out the repository
+      - name: Checking out repo
+        uses: actions/checkout@v3
+
+      # Step 2: Create the archived jobs
+      - name: Create archived jobs
+        run: |
+          # Read the alljobs.json file and extract the keys as table of contents
+          keys=$(jq -r 'keys | join(" | ")' alljobs.json)
+
+          # Create the second readme.md file with archived jobs
+          echo "# archived jobs " > archived_jobs.md
+          echo "" >> archived_jobs.md
+          echo "| $keys |" >> archived_jobs.md
+          echo "| ---$keys--- |" >> archived_jobs.md
+
+      # Step 3: Print the JSON content in table format
+      - name: Print JSON content in table format
+        run: |
+          echo "" >> archived_jobs.md
+          echo "# JSON Content" >> archived_jobs.md
+          echo "" >> archived_jobs.md
+          echo "| Key | Value |" >> archived_jobs.md
+          echo "| --- | --- |" >> archived_jobs.md
+          jq -r 'to_entries | .[] | "\(.key) | \(.value) |"' alljobs.json >> archived_jobs.md
+
+      # Step 4: Set Git user credentials
+      - name: Set Git user credentials
+        run: |
+          git config --global user.name "Suresh Parimi"
+          git config --global user.email "reachparimi@gmail.com"
+
+      # Step 5: Pull changes from the remote repository
+      - name: Pull changes from remote repository
+        run: git pull origin main
+
+      # Step 6: Commit and push the changes to table_of_contents.md
+      - name: Commit and push if it changed
+        run: |
+          git add archived_jobs.md
+          timestamp=$(date -u)
+          git commit -m "Generate archived jobs: ${timestamp}" || exit 0
           git push
 
   append_data_to_alljobs:
@@ -115,14 +207,62 @@ jobs:
       - name: Pull changes from remote repository
         run: git pull origin main
 
-      # Step 5: Commit and push the changes to alljobs.json
+      # Step 5: Remove existing links to archived jobs from README.md
+      - name: Remove existing links to archived jobs
+        run: |
+          sed -i '/Click \[here\](archived_jobs.md) to view the Archived Jobs\./d' README.md
+
+      # Step 6: Commit and push the changes to README.md
       - name: Commit and push if it changed
         run: |
-          if [ "$(git status --porcelain)" ]; then
-            git add alljobs.json
-            timestamp=$(date -u)
-            git commit -m "Update alljobs.json: ${timestamp}" || exit 0
-            git push
+          git add README.md
+          timestamp=$(date -u)
+          git commit -m "Remove existing links to archived jobs: ${timestamp}" || exit 0
+          git push
+
+      # Step 7: Update the main readme.md with the link to archived_jobs.md
+      - name: Update main readme.md with link to archived_jobs.md
+        run: |
+          echo "" >> README.md
+          echo "# Archived Jobs" >> README.md
+          echo "" >> README.md
+          echo "Click [here](archived_jobs.md) to view the Archived Jobs." >> README.md
+
+      # Step 8: Commit and push the changes to the main readme.md
+      - name: Commit and push if it changed
+        run: |
+          git add README.md
+          timestamp=$(date -u)
+          git commit -m "Add link to Archived jobs: ${timestamp}" || exit 0
+          git push
+
+      # Step 9: Check if alljobs.json has changes
+      - name: Check for changes in alljobs.json
+        id: check_changes_alljobs
+        run: |
+          git diff --exit-code alljobs.json
+          if [ $? -eq 1 ]; then
+            echo "Alljobs.json has changes"
+            data=$(jq -c '.' alljobs.json)
+            echo "$data" > alljobs.json
           else
-            echo "No changes to alljobs.json"
+            echo "Alljobs.json has no changes"
           fi
+
+      # Step 10: Set Git user credentials
+      - name: Set Git user credentials
+        run: |
+          git config --global user.name "Suresh Parimi"
+          git config --global user.email "reachparimi@gmail.com"
+
+      # Step 11: Pull changes from the remote repository
+      - name: Pull changes from remote repository
+        run: git pull origin main
+
+      # Step 12: Commit and push the changes to alljobs.json
+      - name: Commit and push if it changed
+        run: |
+          git add alljobs.json
+          timestamp=$(date -u)
+          git commit -m "Update alljobs.json: ${timestamp}" || exit 0
+          git push
