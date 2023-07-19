@@ -1,6 +1,3 @@
-# Jobs posted in the past one week
-You can find the archived job listings [here](archivedjobs.md).
-
 # Latest Jobs
 
 This page is updated at July 19, 2023 16:59:47
