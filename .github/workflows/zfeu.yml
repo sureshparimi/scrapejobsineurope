@@ -34,8 +34,8 @@ jobs:
         run: python scratchpad.py || echo "Script failed, continuing workflow"
 
   archive:
-    needs: scrape
     runs-on: ubuntu-latest
+    needs: scrape
     steps:
       # Step 1: Check out the repository
       - name: Checking out repo
@@ -68,23 +68,84 @@ jobs:
           git commit -m "Archived jobs: ${timestamp}" || exit 0
           git push
 
-  copy_data:
-    needs: archive
+  generate_archived_jobs:
     runs-on: ubuntu-latest
+    needs: archive
     steps:
       # Step 1: Check out the repository
       - name: Checking out repo
         uses: actions/checkout@v3
 
-      # Step 2: Validate and fix the format of alljobs.json
-      - name: Validate and fix alljobs.json format
+      # Step 2: Create the archived jobs
+      - name: Create archived jobs
         run: |
-          jq empty alljobs.json || jq -s '.' alljobs.json > temp.json && mv temp.json alljobs.json
+          # Read the alljobs.json file and extract the keys as table of contents
+          keys=$(jq -r 'keys | join(" | ")' alljobs.json)
 
-      # Step 3: Copy masterdatabase.json to alljobs.json
-      - name: Copy masterdatabase.json to alljobs.json
+          # Create the second readme.md file with archived jobs
+          echo "# archived jobs " > archived_jobs.md
+          echo "" >> archived_jobs.md
+          echo "| $keys |" >> archived_jobs.md
+          echo "| ---$keys--- |" >> archived_jobs.md
+
+      # Step 3: Print the JSON content in table format
+      - name: Print JSON content in table format
         run: |
-          jq -c '.[] | select(.job_title and .job_location and .JobLink and .JobPosted)' masterdatabase.json >> alljobs.json
+          echo "" >> archived_jobs.md
+          echo "# JSON Content" >> archived_jobs.md
+          echo "" >> archived_jobs.md
+          echo "| Key | Value |" >> archived_jobs.md
+          echo "| --- | --- |" >> archived_jobs.md
+          jq -r 'to_entries | .[] | "\(.key) | \(.value) |"' alljobs.json >> archived_jobs.md
+
+      # Step 4: Set Git user credentials
+      - name: Set Git user credentials
+        run: |
+          git config --global user.name "Suresh Parimi"
+          git config --global user.email "reachparimi@gmail.com"
+
+      # Step 5: Commit and push the changes to table_of_contents.md
+      - name: Commit and push if it changed
+        run: |
+          git add archived_jobs.md
+          timestamp=$(date -u)
+          git commit -m "Generate archived jobs: ${timestamp}" || exit 0
+          git push
+
+      # Step 6: Update the main readme.md with the link to table_of_contents.md
+      - name: Update main readme.md with link to archived_jobs.md
+        run: |
+          echo "" >> README.md
+          echo "# Archived Jobs" >> README.md
+          echo "" >> README.md
+          echo "Click [here](archived_jobs.md) to view the Archived Jobs." >> README.md
+
+      # Step 7: Commit and push the changes to the main readme.md
+      - name: Commit and push if it changed
+        run: |
+          git add README.md
+          timestamp=$(date -u)
+          git commit -m "Add link to Archived jobs: ${timestamp}" || exit 0
+          git push
+
+  append_data_to_alljobs:
+    runs-on: ubuntu-latest
+    needs: scrape
+    steps:
+      # Step 1: Check out the repository
+      - name: Checking out repo
+        uses: actions/checkout@v3
+
+      # Step 2: Read data from masterdatabase.json and remove []
+      - name: Read data from masterdatabase.json and remove []
+        run: |
+          data=$(jq -c '.' masterdatabase.json)
+          echo $data > alljobs.json
+
+      # Step 3: Append the data between two []
+      - name: Append the data between two []
+        run: |
+          sed -i '1s/^/[/; $s/$/]/' alljobs.json
 
       # Step 4: Set Git user credentials
       - name: Set Git user credentials
