@@ -19,12 +19,12 @@ options = Options()
 
 # Check if running in CI
 
-# options.add_argument('--headless')  # Run in headless mode for CI
-# options.add_argument("disable-infobars")
-# options.add_argument("--disable-extensions")
-# options.add_argument("--disable-dev-shm-usage")
-# options.add_argument("--no-sandbox")
-# options.binary_location = "/usr/bin/chromium-browser"
+options.add_argument('--headless')  # Run in headless mode for CI
+options.add_argument("disable-infobars")
+options.add_argument("--disable-extensions")
+options.add_argument("--disable-dev-shm-usage")
+options.add_argument("--no-sandbox")
+options.binary_location = "/usr/bin/chromium-browser"
 
 options.add_argument("start-maximized")  # Maximize window for local run
 
