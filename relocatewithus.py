@@ -15,31 +15,39 @@ headers = {
 response = requests.get(url, headers=headers)
 data = response.json()
 
-# Extract city and country from location and remove extra characters
+# Extract required information and create new list with filtered data
+filtered_data = []
 for record in data:
-    location = record['location']
-    city_country = ' '.join(location.split()[0:2])
-    record['location'] = city_country
+    # Extract only the city and country from the job_location field
+    location_parts = record["location"].split(',')
+    city_country = location_parts[0].strip()
+    
+    # Set Visa_sponsorship_available based on the value of "visa"
+    visa_sponsorship = record.get("visa", "")
+    visa_available = "Yes" if "Visa Sponsorship" in visa_sponsorship else "No"
+    
+    filtered_record = {
+        "Job_location": city_country,
+        "Visa_sponsorship_available": visa_available,
+        "company_name": record["company"],
+        "job_link": record["description"],
+        "Job_posted_on": record["post_date"]
+    }
+    filtered_data.append(filtered_record)
 
 # Convert the post_date value to a sortable datetime format
-sorted_data = sorted(data, key=lambda x: datetime.strptime(x['post_date'], "%B %d, %Y"), reverse=True)
+sorted_data = sorted(filtered_data, key=lambda x: datetime.strptime(x['Job_posted_on'], "%B %d, %Y"), reverse=True)
 
-# Load existing data from relocatewithusjobs.json file if it exists
-existing_data = []
-try:
-    with open('relocatewithusjobs.json', 'r') as f:
-        existing_data = json.load(f)
-except FileNotFoundError:
-    pass
+# Remove duplicate records based on job_link
+unique_data = []
+job_links = set()
+for record in sorted_data:
+    if record["job_link"] not in job_links:
+        job_links.add(record["job_link"])
+        unique_data.append(record)
 
-# Remove duplicate records from existing data (if any)
-filtered_data = [record for record in existing_data if record not in sorted_data]
-
-# Append sorted_data to filtered_data
-updated_data = sorted_data + filtered_data
-
-# Save updated data to JSON file
+# Save updated data to relocatewithusjobs.json file
 with open('relocatewithusjobs.json', 'w') as f:
-    json.dump(updated_data, f, indent=4)
+    json.dump(unique_data, f, indent=4)
 
-print("Data sorted, extra characters removed, and appended to relocatewithusjobs.json file.")
+print("Data sorted, extra information removed, and duplicate records removed in relocatewithusjobs.json file.")
