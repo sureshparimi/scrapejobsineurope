@@ -28,20 +28,20 @@ jobs:
           pip install requests beautifulsoup4 pandas webdriver-manager selenium
 
       - name: Run the scraping script
-        run: python scratchpad.py || echo "Script failed, continuing workflow"
+        run: python ottacomjobs.py || echo "Script failed, continuing workflow"
 
-      - name: Parse masterdatabase.json into table
+      - name: Parse ottajobs.json into table
         id: parse-json
         run: |
           echo "# Latest Jobs" > README.md
           echo "" >> README.md
-          echo "This page is updated at $(TZ='Europe/Paris' date +'%B %d, %Y %H:%M:%S')" >> README.md
+          echo "This page is updated at $(TZ='Asia/Kolkata' date +'%B %d, %Y %H:%M:%S')" >> README.md
           echo "" >> README.md
           echo "| Job Title | Job Location | Job Link | Job Posted |" >> README.md
           echo "| --- | --- | --- | --- |" >> README.md
           while IFS="|" read -r job_title job_location job_link job_posted; do
             echo "| $job_title | $job_location | [Apply]($job_link) | $job_posted |" >> README.md
-          done < <(jq -r '.[] | "\(.job_title)|\(.job_location)|\(.JobLink)|\(.JobPosted // (now | strftime("%e %B %Y %l:%M %p %Z")))"' masterdatabase.json) || echo "JSON parsing failed"
+          done < <(jq -r '.[] | "\(.job_title)|\(.job_location)|\(.JobLink)|\(.JobPosted // (now | strftime("%e %B %Y %l:%M %p %Z")))"' ottajobs.json) || echo "JSON parsing failed"
 
       - name: Set Git user credentials
         run: |
