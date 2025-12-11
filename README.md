@@ -4,7 +4,7 @@ Check out [Europe Jobs](https://github.com/sureshparimi/europejobs#latest-jobs) 
 
 # Latest Jobs
 
-This page is updated at December 11, 2025 14:07:14
+This page is updated at December 11, 2025 18:28:44
 
 | Job Title | Job Location | Job Link | Job Posted |
 | --- | --- | --- | --- |
